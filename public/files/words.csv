@@ -1,0 +1,218 @@
+die;Trauung;en;;;2;esküvõ
+die;Eheschließung;en;;;2;házasságkötés
+die;Heirat;en;;;1;házasság
+die;Hochzeit;en;;;1;esküvõ, lakodalom
+;kirchlich;;;;2;egyházi
+;standesamtlich;;;;2;polgári
+die;Braut;Bräute;;;2;menyasszony
+der;Bräutigam;e;;;2;võlegény
+das;Brautpaar;e;;;2;jegyesek
+der;Trauzeuge;n;;;2;tanú hn. (esküvõi)
+die;Trauzeugin;nen;;;2;tanú nn. (esküvõi)
+der;Brautführer;-;;;3;võfély
+die;Brautmutter;Brautmütter;;;3;örömanya
+der;Brautvater;Brautväter;;;3;örömapa
+der;Geistliche;n;;;2;lelkész
+der;Priester;-;;;2;pap
+das;Hochzeitskleid;er;;;2;menyasszonyi ruha / võlegény ruha
+das;Brautkleid;er;;;2;menyasszonyi ruha / võlegény ruha
+der;Brautring;e;;;2;jeggyûrû
+die;Ehering;e;;;2;jeggyûrû
+der;Brautkranz;Brautkränze;;;3;menyasszonyi koszorú
+der;Brautschleier;-;;;3;fátyol (menyasszonyi)
+der;Brautstrauß;Brautstraüße;;;3;menyasszonyi csokor
+die;Hochzeitsnacht;Hochzeitsnächte;;;2;nászéjszaka
+das;Hochzeitsgeschenk;e;;;2;nászajándék
+das;Brautgeschenk;e;;;2;nászajándék
+das;Hochzeitsfoto;s;;;2;esküvõi fénykép
+der;Brauttanz;Brauttänze;;;2;menyasszonyi tánc
+die;Brautentführung;en;;;3;menyasszony szöktetés
+die;Hochzeitsreise;n;;;2;nászút
+das;Foto;s;;;0;fénykép
+;machen;;;;0;csinálni
+die;Flitterwochen;;;;3;mézeshetek
+der;Name;n;;;0;név
+der;Familienname;n;;;1;családnév
+der;Nachname;n;;;1;vezetéknév
+der;Vorname;n;;;1;keresztnév
+der;Mädchenname;n;;;1;lánykori név
+der;Zuname;n;;;2;vezetéknév
+der;Kosename;n;;;3;becenév
+der;Spitzname;n;;;2;gúnynév
+die;Geburtsangaben;;;;2;születési adatok
+der;Geburtsort;e;;;1;születési hely
+das;Geburtsdatum;Geburtsdaten;;;1;születési dátum
+das;Alter;;;;1;életkor
+die;Eltern;;;;1;szülõk
+die;Geschwister;;;;1;testvérek
+der;Wohnort;e;;;1;lakhely
+der;Ort;e;;;0;hely
+die;Adresse;n;;;1;lakcím
+die;Anschrift;en;;;2;lakcím
+der;Namensvetter;;;;2;vérrokon
+die;Postleitzahl;en;;;1;irányítószám (postai)
+die;Stadt;Städte;;;0;város
+die;Straße;n;;;0;utca
+der;Platz;Plätze;;;0;tér, hely
+das;Dorf;Dörfer;;;1;falu
+das;Land;Lände;;;0;ország
+die;Telefonnummber;n;;;1;telefonszám
+die;Vorwahl;en;;;3;országhívó
+die;Rufnummer;;;;2;hívószám, telefonszám
+die;Staatsangehörigkeit;;;;2;álllampolgárság
+die;Nationalität;;;;1;nemzetiség, állmpoltárság
+die;Staatsbürgerschaft;;;;3;álllampolgárság
+der;Familienstand;;;;1;családi állapot
+die;Schulbildung;en;;;3;iskolai képzettség
+der;Schulabschluss;Schulabschlüsse;;;1;iskolai végzettség
+die;Ausbildung;en;;;3;mûveltség, kiképzés
+der;Beruf;e;;;1;szakma, foglalkozás
+die;Arbeitsstelle;n;;;2;munkahely
+die;Nummer;n;;;0;szám
+das;Hobby;s;;;0;hobbi
+das;Intresse;n;;;2;érdeklõdés
+die;Kenntnis;se;;;2;ismeret
+;heißen;;;;0;hívni
+;arbeiten;;;;0;dolgozni
+die;Arbeit;en;;;0;munka
+;hübsch;;;;1;csínos
+;aussehen;;sah aus;h. ausgesehen;;kinéz valahogy
+;gut;;;;;jó, jól
+;schlecht;;;;;rossz, rosszul
+;toll;;;;;príma, klassz, szuper
+;jugendlich;;;;;fiatalos
+;prima;;;;;príma
+;hässlich;;;;;csúnya, ronda
+;gepflegt;;;;;gondozott, ápolt
+;ungepflegt;;;;;ápolatlan
+die;Brille;n;;;;szemüveg
+der;Körper;-;;;;test
+der;Körperbau;-;;;;testfelépítés
+;gut gebaut;;;;;jó felépítés
+;athletish;;;;;atlétikus
+;muskulös;;;;;izmos
+;durchtrainiert;;;;;kigyúrt
+;zart;;;;;vézna, gyenge, törékeny
+;schwach;;;;;gyenge, erõtlen
+;gebrechlich;;;;;törékeny
+;vernachlässigt;;;;;elhanyagolt
+die;Figur;en;;;;alak
+;ideal;;;;;ideális
+;schlank;;;;;karcsú
+;vollschlank;;;;;teltkarcsú
+;rundlich;;;;;kerekded, gömbölyded
+;stattlich;;;;;daliás, délceg
+;sportlich;;;;;sportos
+;unvorteilhaft;;;;;elõnytelen
+;dünn;;;;;sovány
+;mager;;;;;sovány
+;hager;;;;;sovány
+;mollig;;;;;dundi, molett
+;dick;;;;;kövér, vaskos
+;fett;;;;;kövér, zsíros
+;beleibt;;;;;testes, kövér
+;korpulent;;;;;testes
+;umfangreich;;;;;terjedelmes
+;dickbäuchig;;;;;pocakos
+die;Körpergröße;n;;;;testmagasság
+;klein;;;;;kicsi
+;untersetzt;;;;;zömök, köpcös
+;niedrig;;;;;alacsony
+;mittelgroß;;;;;közepes méretû
+;groß;;;;;nagy
+das;Haar;e;;;;haj
+;glänzend;;;;;fényes, ragyogó
+;glatt;;;;;sima
+;lockig;;;;;göndör
+;wellig;;;;;hullámos
+;kraus;;;;;göndör, kusza
+;naturkraus;;;;;természetes göndör
+;dauergewellt;;;;;dauerolt
+;voll;;;;;tele, telt
+;füllig;;;;;telt
+;spärlich;;;;;gyér, ritka
+;brüchig;;;;;törékeny
+;kurz;;;;;rövid
+;shulterlang;;;;;vállig érõ
+;kinnlang;;;;;állig érõ
+;lang;;;;;hosszú
+;hell;;;;;világos
+;dunkle;;;;;sötét
+;blond;;;;;szõke
+;braun;;;;;barna
+;schwarz;;;;;fekete
+;rot;;;;;piros, vörös
+;gefärbt;;;;;festett
+;grau;;;;;szürke, õsz
+das;Gesicht;er;;;;arc
+;schmal;;;;;szûk, keskeny
+;breit;;;;;tág, széles
+;rund;;;;;kerek
+;oval;;;;;ovális
+;freundlich;;;;;barátságos
+;unfreundlich;;;;;barátságtalan
+;länglich;;;;;hosszúkás
+;herzförmig;;;;;szívalakú
+;eckig;;;;;szögletes
+;blass;;;;;sápadt
+die;Sommersprosse;n;;;;szeplõ
+der;Pickel;-;;;;pattanás
+das;Muttermal;e;;;;anyajegy
+die;Haut;Häute;;;;bõr
+;geschmeidig;;;;;rugalmas, sima
+;sanft;;;;;lágy, halvány
+;rosa;;;;;rózsaszín
+;gebräunt;;;;;napbarnított
+;trocken;;;;;száraz
+;fettig;;;;;zsíros
+;normal;;;;;normál
+;empfindlich;;;;;érzékeny
+;straffe;;;;;feszes
+;faltig;;;;;ráncos
+;strahlend;;;;;fénylõ, ragyogó
+;matt;;;;;matt
+;welk;;;;;petyhüdt, löttyedt
+;rau;;;;;durva, érdes
+;leuchtend;;;;;ragyogó
+das;Auge;n;;;;szem
+;tief;;;;;mély, alacsony
+;liegend;;;;;fekve, fekvõ
+;vorstehend;;;;;kiálló
+;blau;;;;;kék
+;grün;;;;;zöld
+;blaugrau;;;;;kékesszürke
+;grüngrau;;;;;zöldesszürke
+die;Nase;n;;;;orr
+;gerade;;;;;egyenes
+;krumm;;;;;görbe
+die;Stumpfnase;n;;;;pisze orr
+die;Hakennase;n;;;;horgas-, kampós orr
+die;Knollennase;n;;;;krumpliorr
+das;Ohr;en;;;;fül
+;spitz;;;;;hegyes, csúcsos
+;abstehend;;;;;távolálló, elálló
+der;Zahn;Zähne;;;;fog
+;weiß;;;;;fehér
+;gelblich;;;;;sárgás
+;gesund;;;;;egészséges
+;mangelnd;;;;;hiányos
+;schief;;;;;ferde, téves
+;falsch;;;;;hamis, rossz, téves
+der;Zahnersatz;Zahnersätze;;;;fogpótlás
+;dritte Zähne;;;;;mûfogsor
+der;Mund;Münder;;;;száj
+;sinnlich;;;;;érzéki
+;lächelnd;;;;;mosolygós
+die;Hand;Hände;;;;kéz
+;fein;;;;;finom
+;grob;;;;;durva
+;feucht;;;;;nedves, vizes
+;kalt;;;;;hideg
+das;Bein;e;;;;láb
+;geformt;;;;;formás, formál, alakít
+;attraktiv;;;;;csinos, bájos, vonzó
+;schön;;;;;szép
+der;Fuß;Füße;;;;láb, lábfej
+;zierlich;;;;;kecses
+;angeschwollen;;;;;megdagadt, duzzadt
+der;Plattfuß;Plattfüße;;;;lúdtalp
