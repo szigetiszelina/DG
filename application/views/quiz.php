@@ -10,9 +10,10 @@
                        </div>
                        <button ng-click="checkAnswer()">Tovább</button>
                 </div>
-                <modal-dialog id="valami" show='modalShown' width='60%' height='60%'>
+                <modal-dialog id="eredmenyek" show='modalShown' width='60%' height='60%'>
                     <div ng-show='modalShown'>
                         <p>{{scoreMessage}}<p>
+                            {{questions}}
                         <button ng-click='showAlert()'>Ok</button>
                         <button ng-click='hidePopup()'>Mégse</button>
                     </div>

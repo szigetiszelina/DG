@@ -1,8 +1,8 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 $config['opauth_config'] = array(
-                                'path' => '/dg/auth/login/', //example: /ci_opauth/auth/login/
-                    			'callback_url' => '/dg/auth/authenticate/', //example: /ci_opauth/auth/authenticate/
+                                'path' => '/DG/auth/login/', //example: /ci_opauth/auth/login/
+                    			'callback_url' => '/DG/auth/authenticate/', //example: /ci_opauth/auth/authenticate/
                                 'callback_transport' => 'post', //Codeigniter don't use native session
                                 'security_salt' => 'your_salt',
                                 'debug' => false,
