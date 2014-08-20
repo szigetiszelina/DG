@@ -26,11 +26,9 @@
         <div class="clear"></div>
         
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js" type="text/javascript"></script>
-<script src="https://rawgithub.com/angular-ui/ui-sortable/master/src/sortable.js"></script>        
+        <script src="https://rawgithub.com/angular-ui/ui-sortable/master/src/sortable.js"></script>        
         <script src="<?=base_url()?>public/js/angular/SortController.js" type="text/javascript" ></script>
         <script src="<?=base_url()?>public/js/angular/ModalDialogDirective.js" type="text/javascript" ></script>
     </div>
 </div>
-
-<!--<script src="../public/js/quiz.js" type="text/javascript"></script>-->
 <?php $this->load->view('footer.php'); ?>

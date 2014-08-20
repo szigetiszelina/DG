@@ -1,16 +1,4 @@
-<?php $this->load->view('header.php'); /*?>
-<a href="#" ><?php echo $hungarian; ?></a>
-<button><?=$hungarian?></button>
- <?php /* // echo $message;
- $alternativak[]=$deutsch;
- //shuffle($alternativak);
-    foreach ($alternativak as $alternativa){ ?>
-    <button style="background-color: <?php if($alternativa==$deutsch){ echo "red";}else{ echo "yellow";} ?>; border:none;"><?=$alternativa?></button>  
-<?php } */ /*echo $message;*/
-//echo $deutsch;
-//echo $alternativak;
-//echo $hungarian;
-?>
+<?php $this->load->view('header.php'); ?>
 <div class="clear_fix">
     <div id="container" >
         <?php if($is_login){ ?>
@@ -37,7 +25,5 @@
         <?php } ?>
     </div>
 </div>
-    
-<?php /*$this->load->view('quiz.php');/*$this->load->view('memory_game.php');*/ ?>
 
 <?php $this->load->view('footer.php'); ?>
