@@ -70,6 +70,17 @@ class Play extends MY_Controller {
         $questions = $this->$game_type->get_questions();
         echo json_encode($questions);
     }
+    
+    public function get_sentences() {
+        $grammar_id = $_GET['grammar_id'];
+        $game_type = $_GET['game_type'];
+        $this->load->library('Grammars/Grammar_factory', array($grammar_id, $game_type), 'grammar_factory');
+        $grammar_obj = $this->grammar_factory->get_grammar();
+
+        $this->load->library('Game_types/Sort/' . $game_type, array($grammar_obj));
+        $sentences = $this->$game_type->get_sentences();
+        echo json_encode($sentences);
+    }
 
     public function save_results() {
         if($_GET['grammar_id'] && $_GET['game_type'] && isset($_GET['score'])){

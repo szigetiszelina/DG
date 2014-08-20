@@ -20,7 +20,7 @@ class Word_order_sort implements Sort_playable{
     
     public function transform_sentences($sentences){
         foreach($sentences as &$sentence){
-            $sentence["sentence"] = explode(" ",/*strtolower(*/$sentence["sentence"]/*)*/);
+            $sentence["mixed"] = explode(" ", $sentence["sentence"]);
         }
         return $sentences;
     }
