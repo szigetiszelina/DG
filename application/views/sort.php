@@ -2,7 +2,6 @@
 <div class="clear_fix">
     <div id="container" >
         <div ng-app="dg" ng-controller="sortController" class="container">
-        {{sentences}}
             <div class="floatleft">
                 <ul ui-sortable="sortableOptions" ng-model="sentence" class="list">
                     <li ng-repeat="item in sentence" class="item">
@@ -10,7 +9,6 @@
                     </li>
                 </ul>
             </div>
-            <button ng-disabled="buttonDisabled" ng-click="nextSentence()">Tovább</button>
             <div class="floatleft" style="margin-left: 20px;">
                 <ul class="list logList">
                     <li ng-repeat="entry in sortingLog track by $index" class="logItem">
@@ -18,6 +16,7 @@
                     </li>
                 </ul>
             </div>
+            <button ng-disabled="buttonDisabled" ng-click="nextSentence()">Tovább</button>
 
             <div class="clear"></div>
 

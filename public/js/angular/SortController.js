@@ -15,9 +15,9 @@ dg.controller('sortController', function($scope, $http) {
     function setSentence() {
         $scope.sentence = [];
         if($scope.sentences[$scope.index]){
-            angular.forEach($scope.sentences[$scope.index]["mixed"], function(word, key) {
-                word = word.replace(".", "").replace("!", "").replace("?", "");
-                $scope.sentence.push({text: word, index: key});
+            angular.forEach($scope.sentences[$scope.index]["mixed"], function(item, key) {
+                var word = item["word"].replace(".", "").replace("!", "").replace("?", "");
+                $scope.sentence.push({text: word, index: item["key"]});
             });
         }else{
             $scope.buttonDisabled = true;
@@ -28,6 +28,8 @@ dg.controller('sortController', function($scope, $http) {
     $scope.nextSentence = function() {
         if (checkAnswer()) {
             $scope.sortingLog.push("A sorrend helyes: " + $scope.sentences[$scope.index - 1]["sentence"]);
+        }else{
+            $scope.sortingLog.push("A sorrend helytelen: " + $scope.sentences[$scope.index - 1]["sentence"]); 
         }
 
         //save result
@@ -52,7 +54,7 @@ dg.controller('sortController', function($scope, $http) {
             var logEntry = $scope.sentence.map(function(i) {
                 return i.index;
             });
-            $scope.sortingLog.push('Update: ' + logEntry);
+            //$scope.sortingLog.push('Update: ' + logEntry);
         },
         stop: function(e, ui) {
             $scope.sentence.map(function(i) {
