@@ -34,3 +34,6 @@ http://www.phpro.org/tutorials/Simple-Mysql-PHP-Menu.html
 
 angular sortable
 https://github.com/angular-ui/ui-sortable
+
+diagrams
+http://www.amcharts.com/demos/

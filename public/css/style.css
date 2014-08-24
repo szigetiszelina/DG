@@ -392,3 +392,10 @@ a:hover{
     border-color:rgba(214, 182, 144, 0.882353);
     opacity: 0.5;
 }
+#chartdiv, #chartdiv2, #chartdiv3, #chartdiv4 {
+    background: #282828 url('http://www.amcharts.com/lib/3/patterns/chalk/bg.jpg');
+    color: #fff;
+    width: 80%;
+    height: 300px;
+    font-size: 11px;
+}
