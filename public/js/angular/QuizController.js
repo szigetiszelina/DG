@@ -32,6 +32,8 @@ dg.controller('QuizController',['$scope',"$http", '$location', function ($scope,
             if($scope.questions[$scope.index]){
               $scope.answer = null;
               $scope.question = $scope.questions[$scope.index];
+              yAngle -= 90;
+              document.getElementById('cube').style[prop] = "rotateX("+xAngle+"deg) rotateY("+yAngle+"deg)";
             } else {
                 $scope.scoreMessage="Gratulálunk a pontjaid: "+$scope.index+'/'+$scope.score;
                 var score = 0;
