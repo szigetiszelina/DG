@@ -102,5 +102,16 @@ class Play extends MY_Controller {
             echo json_encode("ok");
         }
     }
-
+    
+    public function save_word_results(){
+        if($_POST['words'] && (int)$this->session->userdata('user')['id']>0){
+            $this->load->model('Word');
+            $uid = (int)$this->session->userdata('user')['id'];
+            $words = $_POST["words"];
+            foreach($words as $word){
+                $this->Word->save_word_rate(["word_id" => $word["id"], "guessed_well" => $word["guessed_well"], "user_id" => $uid]);
+            }
+            echo json_encode("ok");
+        }
+    }
 }

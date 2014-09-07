@@ -37,3 +37,6 @@ https://github.com/angular-ui/ui-sortable
 
 diagrams
 http://www.amcharts.com/demos/
+
+3d cube
+http://paulrhayes.com/2009-07/animated-css3-cube-interface-using-3d-transforms/
