@@ -21,22 +21,33 @@ dg.controller('sortController', function($scope, $http) {
             });
         }else{
             $scope.buttonDisabled = true;
+            finishGame();
         }
         $scope.index++;
     }
 
     $scope.nextSentence = function() {
         if (checkAnswer()) {
+            $scope.score++;
             $scope.sortingLog.push("A sorrend helyes: " + $scope.sentences[$scope.index - 1]["sentence"]);
         }else{
             $scope.sortingLog.push("A sorrend helytelen: " + $scope.sentences[$scope.index - 1]["sentence"]); 
         }
 
-        //save result
+        //save result per sentences
 
         setSentence();
     };
-
+    
+    function finishGame(){
+        alert("Pontszámod: "+$scope.score+"/"+$scope.sentences.length);
+        var score = 0;
+        if($scope.score >0){
+            score = ($scope.score/$scope.index)*100;
+        }
+        $http({url:'Play/save_results' + document.location.search + '&score=' + score, method: "GET"});
+    }
+    
     function checkAnswer() {
         var isOrderGood = true;
         angular.forEach($scope.sentence, function(word, key) {
