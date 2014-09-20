@@ -6,6 +6,7 @@ dg.controller('QuizController', ['$scope', "$http", '$location', function($scope
 
         $http.get('Play/get_questions' + document.location.search).success(function(data) {
             $scope.questions = data;
+            console.log($scope.questions);
             $scope.question = $scope.questions[$scope.index];
         }).error(function() {
             alert("hiba a kérdések lekérésében");
@@ -53,10 +54,11 @@ dg.controller('QuizController', ['$scope', "$http", '$location', function($scope
                 if ($scope.questions[$scope.index]) {
                     $scope.answer = null;
                     $scope.question = $scope.questions[$scope.index];
-                    yAngle -= 90;
-                    document.getElementById('cube').style[prop] = "rotateX("+xAngle+"deg) rotateY("+yAngle+"deg)";
+                    yAngle -= 90; console.log($scope.index);
+                    //document.getElementById('cube').style[prop] = "rotateX("+xAngle+"deg) rotateY("+yAngle+"deg)";
                 } else {
                     $scope.scoreMessage = "Gratulálunk a pontjaid: " + $scope.index + '/' + $scope.score;
+                    alert($scope.scoreMessage);
                     var score = 0;
                     if ($scope.score > 0) {
                         score = ($scope.score / $scope.index) * 100;

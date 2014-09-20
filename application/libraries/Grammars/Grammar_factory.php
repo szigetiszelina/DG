@@ -32,6 +32,12 @@ class Grammar_factory {
                         $this->CI->load->library('Grammars/Word_memory', $parameters, 'word_memory');
                         $this->grammar_obj = $this->CI->word_memory;
                         break;
+                    case "quiz":
+                        $this->CI->load->model('Word');
+                        $parameters = array("word" => $this->CI->Word, "limit" => 10, "language" => "hu_to_ge");
+                        $this->CI->load->library('Grammars/Word_quiz', $parameters, 'word_quiz');
+                        $this->grammar_obj = $this->CI->word_quiz;
+                        break;
                 }
             } else {
                 if ($this->grammar_id == 7) {

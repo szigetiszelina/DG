@@ -1,7 +1,5 @@
 <?php $this->load->view('header.php'); ?>
-<div class="clear_fix">
-    <div id="container" >
-        <div class="clear_fix">
+        <div id="container" class="col-md-7">
             <div id="question">
                 <div style="float:left; margin:3px;">
                     {{question.question}} <br>
@@ -61,6 +59,9 @@
         <script src="<?= base_url() ?>public/js/experiment.js" type="text/javascript" ></script>
         <script src="<?= base_url() ?>public/js/angular/QuizController.js" type="text/javascript" ></script>
         <script src="<?= base_url() ?>public/js/angular/ModalDialogDirective.js" type="text/javascript" ></script>
+    </div>
+    <div class="col-md-2">
+        Toplisták
     </div>
 </div>
 

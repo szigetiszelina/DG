@@ -2,8 +2,14 @@
 
 class Word extends CI_Model {
 
-    public function get_words($limit = null) {
+    public function get_words($limit = null, $notequals = null, $filter = null) {
         $sql = "SELECT * FROM words";
+        if((int) $notequals > 0){
+            $sql .= " WHERE id != ". (int) $notequals;
+            if($filter != null){
+                $sql .= " AND ".$filter[0]." LIKE '".$filter[1]."%'";
+            }
+        }
         $sql .= " GROUP BY meaning "
                 . " ORDER BY rand() ";
         if ((int) $limit > 0) {
