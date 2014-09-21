@@ -50,7 +50,14 @@ class Grammar_factory {
                             break;
                     }
                 } else {
-                    $this->grammar_obj = null;
+                    if ($this->grammar_id == 8) {
+                        $this->CI->load->model('Word');
+                        $parameters = array("word" => $this->CI->Word, "limit" => 10);
+                        $this->CI->load->library('Grammars/Verb_quiz', $parameters, 'verb_quiz');
+                        $this->grammar_obj = $this->CI->verb_quiz;
+                    } else{
+                        $this->grammar_obj = null;
+                    }
                 }
             }
         }

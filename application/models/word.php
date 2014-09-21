@@ -33,5 +33,17 @@ class Word extends CI_Model {
         }
         $this->db->query($sql);
     }
+    
+     public function get_verbs($limit = null) {
+        $sql = "SELECT * FROM words WHERE wortart = 'verben' and präsens !=''";
+        
+        $sql .= " GROUP BY meaning "
+                . " ORDER BY rand() ";
+        if ((int) $limit > 0) {
+            $sql .= " LIMIT " . $limit;
+        }
+        $query = $this->db->query($sql);
+        return $query->result_array();
+    }
 
 }
