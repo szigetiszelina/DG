@@ -5,8 +5,11 @@ class Word_memory implements Memory_playable{
     private $word;
     private $limit;
     protected $words;
-    	
+    protected $CI;
+
+
     public function __construct($params){
+        $this->CI = get_instance();
 	$this->set_word($params["word"]);
         $this->set_limit((int) $params["limit"]);
         $this->set_words();
@@ -21,7 +24,7 @@ class Word_memory implements Memory_playable{
     }
     
     public function set_words(){
-        $this->words = $this->word->get_words($this->limit);
+        $this->words = $this->word->get_words($this->CI->session->userdata("user")["id"],$this->limit);
     }
     
     public function get_words(){
