@@ -11,7 +11,7 @@ class Word extends CI_Model {
             }
         }
         $sql .= " GROUP BY meaning "
-                . " ORDER BY rand() ";
+                . " ORDER BY level DESC, rand() ";
         if ((int) $limit > 0) {
             $sql .= " LIMIT " . $limit;
         }
@@ -34,14 +34,16 @@ class Word extends CI_Model {
         $this->db->query($sql);
     }
     
-     public function get_verbs($limit = null) {
-        $sql = "SELECT * FROM words WHERE wortart = 'verben' and präsens !=''";
-        
-        $sql .= " GROUP BY meaning "
-                . " ORDER BY rand() ";
+     public function get_verbs($user_id, $limit = null) {
+        $sql = "SELECT words.*,gwr.guessed_well_number/gwr.all_incidence_number as guessed FROM words";
+        $sql .= " LEFT JOIN words_guessed_well_rate as gwr ON(words.id = gwr.word_id and gwr.user_id = ".(int)$user_id.")";
+        $sql .= " WHERE words.wortart = 'verben' and words.präsens !=''";
+        $sql .= " GROUP BY words.meaning "
+                . " ORDER BY words.level DESC, guessed Desc, rand() ";
         if ((int) $limit > 0) {
             $sql .= " LIMIT " . $limit;
         }
+        
         $query = $this->db->query($sql);
         return $query->result_array();
     }

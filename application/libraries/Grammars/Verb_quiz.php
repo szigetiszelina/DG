@@ -8,15 +8,18 @@ class Verb_quiz implements Quiz_playable {
     public $limit;
     protected $alternatives = array();
     protected $questions;
+    protected $CI;
 
     public function __construct($params) {
+        $this->CI = get_instance();
         $this->word = $params["word"];
         $this->limit = (int) $params["limit"];
         $this->set_questions();
     }
 
     public function set_questions() {
-        $this->create_questions($this->word->get_verbs($this->limit));
+        $user_id = $this->CI->session->userdata("user")["id"];
+        $this->create_questions($this->word->get_verbs($user_id, $this->limit));
     }
 
     public function set_alternatives($präsens) {
@@ -34,7 +37,7 @@ class Verb_quiz implements Quiz_playable {
     public function create_questions($verbs) {
         foreach ($verbs as $verb) {
             $case = $this->select_personal_pronoun();
-            $question = "Hogyan ragozzuk a következő igét: '" . $verb["word"] . "' ".$this->personal_pronoun_helper($case)." esetben?";
+            $question = "Hogyan ragozzuk a következő igét: '" . $verb["word"] . " - ".$verb['meaning']."' ".$this->personal_pronoun_helper($case)." esetben?";
             $this->set_alternatives($verb['präsens']);
             $answer = $this->alternatives[$case];
             $this->alternatives = array_unique($this->alternatives);
