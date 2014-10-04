@@ -1,1037 +1,1014 @@
-die;Trauung;en;;;;nomen;2;esküvõ
-die;Eheschließung;en;;;;nomen;2;házasságkötés
-die;Heirat;en;;;;nomen;1;házasság
-die;Hochzeit;en;;;;nomen;1;esküvõ, lakodalom
-;kirchlich;;;;;adjektive;2;egyházi
-;standesamtlich;;;;;adjektive;2;polgári
-die;Braut;Bräute;;;;nomen;2;menyasszony
-der;Bräutigam;e;;;;nomen;2;võlegény
-das;Brautpaar;e;;;;nomen;2;jegyesek
-der;Trauzeuge;n;;;;nomen;2;tanú hn. (esküvõi)
-die;Trauzeugin;nen;;;;nomen;2;tanú nn. (esküvõi)
-der;Brautführer;-;;;;nomen;3;võfély
-die;Brautmutter;Brautmütter;;;;nomen;3;örömanya
-der;Brautvater;Brautväter;;;;nomen;3;örömapa
-der;Geistliche;n;;;;nomen;2;lelkész
-der;Priester;-;;;;nomen;2;pap
-das;Hochzeitskleid;er;;;;nomen;2;menyasszonyi ruha / võlegény ruha
-das;Brautkleid;er;;;;nomen;2;menyasszonyi ruha / võlegény ruha
-der;Brautring;e;;;;nomen;2;jeggyûrû
-die;Ehering;e;;;;nomen;2;jeggyûrû
-der;Brautkranz;Brautkränze;;;;nomen;3;menyasszonyi koszorú
-der;Brautschleier;-;;;;nomen;3;fátyol (menyasszonyi)
-der;Brautstrauß;Brautstraüße;;;;nomen;3;menyasszonyi csokor
-die;Hochzeitsnacht;Hochzeitsnächte;;;;nomen;2;nászéjszaka
-das;Hochzeitsgeschenk;e;;;;nomen;2;nászajándék
-das;Brautgeschenk;e;;;;nomen;2;nászajándék
-das;Hochzeitsfoto;s;;;;nomen;2;esküvõi fénykép
-der;Brauttanz;Brauttänze;;;;nomen;2;menyasszonyi tánc
-die;Brautentführung;en;;;;nomen;3;menyasszony szöktetés
-die;Hochzeitsreise;n;;;;nomen;2;nászút
-das;Foto;s;;;;nomen;0;fénykép
-;machen;;machte;h. gemacht;mache|machst|macht|machen|macht|machen;verben;0;csinálni
-die;Flitterwochen;;;;;nomen;3;mézeshetek
-der;Name;n;;;;nomen;0;név
-der;Familienname;n;;;;nomen;1;családnév
-der;Nachname;n;;;;nomen;1;vezetéknév
-der;Vorname;n;;;;nomen;1;keresztnév
-der;Mädchenname;n;;;;nomen;1;lánykori név
-der;Zuname;n;;;;nomen;2;vezetéknév
-der;Kosename;n;;;;nomen;3;becenév
-der;Spitzname;n;;;;nomen;2;gúnynév
-die;Geburtsangaben;;;;;nomen;2;születési adatok
-der;Geburtsort;e;;;;nomen;1;születési hely
-das;Geburtsdatum;Geburtsdaten;;;;nomen;1;születési dátum
-das;Alter;;;;;nomen;1;életkor
-die;Eltern;;;;;nomen;1;szülõk
-die;Geschwister;;;;;nomen;1;testvérek
-der;Wohnort;e;;;;nomen;1;lakhely
-der;Ort;e;;;;nomen;0;hely
-die;Adresse;n;;;;nomen;1;lakcím
-die;Anschrift;en;;;;nomen;2;lakcím
-der;Namensvetter;;;;;nomen;2;vérrokon
-die;Postleitzahl;en;;;;nomen;1;irányítószám (postai)
-die;Stadt;Städte;;;;nomen;0;város
-die;Straße;n;;;;nomen;0;utca
-der;Platz;Plätze;;;;nomen;0;tér, hely
-das;Dorf;Dörfer;;;;nomen;1;falu
-das;Land;Lände;;;;nomen;0;ország
-die;Telefonnummber;n;;;;nomen;1;telefonszám
-die;Vorwahl;en;;;;nomen;3;országhívó
-die;Rufnummer;;;;;nomen;2;hívószám, telefonszám
-die;Staatsangehörigkeit;;;;;nomen;2;álllampolgárság
-die;Nationalität;;;;;nomen;1;nemzetiség, állmpoltárság
-die;Staatsbürgerschaft;;;;;nomen;3;álllampolgárság
-der;Familienstand;;;;;nomen;1;családi állapot
-die;Schulbildung;en;;;;nomen;3;iskolai képzettség
-der;Schulabschluss;Schulabschlüsse;;;;nomen;1;iskolai végzettség
-die;Ausbildung;en;;;;nomen;3;mûveltség, kiképzés
-der;Beruf;e;;;;nomen;1;szakma, foglalkozás
-die;Arbeitsstelle;n;;;;nomen;2;munkahely
-die;Nummer;n;;;;nomen;0;szám
-das;Hobby;s;;;;nomen;0;hobbi
-das;Intresse;n;;;;nomen;2;érdeklõdés
-die;Kenntnis;se;;;;nomen;2;ismeret
-;heißen;;hieß;h. geheißt;heiße|heißt|heißt|heißen|heißt|heißen;verben;0;hívni
-;arbeiten;;arbeitete;h. gearbeitet;arbeite|arbeitest|arbeitet|arbeiten|arbeitet|arbeiten;verben;0;dolgozni
-die;Arbeit;en;;;;nomen;0;munka
-;hübsch;;;;;adjektive;1;csínos
-;aussehen;;sah aus;h. ausgesehen;sehe aus|siehst aus|sieht aus|sehen aus|seht aus|sehen aus;verben;;kinéz valahogy
-;gut;;;;;adjektive;;jó, jól
-;schlecht;;;;;adjektive;;rossz, rosszul
-;toll;;;;;adjektive;;príma, klassz, szuper
-;jugendlich;;;;;adjektive;;fiatalos
-;prima;;;;;adjektive;;príma
-;hässlich;;;;;adjektive;;csúnya, ronda
-;gepflegt;;;;;adjektive;;gondozott, ápolt
-;ungepflegt;;;;;adjektive;;ápolatlan
-die;Brille;n;;;;nomen;;szemüveg
-der;Körper;-;;;;nomen;;test
-der;Körperbau;-;;;;nomen;;testfelépítés
-;gut gebaut;;;;;adjektive;;jó felépítés
-;athletish;;;;;adjektive;;atlétikus
-;muskulös;;;;;adjektive;;izmos
-;durchtrainiert;;;;;adjektive;;kigyúrt
-;zart;;;;;adjektive;;vézna, gyenge, törékeny
-;schwach;;;;;adjektive;;gyenge, erõtlen
-;gebrechlich;;;;;adjektive;;törékeny
-;vernachlässigt;;;;;adjektive;;elhanyagolt
-die;Figur;en;;;;nomen;;alak
-;ideal;;;;;adjektive;;ideális
-;schlank;;;;;adjektive;;karcsú
-;vollschlank;;;;;adjektive;;teltkarcsú
-;rundlich;;;;;adjektive;;kerekded, gömbölyded
-;stattlich;;;;;adjektive;;daliás, délceg
-;sportlich;;;;;adjektive;;sportos
-;unvorteilhaft;;;;;adjektive;;elõnytelen
-;dünn;;;;;adjektive;;sovány
-;mager;;;;;adjektive;;sovány
-;hager;;;;;adjektive;;sovány
-;mollig;;;;;adjektive;;dundi, molett
-;dick;;;;;adjektive;;kövér, vaskos
-;fett;;;;;adjektive;;kövér, zsíros
-;beleibt;;;;;adjektive;;testes, kövér
-;korpulent;;;;;adjektive;;testes
-;umfangreich;;;;;adjektive;;terjedelmes
-;dickbäuchig;;;;;adjektive;;pocakos
-die;Körpergröße;n;;;;nomen;;testmagasság
-;klein;;;;;adjektive;;kicsi
-;untersetzt;;;;;adjektive;;zömök, köpcös
-;niedrig;;;;;adjektive;;alacsony
-;mittelgroß;;;;;adjektive;;közepes méretû
-;groß;;;;;adjektive;;nagy
-das;Haar;e;;;;nomen;;haj
-;glänzend;;;;;adjektive;;fényes, ragyogó
-;glatt;;;;;adjektive;;sima
-;lockig;;;;;adjektive;;göndör
-;wellig;;;;;adjektive;;hullámos
-;kraus;;;;;adjektive;;göndör, kusza
-;naturkraus;;;;;adjektive;;természetes göndör
-;dauergewellt;;;;;adjektive;;dauerolt
-;voll;;;;;adjektive;;tele, telt
-;füllig;;;;;adjektive;;telt
-;spärlich;;;;;adjektive;;gyér, ritka
-;brüchig;;;;;adjektive;;törékeny
-;kurz;;;;;adjektive;;rövid
-;shulterlang;;;;;adjektive;;vállig érõ
-;kinnlang;;;;;adjektive;;állig érõ
-;lang;;;;;adjektive;;hosszú
-;hell;;;;;adjektive;;világos
-;dunkle;;;;;adjektive;;sötét
-;blond;;;;;adjektive;;szõke
-;braun;;;;;adjektive;;barna
-;schwarz;;;;;adjektive;;fekete
-;rot;;;;;adjektive;;piros, vörös
-;gefärbt;;;;;adjektive;;festett
-;grau;;;;;adjektive;;szürke, õsz
-das;Gesicht;er;;;;nomen;;arc
-;schmal;;;;;adjektive;;szûk, keskeny
-;breit;;;;;adjektive;;tág, széles
-;rund;;;;;adjektive;;kerek
-;oval;;;;;adjektive;;ovális
-;freundlich;;;;;adjektive;;barátságos
-;unfreundlich;;;;;adjektive;;barátságtalan
-;länglich;;;;;adjektive;;hosszúkás
-;herzförmig;;;;;adjektive;;szívalakú
-;eckig;;;;;adjektive;;szögletes
-;blass;;;;;adjektive;;sápadt
-die;Sommersprosse;n;;;;nomen;;szeplõ
-der;Pickel;-;;;;nomen;;pattanás
-das;Muttermal;e;;;;nomen;;anyajegy
-die;Haut;Häute;;;;nomen;;bõr
-;geschmeidig;;;;;adjektive;;rugalmas, sima
-;sanft;;;;;adjektive;;lágy, halvány
-;rosa;;;;;adjektive;;rózsaszín
-;gebräunt;;;;;adjektive;;napbarnított
-;trocken;;;;;adjektive;;száraz
-;fettig;;;;;adjektive;;zsíros
-;normal;;;;;adjektive;;normál
-;empfindlich;;;;;adjektive;;érzékeny
-;straffe;;;;;adjektive;;feszes
-;faltig;;;;;adjektive;;ráncos
-;strahlend;;;;;adjektive;;fénylõ, ragyogó
-;matt;;;;;adjektive;;matt
-;welk;;;;;adjektive;;petyhüdt, löttyedt
-;rau;;;;;adjektive;;durva, érdes
-;leuchtend;;;;;adjektive;;ragyogó
-das;Auge;n;;;;nomen;;szem
-;tief;;;;;adjektive;;mély, alacsony
-;liegend;;;;;adjektive;;fekve, fekvõ
-;vorstehend;;;;;adjektive;;kiálló
-;blau;;;;;adjektive;;kék
-;grün;;;;;adjektive;;zöld
-;blaugrau;;;;;adjektive;;kékesszürke
-;grüngrau;;;;;adjektive;;zöldesszürke
-die;Nase;n;;;;nomen;;orr
-;gerade;;;;;adjektive;;egyenes
-;krumm;;;;;adjektive;;görbe
-die;Stumpfnase;n;;;;nomen;;pisze orr
-die;Hakennase;n;;;;nomen;;horgas-, kampós orr
-die;Knollennase;n;;;;nomen;;krumpliorr
-das;Ohr;en;;;;nomen;;fül
-;spitz;;;;;adjektive;;hegyes, csúcsos
-;abstehend;;;;;adjektive;;távolálló, elálló
-der;Zahn;Zähne;;;;nomen;;fog
-;weiß;;;;;adjektive;;fehér
-;gelblich;;;;;adjektive;;sárgás
-;gesund;;;;;adjektive;;egészséges
-;mangelnd;;;;;adjektive;;hiányos
-;schief;;;;;adjektive;;ferde, téves
-;falsch;;;;;adjektive;;hamis, rossz, téves
-der;Zahnersatz;Zahnersätze;;;;nomen;;fogpótlás
-;dritte Zähne;;;;;nomen;;mûfogsor
-der;Mund;Münder;;;;nomen;;száj
-;sinnlich;;;;;adjektive;;érzéki
-;lächelnd;;;;;adjektive;;mosolygós
-die;Hand;Hände;;;;nomen;;kéz
-;fein;;;;;adjektive;;finom
-;grob;;;;;adjektive;;durva
-;feucht;;;;;adjektive;;nedves, vizes
-;kalt;;;;;adjektive;;hideg
-das;Bein;e;;;;nomen;;láb
-;geformt;;;;;adjektive;;formás, formál, alakít
-;attraktiv;;;;;adjektive;;csinos, bájos, vonzó
-;schön;;;;;adjektive;;szép
-der;Fuß;Füße;;;;nomen;;láb, lábfej
-;zierlich;;;;;adjektive;;kecses
-;angeschwollen;;;;;adjektive;;megdagadt, duzzadt
-der;Plattfuß;Plattfüße;;;;nomen;;lúdtalp
-;allgemeine;;;;;adjektive;;általános, általában
-die;Eigenschaft;en;;;;nomen;;tulajdonság
-;geistig;;;;;adjektive;;szellemi
-die;Fähigkeit;en;;;;nomen;;képesség, adottság
-;klug;;;;;adjektive;;okos
-;clever;;;;;adjektive;;ügyes
-;gescheit;;;;;adjektive;;okos, értelmes
-;weise;;;;;adjektive;;bölcs
-;begabt;;;;;adjektive;;tehetséges
-;intelligent;;;;;adjektive;;intelligens
-;scharfsinnig;;;;;adjektive;;éles eszû
-;gebildet;;;;;adjektive;;mûvelt, kiképzett
-;dumm;;;;;adjektive;;buta, ostoba
-;doof;;;;;adjektive;;bugyuta, buta
-;blöde;;;;;adjektive;;bamba, bárgyú
-;einfältig;;;;;adjektive;;együgyü, buta
-;bescheuert;;;;;adjektive;;bolond
-;borniert;;;;;adjektive;;korlátolt
-;unintelligent;;;;;adjektive;;unintelligens
-;stumpfsinnig;;;;;adjektive;;buta, korlátolt, tompa
-;schwachsinnig;;;;;adjektive;;gyengeelméjû, elmebajos, féleszû
-;stockdumm;;;;;adjektive;;tökkelütött
-der;Charakter;e;;;;nomen;;jellem, karakter
-;fest;;;;;adjektive;;szilárd, kemény, tartós
-;stark;;;;;adjektive;;erõs
-;schwierig;;;;;adjektive;;fáradságos, bonyolult
-;schwach;;;;;adjektive;;gyenge
-;ausgeprägten;;;;;adjektive;;jellegzetes
-;zuverlässig;;;;;adjektive;;megbízható
-;gewissenschaft;;;;;adjektive;;lelkiismeretes
-;ehrlich;;;;;adjektive;;becsületes, õszinte
-;gerecht;;;;;adjektive;;becsületes, derék
-;aufrichtig;;;;;adjektive;;õszinte, egyenes
-;treu;;;;;adjektive;;hû
-;beharrlich;;;;;adjektive;;kitartó, ragaszkodó
-;beständig;;;;;adjektive;;állandó, kitartó
-;loyal;;;;;adjektive;;hû, lojális
-;aufgeschlossen;;;;;adjektive;;nyitott gondolkodású, õszínte, nyíltszívû
-;offen;;;;;adjektive;;nyitott
-;unehrlich;;;;;adjektive;;becstelen, tisztességtelen
-;betrügerisch;;;;;adjektive;;csaló, csalóka
-;verlogen;;;;;adjektive;;csaló, hazudozó, hazug
-;unzuverlässig;;;;;adjektive;;megbízhatatlan, kétes
-;ungerecht;;;;;adjektive;;igazságtalan, jogtalan
-;eingebildet;;;;;adjektive;;beképzelt
-;arrogant;;;;;adjektive;;arrogáns
-;überklug;;;;;adjektive;;tudálékos
-;angeberisch;;;;;adjektive;;hencegõ, felvágós
-;hinterlistig;;;;;adjektive;;alattomos
-;bescheiden;;;;;adjektive;;szerény
-;leicht gekränkt;;;;;adjektive;;könnyen sértõdõ, sértõdékeny
-;ordentlich;;;;;adjektive;;rendes
-;ordnungsliebend;;;;;adjektive;;rendes, rendszeretõ
-;pedantisch;;;;;adjektive;;pedáns
-;unordentlich;;;;;adjektive;;rendetlen
-;schlampig;;;;;adjektive;;slampos, rendetlen
-das;Temperament;e;;;;nomen;;temperamentum
-;zuvorkommend;;;;;adjektive;;elõzékeny, szolgálatkész
-;anständig;;;;;adjektive;;tisztességes, illedelmes, rendes
-;lässig;;;;;adjektive;;hanyag
-;locker;;;;;adjektive;;laza
-;gelassen;;;;;adjektive;;higgadt, szenvtelen
-;klasse;;;;;adjektive;;nagyszerû
-;nett;;;;;adjektive;;kedves, csinos
-;cool;;;;;adjektive;;király, klassz, kiváló
-der;Durchschnittsmensch;en;;;;nomen;;átlagember
-der;Junge;en;;;;nomen;;fiú
-das;Mädchen;-;;;;nomen;;lány
-;lustig;;;;;adjektive;;vidám
-;fröhlich;;;;;adjektive;;vidám, boldog
-;freudig;;;;;adjektive;;jókedvû, örömteli
-;heiter;;;;;adjektive;;derûs, vidám
-;humorvoll;;;;;adjektive;;humoros, tréfás
-;witzig;;;;;adjektive;;vicces, szellemes
-;betrübt;;;;;adjektive;;szomorú, bánatos
-;traurig;;;;;adjektive;;szomorú, bús
-;trübsinnig;;;;;adjektive;;búskomor
-;temperamentvoll;;;;;adjektive;;temperamentumos
-;energisch;;;;;adjektive;;erélyes, energikus
-;schwungvoll;;;;;adjektive;;lendületes
-;dynamisch;;;;;adjektive;;dinamikus
-;lebhaft;;;;;adjektive;;élénk, életrevaló
-;beweglich;;;;;adjektive;;mozgékony, mozgatható
-;aktiv;;;;;adjektive;;aktív, tevékeny
-;unternehmungsfreudig;;;;;adjektive;;vállalkozó szellemû
-;risikofreudig;;;;;adjektive;;kockázatos
-;neugirig;;;;;adjektive;;kíváncsi
-;tapfer;;;;;adjektive;;derék, bátor
-;mutig;;;;;adjektive;;bátor, merész
-;gewagt;;;;;adjektive;;merész
-;wagemutig;;;;;adjektive;;merész, vakmerõ
-;kühn;;;;;adjektive;;merész, vakmerõ
-;tollkühn;;;;;adjektive;;vakmerõ
-;ruhig;;;;;adjektive;;nyugodt
-;diszipliniert;;;;;adjektive;;fegyelmezett
-;ausgeglichen;;;;;adjektive;;kiegyensúlyozott
-;friedliebend;;;;;adjektive;;békeszeretõ
-;zurückhaltend;;;;;adjektive;;tartózkodó
-;scheu;;;;;adjektive;;félénk, bátortalan
-;schüchtern;;;;;adjektive;;félénk, bátortalan
-;vorsichtig;;;;;adjektive;;óvatos, elõvigyázatos
-die;Fassung;en;;;;nomen;;felfogás, nyugalom
-;redselig;;;;;adjektive;;beszédes, bõbeszédû
-;gesprächig;;;;;adjektive;;társasági, beszédes
-;geschwätzig;;;;;adjektive;;szószátyár
-;still;;;;;adjektive;;csendes, nyugodt
-;schweigsam;;;;;adjektive;;szótlan, hallgatag
-;wortkarg;;;;;adjektive;;szófukar, szûkszavú
-;ungeduldig;;;;;adjektive;;türelmetlen
-;unruhig;;;;;adjektive;;nyugtalan
-;nervös;;;;;adjektive;;ideges
-;schnell;;;;;adjektive;;gyors
-;frech;;;;;adjektive;;szemtelen, pimasz
-;streitsüchtig;;;;;adjektive;;veszekedõs, kötekedõ
-;aggressiv;;;;;adjektive;;agresszív, erõszakos
-;aufdringlich;;;;;adjektive;;erõszakos, sûrgetõ, tolakodó
-;draufgängerisch;;;;;adjektive;;rámenõs, nyomulós
-;alle;;;;;adjektive;;minden
-;selbstsicher;;;;;adjektive;;magabiztos
-;hartnäckig;;;;;adjektive;;makacs, konok
-;nachlässig;;;;;adjektive;;hanyag
-;optimistisch;;;;;adjektive;;optimista, bizakodó
-;pessimistisch;;;;;adjektive;;pesszimista, borúlátó
-;skeptisch;;;;;adjektive;;szkeptikus, kételkedõ
-;romantisch;;;;;adjektive;;romantikus
-;nüchtern;;;;;adjektive;;józan
-;sachlich;;;;;adjektive;;tárgyilagos, objektív
-;träumerisch;;;;;adjektive;;álmodozó
-;realistisch;;;;;adjektive;;realista, gyakorlatias
-;großzügig;;;;;adjektive;;nagylelkû, bõkezû
-;freigebig;;;;;adjektive;;adakozó, bõkezû
-;sparsam;;;;;adjektive;;takarékos
-;geizig;;;;;adjektive;;fukar
-;geldgierig;;;;;adjektive;;pénzsóvár, kapzsi
-;verschwenderisch;;;;;adjektive;;pazarló, költekezõ
-;leichtsinnig;;;;;adjektive;;könnyelmû
-;kleinlich;;;;;adjektive;;kicsinyes
-der;Geizhals;Gleizhälse;;;;nomen;;zsugori, fösvény (fn)
-;erfolgreich;;;;;adjektive;;sikeres
-;zufrieden;;;;;adjektive;;elégedett
-;glücklich;;;;;adjektive;;boldog, szerencsés
-;harmonisch;;;;;adjektive;;harmónikus
-;abenteuerlich;;;;;adjektive;;kalandos
-die;Familie;n;;;;nomen;;család
-das;Kind;er;;;;nomen;;gyerek
-;führen;;führte;h. geführt;führe|führst|führt|führen|führt|führen;verben;;vezet, visel, életvitel
-;ertragreichen;;;;;adjektive;;jövedelmezõ
-der;Beruf;e;;;;nomen;;foglalkozás, szakma
-der;Job;s;;;;nomen;;munka, állás
-;finden;;fand;h. gefunden;finde|findest|findet|finden| findet|finden;verben;;találni
-die;Arbeit;en;;;;nomen;;állás, feladat
-die;Stelle;en;;;;nomen;;állás, hely
-das;Unternehmen;-;;;;nomen;;vállalkozás
-;gründen;;gründete;h. gegründet;gründe|gründest|gründet|gründen|gründet|gründen;verben;;alapít
-;haben;;hatte;h. gehabt;habe|hast|hat|haben|habt|haben;verben;;van, birtokol
-;sein;;war;i. gewesen;bin|bist|ist|sind|seid|sind;verben;;van, létezik
-;beruflich;;;;;adjektive;;szakmai
-;verdienen;;;;;verben;;keres (pénzt)
-;materiell;;;;;adjektive;;anyagi
-die;Sicherheit;en;;;;nomen;;biztonság
-das;Haus;Häuser;;;;nomen;;ház
-das;Eigenheim;e;;;;nomen;;családi ház
-das;Auto;s;;;;nomen;;autó
-das;Wort;Wörter;;;;nomen;;szó
-die;Existenz;en;;;;nomen;;létezés
-;aufbauen;;;;;verben;;épít
-die;Welt;en;;;;nomen;;világ
-;kennenlernen;;;;;verben;;megismerni
-;viel;;;;;adjektive;;sok
-;reisen;;;;;verben;;utazik
-;leben;;;;;verben;;él
-;sprachen;;;;;verben;;beszél
-;weiterbilden;;;;;verben;;továbbképez
-;sammeln;;;;;verben;;gyûjteni
-der;Sport;s;;;;nomen;;sport
-der;Künstler;-;;;;nomen;;mûvész
-die;Karriere;n;;;;nomen;;karrier
-;schöpferisch;;;;;adjektive;;alkotó, teremtõ
-;künstlerisch;;;;;adjektive;;mûvészi
-die;Tätigkeit;en;;;;nomen;;tevékenység
-;ausüben;;;;;verben;;begyakorol, folytat
-;setzen;;;;;verben;;ül
-der;Naturschutz;-;;;;nomen;;természetvédelem
-der;Umweltschutz;-;;;;nomen;;környezetvédelem
-das;Tier;e;;;;nomen;;állat
-;werden;;;;;verben;;lesz
-der;Single;s;;;;nomen;;egyedül élõ, szingli
-;sonstig;;;;;adjektive;;egyébként, különben
-das;Familienmitglied;er;;;;nomen;;családtag
-der;Junggeselle;n;;;;nomen;;agglegény
-das;Einzelkind;er;;;;nomen;;egyke
-der;Zwilling;e;;;;nomen;;ikrek
-der;Drilling;e;;;;nomen;;hármasikrek
-der;Säugling;e;;;;nomen;;csecsemõ
-das;Baby;s;;;;nomen;;bébi
-das;Kleinkind;er;;;;nomen;;kisgyerek
-der;Waise;n;;;;nomen;;árva
-die;Pflegeeltern;-;;;;nomen;;nevelõszülõk
-die;Stiefeltern;-;;;;nomen;;mostohaszülõk
-der;Stiefvater;Stiefväter;;;;nomen;;mostohaapa
-die;Stiefmutter;Stiefmütter;;;;nomen;;mostohaanya
-der;Pflegevater;Pflegeväter;;;;nomen;;nevelõapa
-die;Pflegemutter;Pflegemütter;;;;nomen;;nevelõanya
-;kinderreich;;;;;adjektive;;sokgyerekes
-;kinderlos;;;;;adjektive;;gyermektelen
-;stammen;;;;;verben;;származni
-;alleinstechend;;;;;adjektive;;egyedülálló
-;ledig;;;;;adjektive;;hajadon
-;verwitwet;;;;;adjektive;;özvegy
-;geschieden;;;;;adjektive;;elvált
-der;Lebensgefährte;en;;;;nomen;;életveszély
-die;Lebenspartnerin;-;;;;nomen;;élettárs (nõ)
-der;Lebenspartner;-;;;;nomen;;élettárs (férfi)
-der;Partner;Partner;;;;nomen;;partner
-die;Partnerin;nen;;;;nomen;;partnernõ
-der;Freund;e;;;;nomen;;barát
-die;Freundin;nen;;;;nomen;;barátnõ
-;heiraten;;;;;verben;;házasodni
-;schließen;;;;;verben;;köt, bezár
-der;Mann;Männer;;;;nomen;;férfi, ember
-die;Frau;en;;;;nomen;;nõ
-die;Ehe;en;;;;nomen;;házasság
-;erwarten;;;;;verben;;elvár, megvár
-;bringen;;;;;verben;;hoz, visz
-;bekommen;;;;;verben;;kap
-;folgsam;;;;;adjektive;;engedelmes, szófogadó
-;verzogen;;;;;adjektive;;elkényeztetett
-;erziehen;;;;;verben;;felnevel
-;versorgen;;;;;verben;;ellát, gondoskodik
-;verwöhnen;;;;;verben;;elkényeztet
-;kümmern;;;;;verben;;törõdikl, gondoskodik
-;sorgen;;;;;verben;;gondoskodik
-die;Sorge;en;;;;nomen;;gondoskodás, aggódás
-das;Kinderheim;e;;;;nomen;;gyerekotthon
-die;Rente;n;;;;nomen;;nyugdíj
-die;Großeltern;-;;;;nomen;;nagyszülõk
-;mütterlicherseits;;;;;adjektive;;anyai részrõl
-;väterlicherseits;;;;;adjektive;;apai részrõl
-der;Großvater;Großväter;;;;nomen;;nagypapa
-der;Opa;s;;;;nomen;;nagypapa (röviden)
-die;Großmutter;Großmütter;;;;nomen;;nagymama
-die;Oma;s;;;;nomen;;nagymama (röviden)
-der;Schwiegervater;Schwiegerväter;;;;nomen;;após
-die;Schwiegermutter;Schwiegermütter;;;;nomen;;anyós
-der;Onkel;-;;;;nomen;;nagybácsi
-die;Tante;n;;;;nomen;;nagynéni
-der;Cousin;s;;;;nomen;;unokatestvér (fiú)
-die;Cousine;n;;;;nomen;;unokatestvér (lány)
-der;Bruder;Brüder;;;;nomen;;fiútestvér
-die;Schwester;n;;;;nomen;;lánytesetvér
-der;Ehemann;Ehemänner;;;;nomen;;férj
-die;Ehefrau;en;;;;nomen;;feleség
-der;Neffe;n;;;;nomen;;unokaöccs
-die;Nichte;n;;;;nomen;;unokahúg
-der;Schwiegersohn;Schwiegersöhne;;;;nomen;;võ
-die;Schwiegertochter;Schwiegertöchter;;;;nomen;;meny
-der;Sohn;Söhne;;;;nomen;;fia
-die;Tochter;Töchter;;;;nomen;;lánya
-der;Enkel;-;;;;nomen;;fiúunoka
-der;Enkelsohn;Enkelsöhne;;;;nomen;;fiúunoka
-die;Enkelin;nen;;;;nomen;;lányunoka
-die;Enkeltochter;Enkeltöchter;;;;nomen;;lányunoka
-der;Verwandte;n;;;;nomen;;rokon
-der;Blutsverwandte;n;;;;nomen;;vérrokon
-der;Angehörige;n;;;;nomen;;hozzátartozó
-der;Pate;n;;;;nomen;;keresztapa
-die;Patin;nen;;;;nomen;;keresztanya
-das;Patekind;er;;;;nomen;;keresztgyermek
-der;Nachbar;n;;;;nomen;;szomszéd (férfi)
-die;Nachbarin;nen;;;;nomen;;szomszéd (nõ)
-der;Kollege;n;;;;nomen;;kolléga
-der;Mitarbeiter;-;;;;nomen;;munkatárs, dolgozó
-die;Kollegin;nen;;;;nomen;;kolléganõ
-die;Mitarbeiterin;nen;;;;nomen;;munkatársnõ
-der;Chef;s;;;;nomen;;szakács, fõnök
-der;Mitschüler;-;;;;nomen;;osztálytárs
-die;Mitschülerin;nen;;;;nomen;;osztálytársnõ
-der;Schulkamerad;en;;;;nomen;;iskolatárs
-;wenig;;;;;adjektive;;kevés
-;nah;;;;;adjektive;;közeli
-;entfernt;;;;;adjektive;;távoli
-;weitläufig;;;;;adjektive;;tágas
-;gehören;;;;;verben;;tartozni valamihez
-;früh;;;;;adjektive;;korán
-;spät;;;;;adjektive;;késõ
-;zeitig;;;;;adjektive;;idejében, jókor
-die;Uhr;en;;;;nomen;;óra
-der;Tagesablauf;-;;;;nomen;;napirend
-die;Dusche;n;;;;nomen;;zuhany
-;nehmen;;;;;verben;;fog, visz
-;kalt;;;;;adjektive;;hideg, hûvös
-;warm;;;;;adjektive;;meleg
-der;Zahn;Zähne;;;;nomen;;fog
-;schminken;;;;;verben;;sminkelni
-der;Arbeitsplatz;Arbeitsplätze;;;;nomen;;munkahely
-das;Frühstück;e;;;;nomen;;reggeli
-;kämmen;;;;;verben;;fésül
-;anziehen;;;;;verben;;felöltözik, felvesz
-;gehen;;;;;verben;;megy
-der;Mittag;e;;;;nomen;;dél (napszak)
-das;Mittag;e;;;;nomen;;ebéd
-;lernen;;;;;verben;;tanul
-die;Hausaufgabe;n;;;;nomen;;házifeladat
-die;Aufgabe;n;;;;nomen;;feladat
-;machen;;;;;verben;;csinál, elkészít
-der;Kurs;e;;;;nomen;;tanfolyam, kurzus
-;besuchen;;;;;verben;;meglátogat
-die;Freizeit;en;;;;nomen;;szabadidõ
-das;Kino;s;;;;nomen;;mozi
-;lesen;;;;;verben;;olvas
-;spielen;;;;;verben;;játszik
-;fernsehen;;;;;verben;;tévét néz
-;sehen;;;;;verben;;néz, lát
-;beschäftigen;;;;;verben;;foglalkozni vmivel
-;surfen;;;;;verben;;szörfözni
-der;Straps;e;;;;nomen;;harisnyatartó
-der;Tag;e;;;;nomen;;nap
-;erholen;;;;;verben;;elhoz, kipiheni magát
-der;Abend;e;;;;nomen;;este
-das;Bett;-;;;;nomen;;ágy
-;schlafen;;;;;verben;;alszik
-;legen;;;;;verben;;fekszik, elhelyez
-;hängen;;;;;verben;;lóg, akaszt
-das;Familienprogramm;e;;;;nomen;;családi program
-;gemeinsam;;;;;adjektive;;együtt, közösen
-das;Wochenende;n;;;;nomen;;hétvége
-;unternehmen;;;;;verben;;vállal, megtesz
-der;Gast;Gäste;;;;nomen;;vendég
-der;Ausflug;Ausflüge;;;;nomen;;kirándulás
-das;Picknick;s;;;;nomen;;piknik
-;empfangen;;;;;verben;;fogad, vesz
-die;Wanderung;en;;;;nomen;;kirándulás, gyalogtúra
-die;Radtour;en;;;;nomen;;kerékpártúra
-der;Garten;Gärten;;;;nomen;;kert
-das;Theater;-;;;;nomen;;színház
-das;Museum;Museen;;;;nomen;;múzeum
-das;Konzert;e;;;;nomen;;koncert
-;faulenzen;;;;;verben;;lustálkodik
-der;Betrug;Betruge;;;;nomen;;csalás
-die;Scheidung;en;;;;nomen;;válás
-;treiben;;;;;verben;;ûz, hajt, csinál
-das;Fußballspiel;e;;;;nomen;;labdarúgás
-;fremd;;;;;adjektive;;idegen, ismeretlen, furcsa
-;leben;;;;;verben;;él
-die;Kindererziehung;en;;;;nomen;;gyermeknevelés
-das;Geldproblem;e;;;;nomen;;pénz probléma
-das;Familienfest;e;;;;nomen;;családi ünnep
-;betrügen;;;;;verben;;csal, becsap
-;verlieben;;;;;verben;;szerelmes lesz, beleszeret vkibe
-die;Beziehung;en;;;;nomen;;összefüggés, kapcsolat
-das;Fest;e;;;;nomen;;ünnep, ünnepély
-die;Feier;n;;;;nomen;;ünnep
-;veranstalten;;;;;verben;;szervez, megrendez
-der;Familienkreis;e;;;;nomen;;családi kör
-der;Freundeskreis;e;;;;nomen;;baráti kör
-;feiern;;;;;verben;;ünnepel
-die;Verlobung;en;;;;nomen;;eljegyzés
-;silbern;;;;;adjektive;;ezüst
-;golden;;;;;adjektive;;arany
-;diamanten;;;;;adjektive;;gyémánt
-die;Geburt;en;;;;nomen;;szülés, születés
-die;Taufe;n;;;;nomen;;keresztelés
-die;Einschulung;n;;;;nomen;;iskolába küldés
-das;Abitur;e;;;;nomen;;érettségi
-das;Diplom;e;;;;nomen;;diploma
-das;Jubiläum;Jubiläen;;;;nomen;;évforduló, jubileum
-der;Geburtstag;e;;;;nomen;;születésnap
-der;Namenstag;e;;;;nomen;;névnap
-der;Jahreswechsel;-;;;;nomen;;évváltás
-das;Neujahr;e;;;;nomen;;újév
-das;Ostern;;;;;nomen;;húsvét
-das;Weihnachten;-;;;;nomen;;karácsony
-das;Pfingsten;;;;;nomen;;pünkösd
-die;Party;s;;;;nomen;;buli, parti
-die;Geburtstagparty;s;;;;nomen;;szülinapi buli
-;einladen;;;;;verben;;meghív, bepakol
-;gratulieren;;;;;verben;;gratulál
-die;Geburtstagstorte;n;;;;nomen;;születésnapi torta
-;backen;;;;;verben;;süt (sütit)
-die;Kerze;n;;;;nomen;;gyertya
-;schmücken;;;;;verben;;díszít, ékesít
-die;Geburtstagskarte;n;;;;nomen;;szülinapi kártya
-das;Geburtstagsgeschenk;e;;;;nomen;;szülinapi ajándék
-die;Trauung;en;;;;nomen;;házasságkötés, esküvõ
-;kirchlich;;;;;adjektive;;egyházi
-;vermählen;;;;;verben;;egyesít, férjhez ad
-;lassen;;;;;verben;;enged, hagy
-;trauen;;;;;verben;;megbízni
-der;Polterabend;e;;;;nomen;;leánybúcsú
-die;Schwelle;n;;;;nomen;;küszöb
-der;Nikolaustag;e;;;;nomen;;mikulásnap
-der;Nikolaus;;;;;nomen;;mikulás
-der;Advent;e;;;;nomen;;advent
-die;Adventszeit;;;;;nomen;;advent ideje
-der;Adventsonntag;e;;;;nomen;;advent vasárnapja
-der;Adventskranz;Adventkränze;;;;nomen;;adventi koszorú
-;aufhängen;;;;;verben;;felakaszt
-die;Weihnachtsnacht;;;;;nomen;;karácsony este
-die;Christnacht;Christnächte;;;;nomen;;karácsony éjjele
-der;Weihnachtsabend;e;;;;nomen;;karácsony este
-der;Weihnachtsbaum;Weihnachtsbäume;;;;nomen;;karácsonyfa
-das;Weihnachtsgeschenk;e;;;;nomen;;karácsonyi ajaándék
-die;Bescherung;en;;;;nomen;;ajándékozás, meglepetés
-;bescheren;;;;;verben;;ajándékoz, meglep
-der;Weihnachtsmarkt;Weihnachtsmärkte;;;;nomen;;karácsonyi vásár
-;traditionell;;;;;adjektive;;hagyományos
-der;Frohsinn;e;;;;nomen;;boldogság
-das;Silvester;;;;;nomen;;szilveszter
-die;Karwoche;n;;;;nomen;;nagyhét
-das;Osterei;er;;;;nomen;;húsvéti tojás
-;färben;;;;;verben;;fest, színez
-;bemalen;;;;;verben;;befest
-;verstecken;;;;;verben;;elrejt
-;suchen;;;;;verben;;keresni
-;essen;;;;;verben;;enni
-;trinken;;;;;verben;;inni
-der;Osterhase;n;;;;nomen;;húsvéti nyúl
-;schicken;;;;;verben;;küldeni
-der;Schinken;-;;;;nomen;;sonka
-;kochen;;;;;verben;;fõzni
-;bespritzen;;;;;verben;;lefröcsköl, locsol
-;sonnig;;;;;verben;;derûs, napos
-das;Klassenzimmer;-;;;;nomen;;osztályterem
-der;Lehrertisch;e;;;;nomen;;tanári asztal
-der;Lehrer;-;;;;nomen;;tanár (férfi)
-die;Lehrerin;nen;;;;nomen;;tanár (nõ)
-die;Schulbank;Schulbänke;;;;nomen;;iskolapad
-der;Schüler;-;;;;nomen;;tanuló
-die;Schülerin;nen;;;;nomen;;tanulólány
-;schreiben;;;;;verben;;írni
-;notieren;;;;;verben;;feljegyez, megyjegyez
-die;Tafel;n;;;;nomen;;tábla
-der;Schwamm;Schwämme;;;;nomen;;szivacs
-die;Kleiderablage;n;;;;nomen;;ruhatár
-die;Landkarte;n;;;;nomen;;térkép
-das;Heft;e;;;;nomen;;füzet
-das;Etui;s;;;;nomen;;tok, doboz
-die;Federmappe;n;;;;nomen;;tolltartó
-der;Kuli;s;;;;nomen;;toll
-der;Füller;s;;;;nomen;;töltõtoll
-der;Bleistift;e;;;;nomen;;ceruza
-der;Buntstift;e;;;;nomen;;színes ceruza
-der;Markierer;-;;;;nomen;;kihúzó
-der;Radiergummi;s;;;;nomen;;radír
-das;Lineal;e;;;;nomen;;vonalzó
-der;Zirkel;-;;;;nomen;;körzõ
-der;Taschenrechner;-;;;;nomen;;számológép
-die;Schule;n;;;;nomen;;iskola
-das;Gymnasium;;;;;nomen;;gimnázium
-die;Klasse;n;;;;nomen;;osztály
-der;Gymnasiast;en;;;;nomen;;gimnazista
-;faul;;;;;adjektive;;lusta
-;begabt;;;;;adjektive;;tehetséges
-der;Vorzug;Vorzüge;;;;nomen;;elõny
-;gerecht;;;;;adjektive;;megfelelõ, igazságos, becsületes
-;erfahren;;;;;verben;;tapasztal, megtud
-;strenge;;;;;adjektive;;következetes
-;mildern;;;;;verben;;enyhít, csillapít
-;geduldig;;;;;adjektive;;türelmes
-;hilfsbereit;;;;;adjektive;;segítõkész
-;verständnisvoll;;;;;adjektive;;megértõ, együttérzõ
-die;Grundschule;n;;;;nomen;;általános iskola
-der;Klassenlehrer;n;;;;nomen;;osztályfõnök (férfi)
-die;Klassenlehrerin;nen;;;;nomen;;osztályfõnök (nõ)
-die;Schulleitung;en;;;;nomen;;iskola vezetés
-der;Schulleiter;-;;;;nomen;;iskola vezetõ (férfi)
-die;Schulleiterin;nen;;;;nomen;;iskola vezetõ (nõ)
-der;Schuldirektor;en;;;;nomen;;igazgató
-die;Schuldirektorin;nen;;;;nomen;;igazgatónõ
-der;Lehrkörper;-;;;;nomen;;tantestület
-das;Fach;Fächer;;;;nomen;;tantárgy, szakma
-;unterrichten;;;;;verben;;tanít
-;mittelmäßig;;;;;adjektive;;átlagos, középszerû
-;regelmäßig;;;;;adjektive;;rendszeres, szabályos
-;büffeln;;;;;verben;;magol
-;studieren;;;;;verben;;tanul (felsõbb képzésben)
-der;Eingang;Eingänge;;;;nomen;;bejárat
-der;Ausgang;Ausgänge;;;;nomen;;kijárat
-die;Rezeption;en;;;;nomen;;recepció
-die;Vorhalle;n;;;;nomen;;elõcsarnok
-die;Sekretariat;e;;;;nomen;;titkárság
-das;Direktorenzimmer;-;;;;nomen;;igazgatói iroda
-das;Sprachlabor;s;;;;nomen;;nyelvi terem
-die;Sporthalle;n;;;;nomen;;sportcsarnok
-die;Turnhalle;n;;;;nomen;;tornaterem
-der;Speiseshalle;Speiseshalle;;;;nomen;;ebédlõ
-die;Kreide;n;;;;nomen;;kréta
-das;Schuljahr;e;;;;nomen;;tanév
-das;Halbjahr;e;;;;nomen;;félév (iskolai)
-die;Sozialkunde;;;;;nomen;;társadalomismeret
-die;Muttersprache;;;;;nomen;;anyanyelv
-die;Fremdsprache;n;;;;nomen;;idegennyelv
-die;Mathematik;;;;;nomen;;matek
-die;Physik;;;;;nomen;;fizika
-die;Chemie;;;;;nomen;;kémia
-die;Biologie;;;;;nomen;;biológia
-die;Geographie;;;;;nomen;;földrajz
-die;Geschichte;;;;;nomen;;történelem
-die;Musik;;;;;nomen;;ének, zene
-die;Philosophie;n;;;;nomen;;filozófia
-die;Psychologie;n;;;;nomen;;pszihológia
-der;Sport;Sportarten;;;;nomen;;tesi, sport
-der;Stundenplan;Stundenpläne;;;;nomen;;órarend
-die;Stunde;n;;;;nomen;;órarend
-die;Lieblingsstunde;n;;;;nomen;;kedvenc óra
-die;Freistunde;n;;;;nomen;;lyukasóra
-die;Arbeitsgemeinschaft;en;;;;nomen;;szakkör, munkacsoport
-die;Bandweihe;;;;;nomen;;szalagavató
-die;Valediktion;;;;;nomen;;ballagás
-die;Klausur;en;;;;nomen;;zárthelyi dolgozat
-die;Note;n;;;;nomen;;osztályzat, jegy
-das;Zeugnis;se;;;;nomen;;bizonyítvány
-;erteilen;;;;;verben;;megad, adományoz
-das;Brief;e;;;;nomen;;levél
-der;Vorteil;e;;;;nomen;;elõny, haszon
-der;Nachteil;e;;;;nomen;;hátrány, veszteség
-der;Kindergarten;Kindergärten;;;;nomen;;óvoda
-die;Schulpflicht;en;;;;nomen;;tankötelezettség
-;mündlich;;;;;adjektive;;szóbeli
-;schriftlich;;;;;adjektive;;írásbeli
-;beherrschen;;;;;verben;;uralkodik, tökéletesen tud
-;bisschen;;;;;adjektive;;kicsit, kissé
-die;Sprachprüfung;;;;;nomen;;nyelvvizsga
-die;Prüfung;en;;;;nomen;;vizsga
-;knüpfen;;;;;verben;;köt, csomóz
-das;Studium;Studien;;;;nomen;;tanulmány (felsõfokú)
-der;Koch;Köche;;;;nomen;;szakács
-die;Köchin;nen;;;;nomen;;szakácsnõ
-der;Bäcker;-;;;;nomen;;pék
-die;Bäckerin;nen;;;;nomen;;pék (nõ)
-der;Fleischer;-;;;;nomen;;hentes
-der;Schuhmacher;-;;;;nomen;;cipész
-der;Maler;-;;;;nomen;;festõ
-der;Tischler;-;;;;nomen;;asztalos
-der;Maurer;-;;;;nomen;;kõmûves
-der;Zimmermann;Zimmermänner;;;;nomen;;asztalos, ács
-der;Dachdecker;-;;;;nomen;;tetõfedõ
-der;Landwirt;e;;;;nomen;;gazda
-der;Förster;-;;;;nomen;;erdész
-der;Gärtner;-;;;;nomen;;kertérsz
-der;Friseur;e;;;;nomen;;fodrász
-die;Friseuse;n;;;;nomen;;fodrásznõ
-die;Kosmetikerin;nen;;;;nomen;;kozmetikus
-der;Fotograf;en;;;;nomen;;fényképész
-der;Uhrmacher;-;;;;nomen;;órás
-der;Florist;en;;;;nomen;;virágárus
-die;Floristin;nen;;;;nomen;;virágárusnõ
-der;Verkäufer;-;;;;nomen;;eladó
-die;Verkäuferin;nen;;;;nomen;;eladónõ
-der;Kellner;-;;;;nomen;;pincér
-die;Kellnerin;nen;;;;nomen;;pincérnõ
-der;Busfahrer;-;;;;nomen;;buszsofõr
-der;Postbeamte;n;;;;nomen;;postatisztviselõ
-der;Briefträger;-;;;;nomen;;postás, levélhordó
-der;Polizist;en;;;;nomen;;rendõr
-der;Feuerwehrmann;Feuerwehrmänner;;;;nomen;;tûzoltó
-der;Beruf;e;;;;nomen;;hivatás, szakma
-die;Zukunft;;;;;nomen;;jövõ
-;ergreifen;;;;;verben;;megragad, fog
-der;Mangelberuf;e;;;;nomen;;hiányszakma
-;berufstätig;;;;;adjektive;;dolgozó, hivatását gyakorló
-der;Glaser;-;;;;nomen;;üveges
-der;Optiker;-;;;;nomen;;optikus
-der;Goldschmied;e;;;;nomen;;aranymûves, ötvös
-der;Landwirt;e;;;;nomen;;mezõgazda
-der;Pilot;en;;;;nomen;;pilota
-die;Stewardess;en;;;;nomen;;légiutaskísérõ
-der;Programmierer;-;;;;nomen;;programozó
-der;Journalist;en;;;;nomen;;újságíró
-die;Journalistin;nen;;;;nomen;;újságírónõ
-der;Reporter;-;;;;nomen;;riporter
-die;Reporterin;nen;;;;nomen;;riporternõ
-der;Schauspieler;-;;;;nomen;;színész
-die;Schauspielerin;nen;;;;nomen;;színésznõ
-der;Baletttänzer;-;;;;nomen;;balettáncos
-die;Baletttänzerin;nen;;;;nomen;;balettáncosnõ
-der;Graphiker;-;;;;nomen;;grafikus
-die;Graphikerin;nen;;;;nomen;;grafikusnõ
-der;Sänger;-;;;;nomen;;énekes
-die;Sängerin;nen;;;;nomen;;énekesnõ
-der;Arzt;Ärzte;;;;nomen;;orvos
-die;Ärztin;nen;;;;nomen;;orvosnõ
-der;Mathematiker;-;;;;nomen;;matematikus
-der;Chemiker;-;;;;nomen;;vegyész, gyógyszerész
-der;Physiker;-;;;;nomen;;fizikus
-der;Biologe;n;;;;nomen;;biológus
-der;Ökonom;en;;;;nomen;;közgazdász
-;absolvieren;;;;;verben;;elvégez, befejez
-;abschließen;;;;;verben;;lezár, befejez
-die;Hochschule;n;;;;nomen;;fõiskola
-die;Universität;en;;;;nomen;;egyetem
-die;Medizin;en;;;;nomen;;gyógyszer
-;erreichen;;;;;verben;;elér, elnyer
-die;Weiterbildung;en;;;;nomen;;továbbképzés
-die;Umschulung;en;;;;nomen;;átképzés
-die;Stelle;n;;;;nomen;;állás, hely
-der;Betrieb;e;;;;nomen;;vállalat
-die;Fabrik;en;;;;nomen;;gyár
-die;Firma;Firmen;;;;nomen;;cég, vállalat
-;wechseln;;;;;verben;;cserél, változtat, változik
-;verlieren;;;;;verben;;elveszt, elhagy
-;informieren;;;;;verben;;tájékoztat, értesít
-;bewerben;;;;;verben;;pályázik, jelentkezik
-der;Bewerber;-;;;;nomen;;pályázó, jelentkezõ (férfi)
-die;Bewerberin;nen;;;;nomen;;pályázó, jelentkezõ (nõ)
-die;Bewerbung;en;;;;nomen;;pályázat, kérelem
-der;Lebenslauf;Lebensläufe;;;;nomen;;önéletrajz
-;beilegen;;;;;verben;;mellékel, csatol
-der;Beamte;n;;;;nomen;;hivatalnok (férfi)
-die;Beamtin;nen;;;;nomen;;hivatalnok (nõ)
-das;Einkommen;-;;;;nomen;;jövedelem, bevétel
-der;Verdienst;;;;;nomen;;kereset
-der;Lohn;Löhne;;;;nomen;;fizetés, munkabér
-die;Prämie;n;;;;nomen;;prémium
-das;Gehalt;Gehälter;;;;nomen;;fizetés
-;gleitend;;;;;adjektive;;kötetlen
-;flexibl;;;;;adjektive;;rugalmas
-;familiäres;;;;;adjektive;;családias, családi
-;monoton;;;;;adjektive;;egyhangú
-;angenehm;;;;;adjektive;;kellemes
-der;Arbeitslose;n;;;;nomen;;munkanélküli
-der;Empfang;Empfänge;;;;nomen;;fogadás
-der;Esstisch;e;;;;nomen;;étkezõasztal
-die;Tischdecke;n;;;;nomen;;asztalterítõ
-das;Tischtuch;Tischtücher;;;;nomen;;papír zsebkendõ
-der;Teller;-;;;;nomen;;tányér
-der;Löffel;-;;;;nomen;;kanál
-die;Gabel;n;;;;nomen;;villa
-die;Dessertgabel;n;;;;nomen;;dessert villa
-das;Messer;-;;;;nomen;;kés
-das;Glas;Gläser;;;;nomen;;üveg, pohár
-die;Schale;n;;;;nomen;;tálka
-die;Serviette;n;;;;nomen;;szalvéta
-das;Essen;-;;;;nomen;;étel
-die;Speise;n;;;;nomen;;étel, élelem
-das;Getränk;e;;;;nomen;;ital
-die;Obstplatte;n;;;;nomen;;gyümölcstál
-der;Apfel;Äpfel;;;;nomen;;alma
-die;Birne;n;;;;nomen;;körte
-die;Pflaume;n;;;;nomen;;szilva
-die;Traube;n;;;;nomen;;szõlõ
-die;Melone;n;;;;nomen;;dinnye
-die;Orange;n;;;;nomen;;narancs
-die;Banane;n;;;;nomen;;banán
-die;Gemüseplatte;n;;;;nomen;;zöldségtál
-die;Tomate;n;;;;nomen;;paradicsom
-die;Zwiebel;n;;;;nomen;;hagyma
-die;Gurke;n;;;;nomen;;uborka
-der;Kopfsalat;e;;;;nomen;;fejes saláta
-der;Paprika;-;;;;nomen;;paprika
-die;Bratwurst;Bratwürste;;;;nomen;;sült kolbász
-der;Fisch;e;;;;nomen;;hal
-das;Ei;er;;;;nomen;;tojás
-das;Brathähnchen;-;;;;nomen;;sült csirke
-der;Schweinebraten;-;;;;nomen;;sertéssült
-die;Süßigkeit;en;;;;nomen;;édesség
-die;Obsttorte;n;;;;nomen;;gyümölcstorta
-der;Kuchen;-;;;;nomen;;sütemény, kalács
-das;Mineralwasser;;;;;nomen;;ásványvíz
-der;Obstsaft;Obstsäfe;;;;nomen;;gyümölcslé
-der;Wein;e;;;;nomen;;bor
-das;Bier;e;;;;nomen;;sör
-der;Schnaps;Schnäpse;;;;nomen;;pálinka
-das;Lebensmittel;-;;;;nomen;;élelmiszer
-;schmecken;;;;;verben;;kóstol
-;köstlich;;;;;adjektive;;pompás
-;lecker;;;;;adjektive;;finnyás, ízletes
-;fein;;;;;adjektive;;finom, kiváló
-;schmackhaft;;;;;adjektive;;ízletes
-;appetitlich;;;;;adjektive;;étvágygerjesztõ
-;süß;;;;;adjektive;;édes
-;sauer;;;;;adjektive;;savanyú
-;bitter;;;;;adjektive;;keserû
-;würzig;;;;;adjektive;;fûszeres
-;salzig;;;;;adjektive;;sós
-;weich;;;;;adjektive;;puha, lágy
-;zart;;;;;adjektive;;enyhe, finom
-;frisch;;;;;adjektive;;friss
-;knusprig;;;;;adjektive;;ropogós
-;zäh;;;;;adjektive;;rágós
-;fett;;;;;adjektive;;zsíros, kövér
-;verbrannt;;;;;adjektive;;égett
-;mager;;;;;adjektive;;sovány
-;kalorienarm;;;;;adjektive;;kalóriaszegény
-;kalorienreich;;;;;adjektive;;kalóriadús
-;gesund;;;;;adjektive;;egészséges
-der;Hunger;;;;;nomen;;éhség
-;scharf;;;;;adjektive;;erõs, csípõs
-;durstig;;;;;adjektive;;szomjas
-der;Appetit;e;;;;nomen;;étvágy
-das;Leibgericht;e;;;;nomen;;kedvenc étel
-das;Brot;e;;;;nomen;;kenyér
-das;Brötchen;-;;;;nomen;;zsemle
-das;Hörnchen;-;;;;nomen;;kifli
-das;Obst;Obstarten;;;;nomen;;gyümölcs
-die;Aprikose;n;;;;nomen;;sárgabarack, kajszibarack
-der;Pfirsich;e;;;;nomen;;õszibarack
-die;Kirsche;n;;;;nomen;;cseresznye
-die;Sauerkirsche;n;;;;nomen;;meggy
-die;Erdbeere;n;;;;nomen;;eper
-die;Himbeere;n;;;;nomen;;málna
-die;Stachelbeere;n;;;;nomen;;egres
-die;Heidelbeere;n;;;;nomen;;áfonya
-die;Johannisbeere;n;;;;nomen;;ribizli
-die;Nuss;Nüsse;;;;nomen;;dió
-die;Zitrone;n;;;;nomen;;citrom
-die;Grapefruit;;;;;nomen;;grépfruit
-die;Mandarine;n;;;;nomen;;mandarin
-die;Feige;n;;;;nomen;;füge
-die;Dattel;n;;;;nomen;;datolya
-das;Gemüse;;;;;nomen;;zöldség, fõzelék
-die;Haselnuss;Haselnüsse;;;;nomen;;mogyoró
-der;Porree;s;;;;nomen;;póréhagyma
-die;Mohrrübe;n;;;;nomen;;sárgarépa, répa
-die;Steckrübe;n;;;;nomen;;fehérrépa
-die;Karotte;n;;;;nomen;;sárgarépa, répa
-der;Sellerie;-;;;;nomen;;zeller
-der;Rettich;e;;;;nomen;;retek
-die;Kartoffel;n;;;;nomen;;burgonya, krumpli
-der;Spinat;;;;;nomen;;spenót
-der;Sauerampfer;-;;;;nomen;;sóska
-der;Kohl;e;;;;nomen;;káposzta, kelkáposzta
-der;Spargel;-;;;;nomen;;spárga
-der;Brokkoli;s;;;;nomen;;brokkoli
-die;Bohne;n;;;;nomen;;bab
-die;Linse;n;;;;nomen;;lencse
-der;Mohn;e;;;;nomen;;mák
-die;Milch;;;;;nomen;;tej
-die;Butter;-;;;;nomen;;vaj
-die;Margarine;n;;;;nomen;;margarin
-der;Käse;-;;;;nomen;;sajt
-das;Fleisch;;;;;nomen;;hús
-die;Wurst;Würste;;;;nomen;;hurka, kolbász
-der;Aufschnitt;e;;;;nomen;;felvágott
-das;Öl;e;;;;nomen;;olaj
-das;Lorbeerblatt;Lorbeerblätte;;;;nomen;;babérlevél
-das;Basilikum;s;;;;nomen;;bazsalikom
-der;Koriander;-;;;;nomen;;koriandermag  
-der;Oregano;;;;;nomen;;oregánó
-der;Senf;e;;;;nomen;;mustár
-der;Essig;e;;;;nomen;;ecet
-der;Ketchup;;;;;nomen;;ketchup
-der;Kümmel;-;;;;nomen;;kömény
-der;Zimt;e;;;;nomen;;fahéj
-der;Zucker;-;;;;nomen;;cukor
-die;Vanille;n;;;;nomen;;vanília
-der;Ingwer;-;;;;nomen;;gyömbér
-das;Curry;s;;;;nomen;;curry
-der;Chili;;;;;nomen;;erõs paprika
-die;Speisewürze;n;;;;nomen;;ételízesítõ
-der;Tee;s;;;;nomen;;tea
-der;Kaffee;;;;;nomen;;kávé
-der;Kakao;;;;;nomen;;kakaó
-die;Limonade;n;;;;nomen;;limonádé
-die;Cola;s;;;;nomen;;kóla
-der;Likör;e;;;;nomen;;likõr
-der;Sekt;e;;;;nomen;;pezsgõ
-;ausgiebig;;;;;adjektive;;kiadós
-der;Honig;e;;;;nomen;;méz
-der;Gang;Gänge;;;;nomen;;folyósó
-das;Gericht;e;;;;nomen;;bíróság, étel
-die;Suppe;n;;;;nomen;;leves
-die;Vorspeise;n;;;;nomen;;elõétel
-der;Nachspeise;n;;;;nomen;;utóétel, desszert
-das;Dessert;s;;;;nomen;;desszert
-das;Hauptgericht;e;;;;nomen;;fõétel, fõfogás
-;dreigängig;;;;;adjektive;;háromfogásos
-das;Abendessen;-;;;;nomen;;vacsora
-das;Pausenbrot;e;;;;nomen;;tízórai
-die;Jause;n;;;;nomen;;uzsonna
-;naschen;;;;;verben;;nassolni
-;knabbern;;;;;verben;;rág, rágcsál
-die;Fleischsuppe;n;;;;nomen;;húsleves
-die;Grießknödelsuppe;n;;;;nomen;;grízgaluska leves
-die;Beilage;n;;;;nomen;;köret, melléklet
-die;Röstkartoffeln;;;;;nomen;;sültkrumpli
-der;Pommes frites;;;;;nomen;;hasábburgonya, sütkrumpli
-das;Kartoffelpüree;s;;;;nomen;;krumplipüré
-die;Kartoffelkrokette;n;;;;nomen;;krumpli krokett
-der;Reis;;;;;nomen;;rizs
-die;Nudel;n;;;;;;
-der;Knödel;-;;;;;;
-der;Salat;e;;;;;;
-;gemisch;;;;;;;
-das;Eis;;;;;;;
-der;Pudding;s;;;;;;
-das;Kompott;e;;;;;;
-die;Torte;n;;;;;;
-das;Gedeck;e;;;;;;
-die;Tasse;n;;;;;;
-der;Löffel;-;;;;;;
-die;Schüssel;n;;;;;tál;
-;zubereiten;;;;;;;
-die;Platte;n;;;;;;
-;schälen;;;;;;;
-der;Brotkorb;Brotkörbe;;;;;;
-;waschen;;;;;;;
-;schneiden;;;;;;;
-;mahlen;;;;;;;
-;hacken;;;;;;;
-;schlagen;;;;;;;
-;würzen;;;;;;;
-;dünsten;;;;;;;
-;grillen;;;;;;;
-;kosten;;;;;;;
-;rühren;;;;;;;
-;wenden;;;;;;;
-;braten;;;;;;;
-;richtig;;;;;;;
-;falsch;;;;;;;
-;ernähren;;;;;;;
-;vernünftig;;;;;;;
-das;Fastfood;;;;;;;
-;mineralhaltig;;;;;;;
-das;Vollkornbrot;;;;;;;
-;bevorzugen;;;;;;;
-;kauen;;;;;;;
-;schlank;;;;;;;
-;bleiben;;;;;;;
+der;Abend;e;;;;nomen;este
+das;Abendessen;-;;;;nomen;vacsora
+;abenteuerlich;;;;;adjektive;kalandos
+das;Abitur;e;;;;nomen;érettségi
+;abschließen;;schloss ab;h. abgeschlossen;schließe ab|schließt ab|schließt ab|schließen ab|schließt ab|schließen ab;verben;lezár, befejez
+;absolvieren;;absolvierte;h. absolviert;absolviere|absolvierst|absolviert|absolvieren|absolviert|absolvieren;verben;elvégez, befejez
+;abstehend;;;;;adjektive;távolálló, elálló
+die;Adresse;n;;;;nomen;lakcím
+der;Advent;e;;;;nomen;advent
+der;Adventskranz;Adventkränze;;;;nomen;adventi koszorú
+der;Adventsonntag;e;;;;nomen;advent vasárnapja
+die;Adventszeit;;;;;nomen;advent ideje
+;aggressiv;;;;;adjektive;agresszív, erõszakos
+;aktiv;;;;;adjektive;aktív, tevékeny
+;alle;;;;;adjektive;minden
+;alleinstechend;;;;;adjektive;egyedülálló
+;allgemein;;;;;adjektive;általános, általában
+das;Alter;;;;;nomen;életkor
+;angeberisch;;;;;adjektive;hencegõ, felvágós
+der;Angehörige;n;;;;nomen;hozzátartozó
+;angenehm;;;;;adjektive;kellemes
+;angeschwollen;;;;;adjektive;megdagadt, duzzadt
+die;Anschrift;en;;;;nomen;lakcím
+;anständig;;;;;adjektive;tisztességes, illedelmes, rendes
+;anziehen;;zog an;h. angezogen;ziehe an|ziehst an|zieht an|ziehen an|zieht an|ziehen an;verben;felöltözik, felvesz
+der;Apfel;Äpfel;;;;nomen;alma
+der;Appetit;e;;;;nomen;étvágy
+;appetitlich;;;;;adjektive;étvágygerjesztõ
+die;Aprikose;n;;;;nomen;sárgabarack, kajszibarack
+die;Arbeit;en;;;;nomen;állás, feladat, munka
+;arbeiten;;arbeitete;h. gearbeitet;arbeite|arbeitest|arbeitet|arbeiten|arbeitet|arbeiten;verben;dolgozni
+die;Arbeitsgemeinschaft;en;;;;nomen;szakkör, munkacsoport
+der;Arbeitslose;n;;;;nomen;munkanélküli
+der;Arbeitsplatz;Arbeitsplätze;;;;nomen;munkahely
+die;Arbeitsstelle;n;;;;nomen;munkahely
+;arrogant;;;;;adjektive;arrogáns
+der;Arzt;Ärzte;;;;nomen;orvos
+die;Ärztin;nen;;;;nomen;orvosnõ
+;athletisch;;;;;adjektive;atlétikus
+;attraktiv;;;;;adjektive;csinos, bájos, vonzó
+;aufbauen;;baute auf;h. aufgebaut; baue auf|baust auf|baut auf|bauen auf|baut auf|bauen auf;verben;felépít
+;aufdringlich;;;;;adjektive;erõszakos, sûrgetõ, tolakodó
+die;Aufgabe;n;;;;nomen;feladat
+;aufgeschlossen;;;;;adjektive;nyitott gondolkodású, õszínte, nyíltszívû
+;aufhängen;;hängte auf;h. aufgehängt;hänge auf|hängst auf|hängt auf|hängen auf|hängt auf|hängen auf;verben;felakaszt
+;aufrichtig;;;;;adjektive;õszinte, egyenes
+der;Aufschnitt;e;;;;nomen;felvágott
+das;Auge;n;;;;nomen;szem
+die;Ausbildung;en;;;;nomen;mûveltség, kiképzés
+der;Ausflug;Ausflüge;;;;nomen;kirándulás
+der;Ausgang;Ausgänge;;;;nomen;kijárat
+;ausgeglichen;;;;;adjektive;kiegyensúlyozott
+;ausgeprägt;;;;;adjektive;jellegzetes
+;ausgiebig;;;;;adjektive;kiadós
+;aussehen;;sah aus;h. ausgesehen;sehe aus|siehst aus|sieht aus|sehen aus|seht aus|sehen aus;verben;kinéz valahogy
+;ausüben;;übte aus;h. ausgeübt;übe aus|übst aus|übt aus|üben aus|übt aus|üben aus;verben;begyakorol, folytat
+das;Auto;s;;;;nomen;autó
+das;Baby;s;;;;nomen;bébi
+;backen;;backte;h. gebacken;backe|bäckst|bäckt|backen|backt|backen;verben;süt (sütit)
+der;Bäcker;-;;;;nomen;pék
+die;Bäckerin;nen;;;;nomen;pék (nõ)
+der;Baletttänzer;-;;;;nomen;balettáncos
+die;Baletttänzerin;nen;;;;nomen;balettáncosnõ
+die;Banane;n;;;;nomen;banán
+die;Bandweihe;;;;;nomen;szalagavató
+das;Basilikum;s;;;;nomen;bazsalikom
+der;Beamte;n;;;;nomen;hivatalnok (férfi)
+die;Beamtin;nen;;;;nomen;hivatalnok (nõ)
+;begabt;;;;;adjektive;tehetséges
+;beharrlich;;;;;adjektive;kitartó, ragaszkodó
+;beherrschen;;beherrschte;h. beherrscht;beherrsche|beherrscht|beherrscht|beherrschen|beherrscht|beherrschen;verben;uralkodik, tökéletesen tud
+die;Beilage;n;;;;nomen;köret, melléklet
+;beilegen;;legte bei;h. beigelegt;lege bei|legst bei|legt bei|legen bei|legt bei|legen bei;verben;mellékel, csatol
+das;Bein;e;;;;nomen;láb
+;bekommen;;bekam;h. bekommen;bekomme|bekommst|bekommt|bekommen|bekommt|bekommen;verben;kap
+;beleibt;;;;;adjektive;testes, kövér
+;bemalen;;bemalte;h. bemalt;bemale|bemalst|bemalt|bemalen|bemalt|bemalen;verben;befest
+der;Beruf;e;;;;nomen;szakma, foglalkozás
+;beruflich;;;;;adjektive;szakmai
+;berufstätig;;;;;adjektive;dolgozó, hivatását gyakorló
+;beschäftigen;;beschäftigte;h. beschäftigt;beschäftige|beschäftigst|beschäftigt|beschäftigen|beschäftigt|beschäftigen;verben;foglalkozni vmivel
+;bescheiden;;;;;adjektive;szerény
+;bescheren;;bescherte;h. beschert;beschere|bescherst|beschert|bescheren|beschert|bescheren;verben;ajándékoz, meglep
+die;Bescherung;en;;;;nomen;ajándékozás, meglepetés
+;bescheuert;;;;;adjektive;bolond
+;bespritzen;;bespritzte;h. bespritzt;bespritze|bespritzt|bespritzt|bespritzen|bespritzt|bespritzen;verben;lefröcsköl, locsol
+;beständig;;;;;adjektive;állandó, kitartó
+;besuchen;;besuchte;h. besucht;besuche|besuchst|besucht|besuchen|besucht|besuchen;verben;meglátogat
+der;Betrieb;e;;;;nomen;vállalat
+der;Betrug;Betruge;;;;nomen;csalás
+;betrübt;;;;;adjektive;szomorú, bánatos
+;betrügen;;betrog;h. betrogen;betrüge|betrügst|betrügt|betrügen|betrügt|betrügen;verben;csal, becsap
+;betrügerisch;;;;;adjektive;csaló, csalóka
+das;Bett;-;;;;nomen;ágy
+;bevorzugen;;bevorzugte;h. bevorzugt;bevorzuge|bevorzugst|bevorzugt|bevorzugen|bevorzugt|bevorzugen;verben;elõnyben részesít
+;beweglich;;;;;adjektive;mozgékony, mozgatható
+;bewerben;;bewarb;h. beworben;bewerbe|bewirbst|bewirbt|bewerben|bewerbt|bewerben;verben;pályázik, jelentkezik
+der;Bewerber;-;;;;nomen;pályázó, jelentkezõ (férfi)
+die;Bewerberin;nen;;;;nomen;pályázó, jelentkezõ (nõ)
+die;Bewerbung;en;;;;nomen;pályázat, kérelem
+die;Beziehung;en;;;;nomen;összefüggés, kapcsolat
+das;Bier;e;;;;nomen;sör
+der;Biologe;n;;;;nomen;biológus
+die;Biologie;;;;;nomen;biológia
+die;Birne;n;;;;nomen;körte
+;bisschen;;;;;adjektive;kicsit, kissé
+;bitter;;;;;adjektive;keserû
+;blass;;;;;adjektive;sápadt
+;blau;;;;;adjektive;kék
+;blaugrau;;;;;adjektive;kékesszürke
+;bleiben;;blieb;i. geblieben;bleibe|bleibst|bleibt|bleiben|bleibt|bleiben;verben;marad
+der;Bleistift;e;;;;nomen;ceruza
+;blond;;;;;adjektive;szõke
+;blöde;;;;;adjektive;bamba, bárgyú
+der;Blutsverwandte;n;;;;nomen;vérrokon
+die;Bohne;n;;;;nomen;bab
+;borniert;;;;;adjektive;korlátolt
+;braten;;briet;h. gebraten;brate|brätst|brät|braten|bratet|braten;verben;húst süt
+das;Brathähnchen;-;;;;nomen;sült csirke
+die;Bratwurst;Bratwürste;;;;nomen;sült kolbász
+;braun;;;;;adjektive;barna
+die;Braut;Bräute;;;;nomen;menyasszony
+die;Brautentführung;en;;;;nomen;menyasszony szöktetés
+der;Brautführer;-;;;;nomen;võfély
+das;Brautgeschenk;e;;;;nomen;nászajándék
+der;Bräutigam;e;;;;nomen;võlegény
+das;Brautkleid;er;;;;nomen;menyasszonyi ruha / võlegény ruha
+der;Brautkranz;Brautkränze;;;;nomen;menyasszonyi koszorú
+die;Brautmutter;Brautmütter;;;;nomen;örömanya
+das;Brautpaar;e;;;;nomen;jegyesek
+der;Brautring;e;;;;nomen;jeggyûrû
+der;Brautschleier;-;;;;nomen;fátyol (menyasszonyi)
+der;Brautstrauß;Brautstraüße;;;;nomen;menyasszonyi csokor
+der;Brauttanz;Brauttänze;;;;nomen;menyasszonyi tánc
+der;Brautvater;Brautväter;;;;nomen;örömapa
+;breit;;;;;adjektive;tág, széles
+das;Brief;e;;;;nomen;levél
+der;Briefträger;-;;;;nomen;postás, levélhordó
+die;Brille;n;;;;nomen;szemüveg
+;bringen;;brachte;h. gebracht;bringe|bringst|bringt|bringen|bringt|bringen;verben;hoz, visz
+der;Brokkoli;s;;;;nomen;brokkoli
+das;Brot;e;;;;nomen;kenyér
+der;Brotkorb;Brotkörbe;;;;nomen;kenyérkosár
+das;Brötchen;-;;;;nomen;zsemle
+der;Bruder;Brüder;;;;nomen;fiútestvér
+;brüchig;;;;;adjektive;törékeny
+der;Buntstift;e;;;;nomen;színes ceruza
+der;Busfahrer;-;;;;nomen;buszsofõr
+die;Butter;-;;;;nomen;vaj
+;büffeln;;büffelte;h. gebüffelt;büffele|büffelst|büffelt|büffeln|büffelt|büffeln;verben;magol
+der;Charakter;e;;;;nomen;jellem, karakter
+der;Chef;s;;;;nomen;szakács, fõnök
+die;Chemie;;;;;nomen;kémia
+der;Chemiker;-;;;;nomen;vegyész, gyógyszerész
+der;Chili;;;;;nomen;erõs paprika
+die;Christnacht;Christnächte;;;;nomen;karácsony éjjele
+;clever;;;;;adjektive;ügyes
+die;Cola;s;;;;nomen;kóla
+;cool;;;;;adjektive;király, klassz, kiváló
+der;Cousin;s;;;;nomen;unokatestvér (fiú)
+die;Cousine;n;;;;nomen;unokatestvér (lány)
+das;Curry;s;;;;nomen;curry
+der;Dachdecker;-;;;;nomen;tetõfedõ
+die;Dattel;n;;;;nomen;datolya
+;dauergewellt;;;;;adjektive;dauerolt
+das;Dessert;s;;;;nomen;desszert
+die;Dessertgabel;n;;;;nomen;dessert villa
+;diamanten;;;;;adjektive;gyémánt
+;dick;;;;;adjektive;kövér, vaskos
+;dickbäuchig;;;;;adjektive;pocakos
+das;Diplom;e;;;;nomen;diploma
+das;Direktorenzimmer;-;;;;nomen;igazgatói iroda
+;diszipliniert;;;;;adjektive;fegyelmezett
+;doof;;;;;adjektive;bugyuta, buta
+das;Dorf;Dörfer;;;;nomen;falu
+;draufgängerisch;;;;;adjektive;rámenõs, nyomulós
+;dreigängig;;;;;adjektive;háromfogásos
+der;Drilling;e;;;;nomen;hármasikrek
+;dritte Zähne;;;;;nomen;mûfogsor
+;dumm;;;;;adjektive;buta, ostoba
+;dunkle;;;;;adjektive;sötét
+der;Durchschnittsmensch;en;;;;nomen;átlagember
+;durchtrainiert;;;;;adjektive;kigyúrt
+;durstig;;;;;adjektive;szomjas
+die;Dusche;n;;;;nomen;zuhany
+;dünn;;;;;adjektive;sovány
+;dünsten;;dünstete;h. gedünstet;dünste|dünstest|dünstet|dünsten|dünstet|dünsten;verben;párol, dinsztel
+;dynamisch;;;;;adjektive;dinamikus
+;eckig;;;;;adjektive;szögletes
+die;Ehe;en;;;;nomen;házasság
+die;Ehefrau;en;;;;nomen;feleség
+der;Ehemann;Ehemänner;;;;nomen;férj
+die;Ehering;e;;;;nomen;jeggyûrû
+die;Eheschließung;en;;;;nomen;házasságkötés
+;ehrlich;;;;;adjektive;becsületes, õszinte
+das;Ei;er;;;;nomen;tojás
+das;Eigenheim;e;;;;nomen;családi ház
+die;Eigenschaft;en;;;;nomen;tulajdonság
+;einfältig;;;;;adjektive;együgyü, buta
+der;Eingang;Eingänge;;;;nomen;bejárat
+;eingebildet;;;;;adjektive;beképzelt
+das;Einkommen;-;;;;nomen;jövedelem, bevétel
+;einladen;;lud ein;h. eingeladen;lade ein|lädst ein|lädt ein|laden ein|ladet ein|laden ein;verben;meghív, bepakol
+die;Einschulung;n;;;;nomen;iskolába küldés
+das;Einzelkind;er;;;;nomen;egyke
+das;Eis;;;;;nomen;fagylalt
+die;Eltern;;;;;nomen;szülõk
+der;Empfang;Empfänge;;;;nomen;fogadás
+;empfangen;;empfing;h. empfangen;empfange|empfängst|empfängt|empfangen|empfangt|empfangen;verben;fogad, vesz
+;empfindlich;;;;;adjektive;érzékeny
+;energisch;;;;;adjektive;erélyes, energikus
+der;Enkel;-;;;;nomen;fiúunoka
+die;Enkelin;nen;;;;nomen;lányunoka
+der;Enkelsohn;Enkelsöhne;;;;nomen;fiúunoka
+die;Enkeltochter;Enkeltöchter;;;;nomen;lányunoka
+;entfernt;;;;;adjektive;távoli
+die;Erdbeere;n;;;;nomen;eper
+;erfahren;;erfuhr;h. erfahren;erfahre|erfährst|erfährt|erfahren|erfahrt|erfahren;verben;tapasztal, megtud
+;erfolgreich;;;;;adjektive;sikeres, jövedelmezõ
+;ergreifen;;ergriff;h. ergriffen;ergreife|ergreifst|ergreift|ergreifen|ergreift|ergreifen;verben;megragad, fog
+;erholen;;erholte;h. erholt;erhole|erholst|erholt|erholen|erholt|erholen;verben;elhoz, kipiheni magát
+;ernähren;;ernährte;h. ernährt;ernähre|ernährst|ernährt|ernähren|ernährt|ernähren;verben;táplálkozik, táplál
+;erreichen;;erreichte;h. erreicht; erreiche|erreichst|erreicht|erreichen|erreicht|erreichen;verben;elér, elnyer
+;erteilen;;erteilte;h. erteilt;erteile|erteilst|erteilt|erteilen|erteilt|erteilen;verben;megad, adományoz
+;erwarten;;erwartete;h. erwartet;erwarte|erwartest|erwartet|erwarten|erwartet|erwarten;verben;elvár, megvár
+;erziehen;;erzog;h. erzogen;erziehe|erziehst|erzieht|erziehen|erzieht|erziehen;verben;felnevel
+;essen;;aß;h. gegessen;esse|isst|isst|essen|esst|essen;verben;enni
+das;Essen;-;;;;nomen;étel
+der;Essig;e;;;;nomen;ecet
+der;Esstisch;e;;;;nomen;étkezõasztal
+das;Etui;s;;;;nomen;tok, doboz
+die;Existenz;en;;;;nomen;létezés
+die;Fabrik;en;;;;nomen;gyár
+das;Fach;Fächer;;;;nomen;tantárgy, szakma
+die;Fähigkeit;en;;;;nomen;képesség, adottság
+;falsch;;;;;adjektive;hamis, rossz, téves, helytelen, hibás
+;faltig;;;;;adjektive;ráncos
+;familiär;;;;;adjektive;családias, családi
+die;Familie;n;;;;nomen;család
+das;Familienfest;e;;;;nomen;családi ünnep
+der;Familienkreis;e;;;;nomen;családi kör
+das;Familienmitglied;er;;;;nomen;családtag
+der;Familienname;n;;;;nomen;családnév
+das;Familienprogramm;e;;;;nomen;családi program
+der;Familienstand;;;;;nomen;családi állapot
+;färben;;färbte;h. gefärbt;färbe|färbst|färbt|färben|färbt|färben;verben;fest, színez
+die;Fassung;en;;;;nomen;felfogás, nyugalom
+das;Fastfood;;;;;nomen;gyorsétel
+;faul;;;;;adjektive;lusta
+;faulenzen;;faulenzte;h. gefaulenzt;faulenze|faulenzt|faulenzt|faulenzen|faulenzt|faulenzen;verben;lustálkodik
+die;Federmappe;n;;;;nomen;tolltartó
+die;Feier;n;;;;nomen;ünnep
+;feiern;;feierte;h. gefeiert;feiere|feierst|feiert|feiern|feiert|feiern;verben;ünnepel
+die;Feige;n;;;;nomen;füge
+;fein;;;;;adjektive;finom, kiváló
+;fernsehen;;sah fern;h. ferngesehen;sehe fern|siehst fern|sieht fern|sehen fern|seht fern|sehen fern;verben;tévét néz
+;fest;;;;;adjektive;szilárd, kemény, tartós
+das;Fest;e;;;;nomen;ünnep, ünnepély
+;fett;;;;;adjektive;kövér, zsíros
+;fettig;;;;;adjektive;zsíros
+;feucht;;;;;adjektive;nedves, vizes
+der;Feuerwehrmann;Feuerwehrmänner;;;;nomen;tûzoltó
+die;Figur;en;;;;nomen;alak
+;finden;;fand;h. gefunden;finde|findest|findet|finden| findet|finden;verben;találni
+die;Firma;Firmen;;;;nomen;cég, vállalat
+der;Fisch;e;;;;nomen;hal
+das;Fleisch;;;;;nomen;hús
+der;Fleischer;-;;;;nomen;hentes
+die;Fleischsuppe;n;;;;nomen;húsleves
+;flexibl;;;;;adjektive;rugalmas
+die;Flitterwochen;;;;;nomen;mézeshetek
+der;Florist;en;;;;nomen;virágárus
+die;Floristin;nen;;;;nomen;virágárusnõ
+;folgsam;;;;;adjektive;engedelmes, szófogadó
+das;Foto;s;;;;nomen;fénykép
+der;Fotograf;en;;;;nomen;fényképész
+der;Förster;-;;;;nomen;erdész
+die;Frau;en;;;;nomen;nõ
+;frech;;;;;adjektive;szemtelen, pimasz
+;freigebig;;;;;adjektive;adakozó, bõkezû
+die;Freistunde;n;;;;nomen;lyukasóra
+die;Freizeit;en;;;;nomen;szabadidõ
+;fremd;;;;;adjektive;idegen, ismeretlen, furcsa
+die;Fremdsprache;n;;;;nomen;idegennyelv
+;freudig;;;;;adjektive;jókedvû, örömteli
+der;Freund;e;;;;nomen;barát
+der;Freundeskreis;e;;;;nomen;baráti kör
+die;Freundin;nen;;;;nomen;barátnõ
+;freundlich;;;;;adjektive;barátságos
+;friedliebend;;;;;adjektive;békeszeretõ
+;frisch;;;;;adjektive;friss
+der;Friseur;e;;;;nomen;fodrász
+die;Friseuse;n;;;;nomen;fodrásznõ
+der;Frohsinn;e;;;;nomen;boldogság
+;fröhlich;;;;;adjektive;vidám, boldog
+;früh;;;;;adjektive;korán
+das;Frühstück;e;;;;nomen;reggeli
+der;Fuß;Füße;;;;nomen;láb, lábfej
+das;Fußballspiel;e;;;;nomen;labdarúgás
+;führen;;führte;h. geführt;führe|führst|führt|führen|führt|führen;verben;vezet, visel, életvitel
+der;Füller;s;;;;nomen;töltõtoll
+;füllig;;;;;adjektive;telt
+die;Gabel;n;;;;nomen;villa
+der;Gang;Gänge;;;;nomen;folyósó
+der;Garten;Gärten;;;;nomen;kert
+der;Gärtner;-;;;;nomen;kertérsz
+der;Gast;Gäste;;;;nomen;vendég
+;gebildet;;;;;adjektive;mûvelt, kiképzett
+;gebräunt;;;;;adjektive;napbarnított
+;gebrechlich;;;;;adjektive;törékeny
+die;Geburt;en;;;;nomen;szülés, születés
+die;Geburtsangaben;;;;;nomen;születési adatok
+das;Geburtsdatum;Geburtsdaten;;;;nomen;születési dátum
+der;Geburtsort;e;;;;nomen;születési hely
+der;Geburtstag;e;;;;nomen;születésnap
+die;Geburtstagparty;s;;;;nomen;szülinapi buli
+das;Geburtstagsgeschenk;e;;;;nomen;szülinapi ajándék
+die;Geburtstagskarte;n;;;;nomen;szülinapi kártya
+die;Geburtstagstorte;n;;;;nomen;születésnapi torta
+das;Gedeck;e;;;;nomen;teríték
+;geduldig;;;;;adjektive;türelmes
+;gefärbt;;;;;adjektive;festett
+;geformt;;;;;adjektive;formás, formál, alakít
+das;Gehalt;Gehälter;;;;nomen;fizetés
+;gehen;;ging;i. gegangen;gehe|gehst|geht|gehen|geht|gehen;verben;megy
+;gehören;;gehörte;h. gehört;gehöre|gehörst|gehört|gehören|gehört|gehören;verben;tartozni valamihez
+;geistig;;;;;adjektive;szellemi
+der;Geistliche;n;;;;nomen;lelkész
+der;Geizhals;Gleizhälse;;;;nomen;zsugori, fösvény (fn)
+;geizig;;;;;adjektive;fukar
+;gelassen;;;;;adjektive;higgadt, szenvtelen
+;gelblich;;;;;adjektive;sárgás
+;geldgierig;;;;;adjektive;pénzsóvár, kapzsi
+das;Geldproblem;e;;;;nomen;pénz probléma
+;gemeinsam;;;;;adjektive;együtt, közösen
+das;Gemisch;e;;;;nomen;keverék, elegy
+das;Gemüse;;;;;nomen;zöldség, fõzelék
+die;Gemüseplatte;n;;;;nomen;zöldségtál
+die;Geographie;;;;;nomen;földrajz
+;gepflegt;;;;;adjektive;gondozott, ápolt
+;gerade;;;;;adjektive;egyenes
+;gerecht;;;;;adjektive;megfelelõ, igazságos, becsületes
+das;Gericht;e;;;;nomen;bíróság, étel
+;gescheit;;;;;adjektive;okos, értelmes
+die;Geschichte;;;;;nomen;történelem
+;geschieden;;;;;adjektive;elvált
+;geschmeidig;;;;;adjektive;rugalmas, sima
+;geschwätzig;;;;;adjektive;szószátyár
+die;Geschwister;;;;;nomen;testvérek
+das;Gesicht;er;;;;nomen;arc
+;gesprächig;;;;;adjektive;társasági, beszédes
+;gesund;;;;;adjektive;egészséges
+das;Getränk;e;;;;nomen;ital
+;gewagt;;;;;adjektive;merész
+;gewissenschaft;;;;;adjektive;lelkiismeretes
+;glänzend;;;;;adjektive;fényes, ragyogó
+das;Glas;Gläser;;;;nomen;üveg, pohár
+der;Glaser;-;;;;nomen;üveges
+;glatt;;;;;adjektive;sima
+;gleitend;;;;;adjektive;kötetlen
+;glücklich;;;;;adjektive;boldog, szerencsés
+;golden;;;;;adjektive;arany
+der;Goldschmied;e;;;;nomen;aranymûves, ötvös
+die;Grapefruit;;;;;nomen;grépfruit
+der;Graphiker;-;;;;nomen;grafikus
+die;Graphikerin;nen;;;;nomen;grafikusnõ
+;gratulieren;;gratulierte;h. gratuliert;gratuliere|gratulierst|gratuliert|gratulieren|gratuliert|gratulieren;verben;gratulál
+;grau;;;;;adjektive;szürke, õsz
+die;Grießknödelsuppe;n;;;;nomen;grízgaluska leves
+;grillen;;grillte;h. gegrillt;grille|grillst|grillt|grillen|grillt|grillen;verben;grillez
+;grob;;;;;adjektive;durva
+;groß;;;;;adjektive;nagy
+die;Großeltern;-;;;;nomen;nagyszülõk
+die;Großmutter;Großmütter;;;;nomen;nagymama
+der;Großvater;Großväter;;;;nomen;nagypapa
+;großzügig;;;;;adjektive;nagylelkû, bõkezû
+die;Grundschule;n;;;;nomen;általános iskola
+;grün;;;;;adjektive;zöld
+;gründen;;gründete;h. gegründet;gründe|gründest|gründet|gründen|gründet|gründen;verben;alapít
+;grüngrau;;;;;adjektive;zöldesszürke
+die;Gurke;n;;;;nomen;uborka
+;gut;;;;;adjektive;jó, jól
+;gut gebaut;;;;;adjektive;jó felépítésû
+der;Gymnasiast;en;;;;nomen;gimnazista
+das;Gymnasium;;;;;nomen;gimnázium
+das;Haar;e;;;;nomen;haj
+;haben;;hatte;h. gehabt;habe|hast|hat|haben|habt|haben;verben;van, birtokol
+;hacken;;hackte;h. gehackt;hacke|hackst|hackt|hacken|hackt|hacken;verben;vág, kapál
+;hager;;;;;adjektive;sovány
+die;Hakennase;n;;;;nomen;horgas-, kampós orr
+das;Halbjahr;e;;;;nomen;félév (iskolai)
+die;Hand;Hände;;;;nomen;kéz
+;hängen;;hing;h. gehangen;hänge|hängst|hängt|hängen|hängt|hängen;verben;lóg, akaszt
+;harmonisch;;;;;adjektive;harmónikus
+;hartnäckig;;;;;adjektive;makacs, konok
+die;Haselnuss;Haselnüsse;;;;nomen;mogyoró
+;hässlich;;;;;adjektive;csúnya, ronda
+das;Hauptgericht;e;;;;nomen;fõétel, fõfogás
+das;Haus;Häuser;;;;nomen;ház
+die;Hausaufgabe;n;;;;nomen;házifeladat
+die;Haut;Häute;;;;nomen;bõr
+das;Heft;e;;;;nomen;füzet
+die;Heidelbeere;n;;;;nomen;áfonya
+die;Heirat;en;;;;nomen;házasság
+;heiraten;;heiratete;h. geheiratet;heirate|heiratest|heiratet|heiraten|heiratet|heiraten;verben;házasodni
+;heißen;;hieß;h. geheißt;heiße|heißt|heißt|heißen|heißt|heißen;verben;hívni
+;heiter;;;;;adjektive;derûs, vidám
+;hell;;;;;adjektive;világos
+;herzförmig;;;;;adjektive;szívalakú
+;hilfsbereit;;;;;adjektive;segítõkész
+die;Himbeere;n;;;;nomen;málna
+;hinterlistig;;;;;adjektive;alattomos
+das;Hobby;s;;;;nomen;hobbi
+die;Hochschule;n;;;;nomen;fõiskola
+die;Hochzeit;en;;;;nomen;esküvõ, lakodalom
+das;Hochzeitsfoto;s;;;;nomen;esküvõi fénykép
+das;Hochzeitsgeschenk;e;;;;nomen;nászajándék
+das;Hochzeitskleid;er;;;;nomen;menyasszonyi ruha / võlegény ruha
+die;Hochzeitsnacht;Hochzeitsnächte;;;;nomen;nászéjszaka
+die;Hochzeitsreise;n;;;;nomen;nászút
+der;Honig;e;;;;nomen;méz
+das;Hörnchen;-;;;;nomen;kifli
+;humorvoll;;;;;adjektive;humoros, tréfás
+der;Hunger;;;;;nomen;éhség
+;hübsch;;;;;adjektive;csínos
+;ideal;;;;;adjektive;ideális
+;informieren;;informierte;h. informiert;informiere|informierst|informiert|informieren|informiert|informieren;verben;tájékoztat, értesít
+der;Ingwer;-;;;;nomen;gyömbér
+;intelligent;;;;;adjektive;intelligens
+das;Intresse;n;;;;nomen;érdeklõdés
+der;Jahreswechsel;-;;;;nomen;évváltás
+die;Jause;n;;;;nomen;uzsonna
+der;Job;s;;;;nomen;munka, állás
+die;Johannisbeere;n;;;;nomen;ribizli
+der;Journalist;en;;;;nomen;újságíró
+die;Journalistin;nen;;;;nomen;újságírónõ
+das;Jubiläum;Jubiläen;;;;nomen;évforduló, jubileum
+;jugendlich;;;;;adjektive;fiatalos
+der;Junge;en;;;;nomen;fiú
+der;Junggeselle;n;;;;nomen;agglegény
+der;Kaffee;;;;;nomen;kávé
+der;Kakao;;;;;nomen;kakaó
+;kalorienarm;;;;;adjektive;kalóriaszegény
+;kalorienreich;;;;;adjektive;kalóriadús
+;kalt;;;;;adjektive;hideg, hûvös
+;kämmen;;kämmte;h. gekämmt;kämme|kämmst|kämmt|kämmen|kämmt|kämmen;verben;fésül
+die;Karotte;n;;;;nomen;sárgarépa, répa
+die;Karriere;n;;;;nomen;karrier
+die;Kartoffel;n;;;;nomen;burgonya, krumpli
+die;Kartoffelkrokette;n;;;;nomen;krumpli krokett
+das;Kartoffelpüree;s;;;;nomen;krumplipüré
+die;Karwoche;n;;;;nomen;nagyhét
+der;Käse;-;;;;nomen;sajt
+;kauen;;kaute;h. gekaut;kaue|kaust|kaut|kauen|kaut|kauen;verben;rág
+der;Kellner;-;;;;nomen;pincér
+die;Kellnerin;nen;;;;nomen;pincérnõ
+;kennenlernen;;lernte kennen;h. kennengelernt;lerne kennen|lernst kennen|lernt kennen|lernen kennen|lernt kennen|lernen kennen;verben;megismerni
+die;Kenntnis;se;;;;nomen;ismeret
+die;Kerze;n;;;;nomen;gyertya
+der;Ketchup;;;;;nomen;ketchup
+das;Kind;er;;;;nomen;gyerek
+die;Kindererziehung;en;;;;nomen;gyermeknevelés
+der;Kindergarten;Kindergärten;;;;nomen;óvoda
+das;Kinderheim;e;;;;nomen;gyerekotthon
+;kinderlos;;;;;adjektive;gyermektelen
+;kinderreich;;;;;adjektive;sokgyerekes
+;kinnlang;;;;;adjektive;állig érõ
+das;Kino;s;;;;nomen;mozi
+;kirchlich;;;;;adjektive;egyházi
+die;Kirsche;n;;;;nomen;cseresznye
+;klasse;;;;;adjektive;nagyszerû
+die;Klasse;n;;;;nomen;osztály
+der;Klassenlehrer;n;;;;nomen;osztályfõnök (férfi)
+die;Klassenlehrerin;nen;;;;nomen;osztályfõnök (nõ)
+das;Klassenzimmer;-;;;;nomen;osztályterem
+die;Klausur;en;;;;nomen;zárthelyi dolgozat
+die;Kleiderablage;n;;;;nomen;ruhatár
+;klein;;;;;adjektive;kicsi
+das;Kleinkind;er;;;;nomen;kisgyerek
+;kleinlich;;;;;adjektive;kicsinyes
+;klug;;;;;adjektive;okos
+;knabbern;;knabberte;h. geknabbert;knabbere|knabberst|knabbert|knabbern|knabbert|knabbern;verben;rág, rágcsál
+die;Knollennase;n;;;;nomen;krumpliorr
+der;Knödel;-;;;;nomen;gombóc
+;knusprig;;;;;adjektive;ropogós
+;knüpfen;;knüpfte;h. geknüpft;knüpfe|knüpfst|knüpft|knüpfen|knüpft|knüpfen;verben;köt, csomóz
+der;Koch;Köche;;;;nomen;szakács
+;kochen;;kochte;h. gekocht;koche|kochst|kocht|kochen|kocht|kochen;verben;fõzni
+der;Kohl;e;;;;nomen;káposzta, kelkáposzta
+der;Kollege;n;;;;nomen;kolléga
+die;Kollegin;nen;;;;nomen;kolléganõ
+das;Kompott;e;;;;nomen;kompót, befõtt
+das;Konzert;e;;;;nomen;koncert
+der;Kopfsalat;e;;;;nomen;fejes saláta
+der;Koriander;-;;;;nomen;koriandermag  
+;korpulent;;;;;adjektive;testes
+der;Kosename;n;;;;nomen;becenév
+die;Kosmetikerin;nen;;;;nomen;kozmetikus
+;kosten;;kostete;h. gekostet; koste|kostest|kostet|kosten|kostet|kosten;verben;kerül vmibe, kóstol
+die;Köchin;nen;;;;nomen;szakácsnõ
+der;Körper;-;;;;nomen;test
+der;Körperbau;-;;;;nomen;testfelépítés
+die;Körpergröße;n;;;;nomen;testmagasság
+;köstlich;;;;;adjektive;pompás
+;kraus;;;;;adjektive;göndör, kusza
+die;Kreide;n;;;;nomen;kréta
+;krumm;;;;;adjektive;görbe
+der;Kuchen;-;;;;nomen;sütemény, kalács
+der;Kuli;s;;;;nomen;toll
+der;Kurs;e;;;;nomen;tanfolyam, kurzus
+;kurz;;;;;adjektive;rövid
+;kühn;;;;;adjektive;merész, vakmerõ
+der;Kümmel;-;;;;nomen;kömény
+;kümmern;;kümmerte ;h. gekümmert;kümmere|kümmerst|kümmert|kümmern|kümmert|kümmern;verben;törõdikl, gondoskodik
+der;Künstler;-;;;;nomen;mûvész
+;künstlerisch;;;;;adjektive;mûvészi
+;lächelnd;;;;;adjektive;mosolygós
+das;Land;Lände;;;;nomen;ország
+die;Landkarte;n;;;;nomen;térkép
+der;Landwirt;e;;;;nomen;gazda
+;lang;;;;;adjektive;hosszú
+;länglich;;;;;adjektive;hosszúkás
+;lassen;;ließ;h. gelassen;lasse|lässt|lässt|lassen|lasst|lassen;verben;enged, hagy
+;lässig;;;;;adjektive;hanyag
+;leben;;lebte;h. gelebt;lebe|lebst|lebt|leben|lebt|leben;verben;él
+der;Lebensgefährte;en;;;;nomen;életveszély
+der;Lebenslauf;Lebensläufe;;;;nomen;önéletrajz
+das;Lebensmittel;-;;;;nomen;élelmiszer
+der;Lebenspartner;-;;;;nomen;élettárs (férfi)
+die;Lebenspartnerin;-;;;;nomen;élettárs (nõ)
+;lebhaft;;;;;adjektive;élénk, életrevaló
+;lecker;;;;;adjektive;finnyás, ízletes
+;ledig;;;;;adjektive;hajadon
+;legen;;legte;h. gelegt;lege|legst|legt|legen|legt|legen;verben;fekszik, elhelyez
+der;Lehrer;-;;;;nomen;tanár (férfi)
+die;Lehrerin;nen;;;;nomen;tanár (nõ)
+der;Lehrertisch;e;;;;nomen;tanári asztal
+der;Lehrkörper;-;;;;nomen;tantestület
+das;Leibgericht;e;;;;nomen;kedvenc étel
+;leicht gekränkt;;;;;adjektive;könnyen sértõdõ, sértõdékeny
+;leichtsinnig;;;;;adjektive;könnyelmû
+;lernen;;lernte;h. gelernt;lerne|lernst|lernt|lernen|lernt|lernen;verben;tanul
+;lesen;;las;h. gelesen;lese|liest|liest|lesen|lest|lesen;verben;olvas
+;leuchtend;;;;;adjektive;ragyogó
+die;Lieblingsstunde;n;;;;nomen;kedvenc óra
+;liegend;;;;;adjektive;fekve, fekvõ
+der;Likör;e;;;;nomen;likõr
+die;Limonade;n;;;;nomen;limonádé
+das;Lineal;e;;;;nomen;vonalzó
+die;Linse;n;;;;nomen;lencse
+;locker;;;;;adjektive;laza
+;lockig;;;;;adjektive;göndör
+der;Lohn;Löhne;;;;nomen;fizetés, munkabér
+das;Lorbeerblatt;Lorbeerblätte;;;;nomen;babérlevél
+;loyal;;;;;adjektive;hû, lojális
+der;Löffel;-;;;;nomen;kanál
+;lustig;;;;;adjektive;vidám
+;machen;;machte;h. gemacht;mache|machst|macht|machen|macht|machen;verben;csinál, elkészít
+das;Mädchen;-;;;;nomen;lány
+der;Mädchenname;n;;;;nomen;lánykori név
+;mager;;;;;adjektive;sovány
+;mahlen;;mahlte;h. gemahlen;mahle|mahlst|mahlt|mahlen|mahlt|mahlen;verben;õröl
+der;Maler;-;;;;nomen;festõ
+die;Mandarine;n;;;;nomen;mandarin
+der;Mangelberuf;e;;;;nomen;hiányszakma
+;mangelnd;;;;;adjektive;hiányos
+der;Mann;Männer;;;;nomen;férfi, ember
+die;Margarine;n;;;;nomen;margarin
+der;Markierer;-;;;;nomen;kihúzó
+;materiell;;;;;adjektive;anyagi
+die;Mathematik;;;;;nomen;matek
+der;Mathematiker;-;;;;nomen;matematikus
+;matt;;;;;adjektive;matt
+der;Maurer;-;;;;nomen;kõmûves
+die;Medizin;en;;;;nomen;gyógyszer
+die;Melone;n;;;;nomen;dinnye
+das;Messer;-;;;;nomen;kés
+die;Milch;;;;;nomen;tej
+;mildern;;milderte;h. gemildert;mildere|milderst|mildert|mildern|mildert sie/Sie mildern;verben;enyhít, csillapít
+;mineralhaltig;;;;;adjektive;ásványokban gazdag
+das;Mineralwasser;;;;;nomen;ásványvíz
+der;Mitarbeiter;-;;;;nomen;munkatárs, dolgozó
+die;Mitarbeiterin;nen;;;;nomen;munkatársnõ
+der;Mitschüler;-;;;;nomen;osztálytárs
+die;Mitschülerin;nen;;;;nomen;osztálytársnõ
+der;Mittag;e;;;;nomen;dél (napszak)
+das;Mittag;e;;;;nomen;ebéd
+;mittelgroß;;;;;adjektive;közepes méretû
+;mittelmäßig;;;;;adjektive;átlagos, középszerû
+der;Mohn;e;;;;nomen;mák
+die;Mohrrübe;n;;;;nomen;sárgarépa, répa
+;mollig;;;;;adjektive;dundi, molett
+;monoton;;;;;adjektive;egyhangú
+der;Mund;Münder;;;;nomen;száj
+das;Museum;Museen;;;;nomen;múzeum
+die;Musik;;;;;nomen;ének, zene
+;muskulös;;;;;adjektive;izmos
+;mutig;;;;;adjektive;bátor, merész
+das;Muttermal;e;;;;nomen;anyajegy
+die;Muttersprache;;;;;nomen;anyanyelv
+;mündlich;;;;;adjektive;szóbeli
+;mütterlicherseits;;;;;adjektive;anyai részrõl
+der;Nachbar;n;;;;nomen;szomszéd (férfi)
+die;Nachbarin;nen;;;;nomen;szomszéd (nõ)
+;nachlässig;;;;;adjektive;hanyag
+der;Nachname;n;;;;nomen;vezetéknév
+der;Nachspeise;n;;;;nomen;utóétel, desszert
+der;Nachteil;e;;;;nomen;hátrány, veszteség
+;nah;;;;;adjektive;közeli
+der;Name;n;;;;nomen;név
+der;Namenstag;e;;;;nomen;névnap
+der;Namensvetter;;;;;nomen;vérrokon
+;naschen;;naschte;h. genascht;nasche|nascht|nascht|naschen|nascht|naschen;verben;nassolni
+die;Nase;n;;;;nomen;orr
+die;Nationalität;;;;;nomen;nemzetiség, állmpoltárság
+;naturkraus;;;;;adjektive;természetes göndör
+der;Naturschutz;-;;;;nomen;természetvédelem
+der;Neffe;n;;;;nomen;unokaöccs
+;nehmen;;nahm;h. genommen;nehme|nimmst|nimmt|nehmen|nehmt|nehmen;verben;fog, visz
+;nervös;;;;;adjektive;ideges
+;nett;;;;;adjektive;kedves, csinos
+;neugirig;;;;;adjektive;kíváncsi
+das;Neujahr;e;;;;nomen;újév
+die;Nichte;n;;;;nomen;unokahúg
+;niedrig;;;;;adjektive;alacsony
+der;Nikolaus;;;;;nomen;mikulás
+der;Nikolaustag;e;;;;nomen;mikulásnap
+;normal;;;;;adjektive;normál
+die;Note;n;;;;nomen;osztályzat, jegy
+;notieren;;notierte;h. notiert;notiere|notierst|notiert|notieren|notiert|notieren;verben;feljegyez, megyjegyez
+die;Nudel;n;;;;nomen;tészta, nudli
+die;Nummer;n;;;;nomen;szám
+die;Nuss;Nüsse;;;;nomen;dió
+;nüchtern;;;;;adjektive;józan
+das;Obst;Obstarten;;;;nomen;gyümölcs
+die;Obstplatte;n;;;;nomen;gyümölcstál
+der;Obstsaft;Obstsäfe;;;;nomen;gyümölcslé
+die;Obsttorte;n;;;;nomen;gyümölcstorta
+;offen;;;;;adjektive;nyitott
+das;Ohr;en;;;;nomen;fül
+die;Oma;s;;;;nomen;nagymama (röviden)
+der;Onkel;-;;;;nomen;nagybácsi
+der;Opa;s;;;;nomen;nagypapa (röviden)
+der;Optiker;-;;;;nomen;optikus
+;optimistisch;;;;;adjektive;optimista, bizakodó
+die;Orange;n;;;;nomen;narancs
+;ordentlich;;;;;adjektive;rendes
+;ordnungsliebend;;;;;adjektive;rendes, rendszeretõ
+der;Oregano;;;;;nomen;oregánó
+der;Ort;e;;;;nomen;hely
+das;Osterei;er;;;;nomen;húsvéti tojás
+der;Osterhase;n;;;;nomen;húsvéti nyúl
+das;Ostern;;;;;nomen;húsvét
+;oval;;;;;adjektive;ovális
+der;Ökonom;en;;;;nomen;közgazdász
+das;Öl;e;;;;nomen;olaj
+der;Paprika;-;;;;nomen;paprika
+der;Partner;Partner;;;;nomen;partner
+die;Partnerin;nen;;;;nomen;partnernõ
+die;Party;s;;;;nomen;buli, parti
+der;Pate;n;;;;nomen;keresztapa
+das;Patekind;er;;;;nomen;keresztgyermek
+die;Patin;nen;;;;nomen;keresztanya
+das;Pausenbrot;e;;;;nomen;tízórai
+;pedantisch;;;;;adjektive;pedáns
+;pessimistisch;;;;;adjektive;pesszimista, borúlátó
+das;Pfingsten;;;;;nomen;pünkösd
+der;Pfirsich;e;;;;nomen;õszibarack
+die;Pflaume;n;;;;nomen;szilva
+die;Pflegeeltern;-;;;;nomen;nevelõszülõk
+die;Pflegemutter;Pflegemütter;;;;nomen;nevelõanya
+der;Pflegevater;Pflegeväter;;;;nomen;nevelõapa
+die;Philosophie;n;;;;nomen;filozófia
+die;Physik;;;;;nomen;fizika
+der;Physiker;-;;;;nomen;fizikus
+der;Pickel;-;;;;nomen;pattanás
+das;Picknick;s;;;;nomen;piknik
+der;Pilot;en;;;;nomen;pilota
+die;Platte;n;;;;nomen;tál, lemez
+der;Plattfuß;Plattfüße;;;;nomen;lúdtalp
+der;Platz;Plätze;;;;nomen;tér, hely
+der;Polizist;en;;;;nomen;rendõr
+der;Polterabend;e;;;;nomen;leánybúcsú
+der;Pommes frites;;;;;nomen;hasábburgonya, sütkrumpli
+der;Porree;s;;;;nomen;póréhagyma
+der;Postbeamte;n;;;;nomen;postatisztviselõ
+die;Postleitzahl;en;;;;nomen;irányítószám (postai)
+die;Prämie;n;;;;nomen;prémium
+der;Priester;-;;;;nomen;pap
+;prima;;;;;adjektive;príma
+der;Programmierer;-;;;;nomen;programozó
+die;Prüfung;en;;;;nomen;vizsga
+die;Psychologie;n;;;;nomen;pszihológia
+der;Pudding;s;;;;nomen;puding
+der;Radiergummi;s;;;;nomen;radír
+die;Radtour;en;;;;nomen;kerékpártúra
+;rau;;;;;adjektive;durva, érdes
+;realistisch;;;;;adjektive;realista, gyakorlatias
+;redselig;;;;;adjektive;beszédes, bõbeszédû
+;regelmäßig;;;;;adjektive;rendszeres, szabályos
+der;Reis;;;;;nomen;rizs
+;reisen;;reiste;i. gereist;reise|reist|reist|reisen|reist|reisen;verben;utazik
+die;Rente;n;;;;nomen;nyugdíj
+der;Reporter;-;;;;nomen;riporter
+die;Reporterin;nen;;;;nomen;riporternõ
+der;Rettich;e;;;;nomen;retek
+die;Rezeption;en;;;;nomen;recepció
+;richtig;;;;;adjektive;helyes, rendes
+;risikofreudig;;;;;adjektive;kockázatos
+;romantisch;;;;;adjektive;romantikus
+;rosa;;;;;adjektive;rózsaszín
+;rot;;;;;adjektive;piros, vörös
+die;Röstkartoffeln;;;;;nomen;sültkrumpli
+die;Rufnummer;;;;;nomen;hívószám, telefonszám
+;ruhig;;;;;adjektive;nyugodt
+;rund;;;;;adjektive;kerek
+;rundlich;;;;;adjektive;kerekded, gömbölyded
+;rühren;;rührte;h. gerührt;rühre|rührst|rührt|rühren|rührt|rühren;verben;kever, mozgat
+;sachlich;;;;;adjektive;tárgyilagos, objektív
+der;Salat;e;;;;nomen;saláta
+;salzig;;;;;adjektive;sós
+;sammeln;;sammelte;h. gesammelt;sammele|sammelst|sammelt|sammeln|sammelt|sammeln;verben;gyûjteni
+;sanft;;;;;adjektive;lágy, halvány
+der;Sänger;-;;;;nomen;énekes
+die;Sängerin;nen;;;;nomen;énekesnõ
+;sauer;;;;;adjektive;savanyú
+der;Sauerampfer;-;;;;nomen;sóska
+die;Sauerkirsche;n;;;;nomen;meggy
+der;Säugling;e;;;;nomen;csecsemõ
+die;Schale;n;;;;nomen;tálka
+;schälen;;;;;verben;meghámoz
+;scharf;;;;;adjektive;erõs, csípõs
+;scharfsinnig;;;;;adjektive;éles eszû
+der;Schauspieler;-;;;;nomen;színész
+die;Schauspielerin;nen;;;;nomen;színésznõ
+die;Scheidung;en;;;;nomen;válás
+;scheu;;;;;adjektive;félénk, bátortalan
+;schicken;;schickte;h. geschickt;schicke|schickst|schickt|schicken|schickt|schicken;verben;küldeni
+;schief;;;;;adjektive;ferde, téves
+der;Schinken;-;;;;nomen;sonka
+;schlafen;;schlief;h. geschlafen;schlafe|schläfst|schläft|schlafen|schlaft|schlafen;verben;alszik
+;schlagen;;schlug;h. geschlagen;schlage|schlägst|schlägt|schlagen|schlagt|schlagen;verben;üt, rúg
+;schlampig;;;;;adjektive;slampos, rendetlen
+;schlank;;;;;adjektive;karcsú, sovány
+;schlecht;;;;;adjektive;rossz, rosszul
+;schließen;;schloss;h. geschlossen;schließe|schließt|schließt|schließen|schließt|schließen;verben;köt, bezár
+;schmackhaft;;;;;adjektive;ízletes
+;schmal;;;;;adjektive;szûk, keskeny
+;schmecken;;schmeckte;h. geschmeckt;schmecke|schmeckst|schmeckt|schmecken|schmeckt|schmecken;verben;kóstol
+;schminken;;schminkte;h. geschminkt;schminke|schminkst|schminkt|schminken|schminkt|schminken;verben;sminkelni
+;schmücken;;schmückte;h. geschmückt;schmücke|schmückst|schmückt|schmücken|schmückt|schmücken;verben;díszít, ékesít
+der;Schnaps;Schnäpse;;;;nomen;pálinka
+;schneiden;;schnitt;h. geschnitten;schneide|schneidest|schneidet|schneiden|schneidet|schneiden;verben;vág, szel
+;schnell;;;;;adjektive;gyors
+;schön;;;;;adjektive;szép
+;schöpferisch;;;;;adjektive;alkotó, teremtõ
+;schreiben;;schrieb;h. geschrieben;schreibe|schreibst|schreibt|schreiben|schreibt|schreiben;verben;írni
+;schriftlich;;;;;adjektive;írásbeli
+der;Schuhmacher;-;;;;nomen;cipész
+der;Schulabschluss;Schulabschlüsse;;;;nomen;iskolai végzettség
+die;Schulbank;Schulbänke;;;;nomen;iskolapad
+die;Schulbildung;en;;;;nomen;iskolai képzettség
+der;Schuldirektor;en;;;;nomen;igazgató
+die;Schuldirektorin;nen;;;;nomen;igazgatónõ
+die;Schule;n;;;;nomen;iskola
+das;Schuljahr;e;;;;nomen;tanév
+der;Schulkamerad;en;;;;nomen;iskolatárs
+der;Schulleiter;-;;;;nomen;iskola vezetõ (férfi)
+die;Schulleiterin;nen;;;;nomen;iskola vezetõ (nõ)
+die;Schulleitung;en;;;;nomen;iskola vezetés
+die;Schulpflicht;en;;;;nomen;tankötelezettség
+;schüchtern;;;;;adjektive;félénk, bátortalan
+der;Schüler;-;;;;nomen;tanuló
+die;Schülerin;nen;;;;nomen;tanulólány
+die;Schüssel;n;;;;nomen;tál
+;schwach;;;;;adjektive;gyenge, erõtlen
+;schwachsinnig;;;;;adjektive;gyengeelméjû, elmebajos, féleszû
+der;Schwamm;Schwämme;;;;nomen;szivacs
+;schwarz;;;;;adjektive;fekete
+;schweigsam;;;;;adjektive;szótlan, hallgatag
+der;Schweinebraten;-;;;;nomen;sertéssült
+die;Schwelle;n;;;;nomen;küszöb
+die;Schwester;n;;;;nomen;lánytesetvér
+die;Schwiegermutter;Schwiegermütter;;;;nomen;anyós
+der;Schwiegersohn;Schwiegersöhne;;;;nomen;võ
+die;Schwiegertochter;Schwiegertöchter;;;;nomen;meny
+der;Schwiegervater;Schwiegerväter;;;;nomen;após
+;schwierig;;;;;adjektive;fáradságos, bonyolult
+;schwungvoll;;;;;adjektive;lendületes
+;sehen;;sah;h. gesehen;sehe|siehst|sieht|sehen|seht|sehen;verben;néz, lát
+;sein;;war;i. gewesen;bin|bist|ist|sind|seid|sind;verben;van, létezik
+die;Sekretariat;e;;;;nomen;titkárság
+der;Sekt;e;;;;nomen;pezsgõ
+;selbstsicher;;;;;adjektive;magabiztos
+der;Sellerie;-;;;;nomen;zeller
+der;Senf;e;;;;nomen;mustár
+die;Serviette;n;;;;nomen;szalvéta
+;setzen;;setzte;h. gesetzt;setze|setzt|setzt|setzen|setzt|setzen;verben;ül
+;shulterlang;;;;;adjektive;vállig érõ
+die;Sicherheit;en;;;;nomen;biztonság
+;silbern;;;;;adjektive;ezüst
+das;Silvester;;;;;nomen;szilveszter
+der;Single;s;;;;nomen;egyedül élõ, szingli
+;sinnlich;;;;;adjektive;érzéki
+;skeptisch;;;;;adjektive;szkeptikus, kételkedõ
+der;Sohn;Söhne;;;;nomen;fia
+die;Sommersprosse;n;;;;nomen;szeplõ
+;sonnig;;;;;adjektive;derûs, napos
+;sonstig;;;;;adjektive;egyébként, különben
+die;Sorge;en;;;;nomen;gondoskodás, aggódás
+;sorgen;;sorgte;h. gesorgt;sorge|sorgst|sorgt|sorgen|sorgt|sorgen;verben;gondoskodik
+die;Sozialkunde;;;;;nomen;társadalomismeret
+der;Spargel;-;;;;nomen;spárga
+;spärlich;;;;;adjektive;gyér, ritka
+;sparsam;;;;;adjektive;takarékos
+;spät;;;;;adjektive;késõ
+die;Speise;n;;;;nomen;étel, élelem
+der;Speiseshalle;Speiseshalle;;;;nomen;ebédlõ
+die;Speisewürze;n;;;;nomen;ételízesítõ
+;spielen;;spielte;h. gespielt;spiele|spielst|spielt|spielen|spielt|spielen;verben;játszik
+der;Spinat;;;;;nomen;spenót
+;spitz;;;;;adjektive;hegyes, csúcsos
+der;Spitzname;n;;;;nomen;gúnynév
+der;Sport;s;;;;nomen;sport
+der;Sport;Sportarten;;;;nomen;tesi, sport
+die;Sporthalle;n;;;;nomen;sportcsarnok
+;sportlich;;;;;adjektive;sportos
+;sprachen;;sprach;h. gesprochen;spreche|sprichst|spricht|sprechen|sprecht|sprechen;verben;beszél
+das;Sprachlabor;s;;;;nomen;nyelvi terem
+die;Sprachprüfung;;;;;nomen;nyelvvizsga
+die;Staatsangehörigkeit;;;;;nomen;álllampolgárság
+die;Staatsbürgerschaft;;;;;nomen;álllampolgárság
+die;Stachelbeere;n;;;;nomen;egres
+die;Stadt;Städte;;;;nomen;város
+;stammen;;stammte;h. gestammt;stamme|stammst|stammt|stammen|stammt|stammen;verben;származni
+;standesamtlich;;;;;adjektive;polgári
+;stark;;;;;adjektive;erõs
+;stattlich;;;;;adjektive;daliás, délceg
+die;Steckrübe;n;;;;nomen;fehérrépa
+die;Stelle;n;;;;nomen;állás, hely
+die;Stewardess;en;;;;nomen;légiutaskísérõ
+die;Stiefeltern;-;;;;nomen;mostohaszülõk
+die;Stiefmutter;Stiefmütter;;;;nomen;mostohaanya
+der;Stiefvater;Stiefväter;;;;nomen;mostohaapa
+;still;;;;;adjektive;csendes, nyugodt
+;stockdumm;;;;;adjektive;tökkelütött
+;straff;;;;;adjektive;feszes
+;strahlend;;;;;adjektive;fénylõ, ragyogó
+der;Straps;e;;;;nomen;harisnyatartó
+die;Straße;n;;;;nomen;utca
+;streitsüchtig;;;;;adjektive;veszekedõs, kötekedõ
+;streng;;;;;adjektive;következetes
+;studieren;;studierte;h. studiert;studiere|studierst|studiert|studieren|studiert|studieren;verben;tanul (felsõbb képzésben)
+das;Studium;Studien;;;;nomen;tanulmány (felsõfokú)
+die;Stumpfnase;n;;;;nomen;pisze orr
+;stumpfsinnig;;;;;adjektive;buta, korlátolt, tompa
+die;Stunde;n;;;;nomen;órarend
+der;Stundenplan;Stundenpläne;;;;nomen;órarend
+;suchen;;suchte;h. gesucht;suche|suchst|sucht|suchen|sucht|suchen;verben;keresni
+die;Suppe;n;;;;nomen;leves
+;surfen;;surfte ;h. gesurft ;surfe|surfst|surft|surfen|surft|surfen;verben;szörfözni
+;süß;;;;;adjektive;édes
+die;Süßigkeit;en;;;;nomen;édesség
+die;Tafel;n;;;;nomen;tábla
+der;Tag;e;;;;nomen;nap
+der;Tagesablauf;-;;;;nomen;napirend
+die;Tante;n;;;;nomen;nagynéni
+;tapfer;;;;;adjektive;derék, bátor
+der;Taschenrechner;-;;;;nomen;számológép
+die;Tasse;n;;;;nomen;csésze
+die;Tätigkeit;en;;;;nomen;tevékenység
+die;Taufe;n;;;;nomen;keresztelés
+der;Tee;s;;;;nomen;tea
+die;Telefonnummber;n;;;;nomen;telefonszám
+der;Teller;-;;;;nomen;tányér
+das;Temperament;e;;;;nomen;temperamentum
+;temperamentvoll;;;;;adjektive;temperamentumos
+das;Theater;-;;;;nomen;színház
+;tief;;;;;adjektive;mély, alacsony
+das;Tier;e;;;;nomen;állat
+die;Tischdecke;n;;;;nomen;asztalterítõ
+der;Tischler;-;;;;nomen;asztalos
+das;Tischtuch;Tischtücher;;;;nomen;papír zsebkendõ
+die;Tochter;Töchter;;;;nomen;lánya
+;toll;;;;;adjektive;príma, klassz, szuper
+;tollkühn;;;;;adjektive;vakmerõ
+die;Tomate;n;;;;nomen;paradicsom
+die;Torte;n;;;;nomen;torta
+;traditionell;;;;;adjektive;hagyományos
+die;Traube;n;;;;nomen;szõlõ
+;trauen;;traute;h. getraut;traue|traust|traut|trauen|traut|trauen;verben;megbízni
+;träumerisch;;;;;adjektive;álmodozó
+;traurig;;;;;adjektive;szomorú, bús
+die;Trauung;en;;;;nomen;házasságkötés, esküvõ
+der;Trauzeuge;n;;;;nomen;tanú hn. (esküvõi)
+die;Trauzeugin;nen;;;;nomen;tanú nn. (esküvõi)
+;treiben;;trieb;h. getrieben;treibe|treibst|treibt|treiben|treibt|treiben;verben;ûz, hajt, csinál
+;treu;;;;;adjektive;hû
+;trinken;;trank;h. getrunken;trinke|trinkst|trinkt|trinken|trinkt|trinken;verben;inni
+;trocken;;;;;adjektive;száraz
+;trübsinnig;;;;;adjektive;búskomor
+die;Turnhalle;n;;;;nomen;tornaterem
+die;Uhr;en;;;;nomen;óra
+der;Uhrmacher;-;;;;nomen;órás
+;umfangreich;;;;;adjektive;terjedelmes
+die;Umschulung;en;;;;nomen;átképzés
+der;Umweltschutz;-;;;;nomen;környezetvédelem
+;unehrlich;;;;;adjektive;becstelen, tisztességtelen
+;unfreundlich;;;;;adjektive;barátságtalan
+;ungeduldig;;;;;adjektive;türelmetlen
+;ungepflegt;;;;;adjektive;ápolatlan
+;ungerecht;;;;;adjektive;igazságtalan, jogtalan
+;unintelligent;;;;;adjektive;unintelligens
+die;Universität;en;;;;nomen;egyetem
+;unordentlich;;;;;adjektive;rendetlen
+;unruhig;;;;;adjektive;nyugtalan
+das;Unternehmen;-;;;;nomen;vállalkozás
+;unternehmen;;unternahm;h. unternommen;unternehme|unternimmst|unternimmt|unternehmen|unternehmt|unternehmen;verben;vállal, megtesz
+;unternehmungsfreudig;;;;;adjektive;vállalkozó szellemû
+;unterrichten;;unterrichtete;h. unterrichtet;unterrichte|unterrichtest|unterrichtet|unterrichten|unterrichtet|unterrichten;verben;tanít
+;untersetzt;;;;;adjektive;zömök, köpcös
+;unvorteilhaft;;;;;adjektive;elõnytelen
+;unzuverlässig;;;;;adjektive;megbízhatatlan, kétes
+;überklug;;;;;adjektive;tudálékos
+die;Valediktion;;;;;nomen;ballagás
+die;Vanille;n;;;;nomen;vanília
+;väterlicherseits;;;;;adjektive;apai részrõl
+;veranstalten;;veranstaltete;h. veranstaltet;veranstalte|veranstaltest|veranstaltet wir veranstalten|veranstaltet|veranstalten;verben;szervez, megrendez
+;verbrannt;;;;;adjektive;égett
+;verdienen;;verdiente;h. verdient;verdiene|verdienst|verdient|verdienen|verdient|verdienen;verben;keres (pénzt)
+der;Verdienst;;;;;nomen;kereset
+der;Verkäufer;-;;;;nomen;eladó
+die;Verkäuferin;nen;;;;nomen;eladónõ
+;verlieben;;verliebte;h. verliebt;verliebe|verliebst|verliebt|verlieben|verliebt|verlieben;verben;szerelmes lesz, beleszeret vkibe
+;verlieren;;verlor;h. verloren;verliere|verlierst|verliert|verlieren|verliert|verlieren;verben;elveszt, elhagy
+die;Verlobung;en;;;;nomen;eljegyzés
+;verlogen;;;;;adjektive;csaló, hazudozó, hazug
+;vermählen;;vermählte;h. vermählt;vermähle|vermählst|vermählt|vermählen|vermählt|vermählen;verben;egyesít, férjhez ad
+;vernachlässigt;;;;;adjektive;elhanyagolt
+;vernünftig;;;;;adjektive;eszes, értelmes
+;verschwenderisch;;;;;adjektive;pazarló, költekezõ
+;versorgen;;versorgte;h. versorgt;versorge|versorgst|versorgt|versorgen|versorgt|versorgen;verben;ellát, gondoskodik
+;verständnisvoll;;;;;adjektive;megértõ, együttérzõ
+;verstecken;;versteckte;h. versteckt;verstecke|versteckst|versteckt|verstecken|versteckt|verstecken;verben;elrejt
+der;Verwandte;n;;;;nomen;rokon
+;verwitwet;;;;;adjektive;özvegy
+;verwöhnen;;verwöhnte;h. verwöhnt;verwöhne|verwöhnst|verwöhnt|verwöhnen|verwöhnt|verwöhnen;verben;elkényeztet
+;verzogen;;;;;adjektive;elkényeztetett
+;viel;;;;;adjektive;sok
+;voll;;;;;adjektive;tele, telt
+das;Vollkornbrot;e;;;;nomen;teljes kiörlésû kenyér
+;vollschlank;;;;;adjektive;teltkarcsú
+die;Vorhalle;n;;;;nomen;elõcsarnok
+der;Vorname;n;;;;nomen;keresztnév
+;vorsichtig;;;;;adjektive;óvatos, elõvigyázatos
+die;Vorspeise;n;;;;nomen;elõétel
+;vorstehend;;;;;adjektive;kiálló
+der;Vorteil;e;;;;nomen;elõny, haszon
+die;Vorwahl;en;;;;nomen;országhívó
+der;Vorzug;Vorzüge;;;;nomen;elõny
+;wagemutig;;;;;adjektive;merész, vakmerõ
+der;Waise;n;;;;nomen;árva
+die;Wanderung;en;;;;nomen;kirándulás, gyalogtúra
+;warm;;;;;adjektive;meleg
+;waschen;;wusch;h. gewaschen;wasche|wäschst|wäscht|waschen|wascht|waschen;verben;mos
+;wechseln;;wechselte;h. gewechselt;wechsele|wechselst|wechselt|wechseln|wechselt|wechseln;verben;cserél, változtat, változik
+;weich;;;;;adjektive;puha, lágy
+das;Weihnachten;-;;;;nomen;karácsony
+der;Weihnachtsabend;e;;;;nomen;karácsony este
+der;Weihnachtsbaum;Weihnachtsbäume;;;;nomen;karácsonyfa
+das;Weihnachtsgeschenk;e;;;;nomen;karácsonyi ajaándék
+der;Weihnachtsmarkt;Weihnachtsmärkte;;;;nomen;karácsonyi vásár
+die;Weihnachtsnacht;;;;;nomen;karácsony este
+der;Wein;e;;;;nomen;bor
+;weise;;;;;adjektive;bölcs
+;weiß;;;;;adjektive;fehér
+;weiterbilden;;bildete weiter;h. weitergebildet;bilde weiter|bildest weiter|bildet weiter|bilden weiter|bildet weiter|bilden weiter;verben;továbbképez
+die;Weiterbildung;en;;;;nomen;továbbképzés
+;weitläufig;;;;;adjektive;tágas
+;welk;;;;;adjektive;petyhüdt, löttyedt
+;wellig;;;;;adjektive;hullámos
+die;Welt;en;;;;nomen;világ
+;wenden;;wandte;h. gewandt;wende|wendest|wendet|wenden|wendet|wenden;verben;elfordít, megforgat
+;wenig;;;;;adjektive;kevés
+;werden;;wurde;i. geworden;werde|wirst|wird|werden|werdet|werden;verben;lesz
+;witzig;;;;;adjektive;vicces, szellemes
+das;Wochenende;n;;;;nomen;hétvége
+der;Wohnort;e;;;;nomen;lakhely
+das;Wort;Wörter;;;;nomen;szó
+;wortkarg;;;;;adjektive;szófukar, szûkszavú
+die;Wurst;Würste;;;;nomen;hurka, kolbász
+;würzen;;würzte;h. gewürzt;würze|würzt|würzt|würzen|würzt|würzen;verben;fûszerez
+;würzig;;;;;adjektive;fûszeres
+;zäh;;;;;adjektive;rágós
+der;Zahn;Zähne;;;;nomen;fog
+der;Zahnersatz;Zahnersätze;;;;nomen;fogpótlás
+;zart;;;;;adjektive;gyenge, törékeny, enyhe, finom
+;zeitig;;;;;adjektive;idejében, jókor
+das;Zeugnis;se;;;;nomen;bizonyítvány
+;zierlich;;;;;adjektive;kecses
+der;Zimmermann;Zimmermänner;;;;nomen;asztalos, ács
+der;Zimt;e;;;;nomen;fahéj
+der;Zirkel;-;;;;nomen;körzõ
+die;Zitrone;n;;;;nomen;citrom
+;zubereiten;;bereitete zu;h. zubereitet;bereite zu|bereitest zu|bereitet zu|bereiten zu|bereitet zu|bereiten zu;verben;elkészít, elõkészít
+der;Zucker;-;;;;nomen;cukor
+;zufrieden;;;;;adjektive;elégedett
+die;Zukunft;;;;;nomen;jövõ
+der;Zuname;n;;;;nomen;vezetéknév
+;zurückhaltend;;;;;adjektive;tartózkodó
+;zuverlässig;;;;;adjektive;megbízható
+;zuvorkommend;;;;;adjektive;elõzékeny, szolgálatkész
+die;Zwiebel;n;;;;nomen;hagyma
+der;Zwilling;e;;;;nomen;ikrek
