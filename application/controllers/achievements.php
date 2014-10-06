@@ -5,8 +5,9 @@ class Achievements extends MY_Controller {
     public function __construct() {
         parent::__construct();
         if (!$this->session->userdata('login_status')) {
-            //$this->session->set_userdata('before_page','')
-            redirect("auth");
+            $this->session->set_userdata('prev_page', $this->uri->uri_string());
+            $this->session->set_userdata('redirect', true);
+            redirect("index");
         }
     }
 
