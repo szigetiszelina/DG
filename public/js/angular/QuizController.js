@@ -12,25 +12,22 @@ dg.controller('QuizController', ['$scope', "$http", '$location', function($scope
             alert("hiba a kérdések lekérésében");
         });
 
-        /* teszt words -save
-         $http({
-            url:'Play/save_word_results', 
+       /* $http({
+            url: 'Play/save_word_results',
             data: $.param({
                 words: [
-                {"id": 15, "guessed_well": true},
-                {"id": 20, "guessed_well": false}
-                ]}), 
-            method: 'POST', 
-            headers:{"Content-Type": "application/x-www-form-urlencoded"}}
-         ).success(function(data) {
+                    {"id": 15, "guessed_well": true},
+                    {"id": 20, "guessed_well": false}
+                ]}),
+            method: 'POST',
+            headers: {"Content-Type": "application/x-www-form-urlencoded"}}
+        ).success(function(data) {
             if (data == 'ok') {
-               alert("mentve");
+                alert("mentve");
             }
-         }).error(function() {
+        }).error(function() {
             alert("hiba a szavak eredményének mentésében");
-         });
-         
-         */
+        });*/
 
         $scope.showAlert = function() {
             alert("Okét nyomtál");
@@ -45,6 +42,9 @@ dg.controller('QuizController', ['$scope', "$http", '$location', function($scope
         $scope.checkAnswer = function() {
             $scope.index++;
             if ($scope.answer) {
+                for(var i=0;i<$scope.questions.length;i++){
+            console.log($scope.questions[i].word_id+ $scope.questions[i].solution);
+        }
                 if ($scope.answer === $scope.question.answer) {
                     $scope.question.solution = true;
                     $scope.score++;
@@ -54,11 +54,12 @@ dg.controller('QuizController', ['$scope', "$http", '$location', function($scope
                 if ($scope.questions[$scope.index]) {
                     $scope.answer = null;
                     $scope.question = $scope.questions[$scope.index];
-                    yAngle -= 90; console.log($scope.index);
-                    //document.getElementById('cube').style[prop] = "rotateX("+xAngle+"deg) rotateY("+yAngle+"deg)";
+                    yAngle -= 90;
+                    console.log($scope.index);
+                    document.getElementById('cube').style[prop] = "rotateX("+xAngle+"deg) rotateY("+yAngle+"deg)";
                 } else {
                     $scope.scoreMessage = "Gratulálunk a pontjaid: " + $scope.index + '/' + $scope.score;
-                    alert($scope.scoreMessage);
+                    alert($scope.scoreMessage + "megoldasok: "+$scope.questions);
                     var score = 0;
                     if ($scope.score > 0) {
                         score = ($scope.score / $scope.index) * 100;
@@ -68,6 +69,7 @@ dg.controller('QuizController', ['$scope', "$http", '$location', function($scope
                         if (data == 'ok') {
                             $scope.questions = data;
                             $scope.question = $scope.questions[$scope.index];
+                            
                         }
                     }).error(function() {
                         alert("hiba a játék eredményének mentésében");

@@ -19,7 +19,7 @@ class Verb_quiz implements Quiz_playable {
 
     public function set_questions() {
         $user_id = $this->CI->session->userdata("user")["id"];
-        $this->create_questions($this->word->get_verbs($user_id, $this->limit));
+        $this->create_questions($this->word->get_verbs($user_id, $this->CI->session->userdata("study_type"), $this->limit));
     }
 
     public function set_alternatives($präsens) {

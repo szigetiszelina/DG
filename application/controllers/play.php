@@ -89,13 +89,9 @@ class Play extends MY_Controller {
 
     public function save_results() {
         if ($_GET['grammar_id'] && $_GET['game_type'] && isset($_GET['score'])) {
-            //$this->load->library('Grammars/Grammar_factory',array($grammar_id),'grammar_factory');
-            //$grammar_obj = $this->grammar_factory->get_grammar();
-            //$this->load->library('Game_types/Quiz/'.$game_type,array($grammar_obj));
-            //$questions = $this->$game_type->save_quiz_statistic();
             $this->load->model('Game');
             $game = new Game();
-            $game_id = $game->get_id_by_type($_GET['game_type']);
+            $game_id = (int) $game->get_id_by_type($_GET['game_type']);
             $this->load->model('Result');
             $result = new Result();
             $params = array('uid' => $this->session->userdata('user')['id'],

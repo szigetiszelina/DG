@@ -19,8 +19,9 @@ class Games extends MY_Controller {
     }
     
     public function evelove(){
-        $data['active_button'] = "letter5";
+        $data['active_button'] = 'letter5';
         $data['is_login'] = $this->session->userdata('login_status');
+        $this->session->set_userdata('study_type', 'evelove');
         $this->load->view('header',$data);
         $this->load->model('Grammar');
         $data['game_types'] = $this->game_types;
@@ -30,7 +31,15 @@ class Games extends MY_Controller {
     }
     
     public function exercise(){
-        var_dump(" Te most gyakorolsz");
+        $data['active_button'] = 'letter2';
+        $data['is_login'] = $this->session->userdata('login_status');
+        $this->session->set_userdata('study_type', 'exercise');
+        $this->load->view('header',$data);
+        $this->load->model('Grammar');
+        $data['game_types'] = $this->game_types;
+        $data['grammars'] = $this->Grammar->get_grammars();
+        $this->load->view('games',$data);
+        $this->load->view('footer');
     }
     
     protected function set_game_types(){

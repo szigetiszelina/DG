@@ -24,7 +24,7 @@ class Word_memory implements Memory_playable{
     }
     
     public function set_words(){
-        $this->words = $this->word->get_words($this->CI->session->userdata("user")["id"],$this->limit);
+        $this->words = $this->word->get_words($this->CI->session->userdata("user")["id"], $this->CI->session->userdata("study_type"),$this->limit);
     }
     
     public function get_words(){
