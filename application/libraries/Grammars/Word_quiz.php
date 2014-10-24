@@ -20,15 +20,15 @@ class Word_quiz implements Quiz_playable {
     }
 
     public function set_questions() {
-        $this->create_questions($this->word->get_words($this->CI->session->userdata("user")["id"], $this->CI->session->userdata("study_type"), $this->limit));
+        $this->create_questions($this->word->get_words($this->CI->session->userdata("user")["id"], $this->CI->session->userdata("study_type"), $this->CI->session->userdata("category_id"), $this->limit));
     }
 
     public function set_alternatives($answer, $filter = null, $value = null) {
         $filter = array($filter, $value);
         $alternative_words = array();
-        $alternative_words = $this->word->get_words($this->CI->session->userdata("user")["id"], null, 5, $answer, $filter);
-        if(count($alternative_words) < 5) {
-            $alternative_words = array_merge($alternative_words, $this->word->get_words($this->CI->session->userdata("user")["id"], null, 5 - count($alternative_words), $answer)); 
+        $alternative_words = $this->word->get_words($this->CI->session->userdata("user")["id"], null, null, 5, $answer, $filter);
+        if (count($alternative_words) < 5) {
+            $alternative_words = array_merge($alternative_words, $this->word->get_words($this->CI->session->userdata("user")["id"], null, null, 5 - count($alternative_words), $answer));
         }
         $this->alternatives = array();
         foreach ($alternative_words as $word) {
@@ -45,6 +45,11 @@ class Word_quiz implements Quiz_playable {
     }
 
     public function create_questions($words) {
+        //Hibaüzenet
+        if (empty($words) || $words == null) {
+            $this->create_questions($this->word->get_words($this->CI->session->userdata("user")["id"], $this->CI->session->userdata("study_type"), null, $this->limit));
+            return;
+        }
         foreach ($words as $word) {
             if ($this->language == "hu_to_ge") {
                 $question = "Mit jelent németül '" . $word["meaning"] . "'?";

@@ -2,9 +2,13 @@
 
 class Word extends CI_Model {
 
-    public function get_words($user_id, $study_type = null, $limit = null, $notequals = null, $filter = null) {
+    public function get_words($user_id, $study_type = null, $category_id = null, $limit = null, $notequals = null, $filter = null) {
         $sql = "SELECT words.*, gwr.guessed_well_number/gwr.all_incidence_number as guessed FROM words";
         $sql .= " LEFT JOIN words_guessed_well_rate as gwr ON(words.id = gwr.word_id and gwr.user_id = " . (int) $user_id . ")";
+        if ((int) $category_id > 0) {
+            $sql .=" INNER JOIN word_categories ON (words.id =word_categories.word_id and word_categories.category_id =" . (int) $category_id . ")";
+        }
+
         if ((int) $notequals > 0) {
             $sql .= " WHERE words.id != " . (int) $notequals;
             if ($filter != null) {
@@ -12,11 +16,11 @@ class Word extends CI_Model {
             }
         }
         $sql .= " GROUP BY words.meaning";
-        
-        if($study_type == "evelove"){
+
+        if ($study_type == "evelove") {
             $sql.=" HAVING guessed<0.5 OR guessed is NULL";
-        }else {
-            if($study_type == "exercise"){
+        } else {
+            if ($study_type == "exercise") {
                 $sql.=" HAVING guessed>= 0.5";
             }
         }
@@ -43,15 +47,18 @@ class Word extends CI_Model {
         $this->db->query($sql);
     }
 
-    public function get_verbs($user_id, $study_type = null, $limit = null) {
+    public function get_verbs($user_id, $study_type = null, $category_id = null, $limit = null) {
         $sql = "SELECT words.*, gwr.guessed_well_number/gwr.all_incidence_number as guessed FROM words";
         $sql .= " LEFT JOIN words_guessed_well_rate as gwr ON(words.id = gwr.word_id AND gwr.user_id = " . (int) $user_id . ")";
+        if ((int) $category_id > 0) {
+            $sql .=" INNER JOIN word_categories ON (words.id = word_categories.word_id and word_categories.category_id =" . (int) $category_id . ")";
+        }
         $sql .= " WHERE words.wortart = 'verben' AND words.präsens !=''";
         $sql .= " GROUP BY words.meaning";
-        if($study_type == "evelove"){
+        if ($study_type == "evelove") {
             $sql.=" HAVING guessed<0.5 OR guessed is NULL";
-        }else {
-            if($study_type == "exercise"){
+        } else {
+            if ($study_type == "exercise") {
                 $sql.=" HAVING guessed>= 0.5";
             }
         }
@@ -65,7 +72,7 @@ class Word extends CI_Model {
     }
 
     public function get_word_id($article, $word, $plural) {
-        $sql = "SELECT id FROM words WHERE article ='". $article . "' AND word ='" . $word . "' AND plural='" . $plural . "'";
+        $sql = "SELECT id FROM words WHERE article ='" . $article . "' AND word ='" . $word . "' AND plural='" . $plural . "'";
         $query = $this->db->query($sql);
         $result = $query->row_array();
         return $result['id'];
@@ -84,6 +91,11 @@ class Word extends CI_Model {
         if ($sql != "INSERT INTO word_categories (word_id, category_id) VALUES") {
             $this->db->query($sql);
         }
+    }
+
+    public function get_categories() {
+        $sql = "SELECT c.*, count(word_c.word_id) as word_count FROM categories c JOIN word_categories word_c ON (c.id = word_c.category_id) GROUP BY c.id";
+        return $this->db->query($sql)->result_array();
     }
 
 }

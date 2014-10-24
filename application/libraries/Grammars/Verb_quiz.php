@@ -19,7 +19,7 @@ class Verb_quiz implements Quiz_playable {
 
     public function set_questions() {
         $user_id = $this->CI->session->userdata("user")["id"];
-        $this->create_questions($this->word->get_verbs($user_id, $this->CI->session->userdata("study_type"), $this->limit));
+        $this->create_questions($this->word->get_verbs($user_id, $this->CI->session->userdata("study_type"), $this->CI->session->userdata("category_id"), $this->limit));
     }
 
     public function set_alternatives($präsens) {
@@ -31,13 +31,18 @@ class Verb_quiz implements Quiz_playable {
     }
 
     public function select_personal_pronoun() {
-        return rand(0,5);
+        return rand(0, 5);
     }
 
     public function create_questions($verbs) {
+        //Hibaüzenet
+        if (empty($verbs) || $verbs == null) {
+            $this->create_questions($this->word->get_verbs($this->CI->session->userdata("user")["id"], $this->CI->session->userdata("study_type"), null, $this->limit));
+            return;
+        }
         foreach ($verbs as $verb) {
             $case = $this->select_personal_pronoun();
-            $question = "Hogyan ragozzuk a következő igét: '" . $verb["word"] . " - ".$verb['meaning']."' ".$this->personal_pronoun_helper($case)." esetben?";
+            $question = "Hogyan ragozzuk a következő igét: '" . $verb["word"] . " - " . $verb['meaning'] . "' " . $this->personal_pronoun_helper($case) . " esetben?";
             $this->set_alternatives($verb['präsens']);
             $answer = $this->alternatives[$case];
             $this->alternatives = array_unique($this->alternatives);
@@ -50,22 +55,22 @@ class Verb_quiz implements Quiz_playable {
         switch ((int) $index) {
             case 0 : {
                     return "E/1 (ich)";
-            }
+                }
             case 1 : {
                     return "E/2(du)";
-            }
+                }
             case 2 : {
                     return "E/3 (er/sie/es)";
-            }
+                }
             case 3 : {
                     return "T/1 (wir)";
-            }
+                }
             case 4 : {
                     return "T/2 (ihr)";
-            }
+                }
             case 5 : {
                     return "T/3 (sie)";
-            }
+                }
         }
     }
 

@@ -18,7 +18,11 @@ class Play extends MY_Controller {
         if (!empty($_GET['game_type']) && !empty($_GET['grammar_id'])) {
             $this->game_type = $_GET['game_type'];
             $this->grammar_id = $_GET['grammar_id'];
-
+            if (!empty($_GET['category']) && $_GET['category'] != "") {
+                $this->session->set_userdata('category_id', $_GET['category']);
+            } else {
+                $this->session->set_userdata('category_id', null);
+            }
             $this->load->library('Grammars/Grammar_factory', array($this->grammar_id, $this->game_type), 'grammar_factory');
             $grammar_obj = $this->grammar_factory->get_grammar();
             switch ($this->game_type) {
@@ -30,7 +34,7 @@ class Play extends MY_Controller {
                 case "sort": $this->play_sort($grammar_obj);
                     break;
             }
-        }else{
+        } else {
             redirect("index");
         }
     }
