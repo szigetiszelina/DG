@@ -33,5 +33,11 @@ class Achievements extends MY_Controller {
         }
         echo json_encode($results);
     }
+    
+    public function get_month_result() {
+        $this->load->model('result');
+        $results = $this->result->get_this_month_result_by_game_and_grammar($this->session->userdata('user')['id']);
+        echo json_encode($results);
+    }
 
 }

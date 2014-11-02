@@ -39,7 +39,7 @@ class Grammar extends CI_Model {
     }
 
     public function create_list($arr) {
-        $html = "<ul style='list-style-type:none;clear:both;'>";
+        $html = "<ul class='grammars'>";
         foreach ($arr as $key => $v) {
             $show = "";
             foreach ($v['playable'] as $playable) {
@@ -49,7 +49,7 @@ class Grammar extends CI_Model {
                     $show.=" || game_types." . $playable;
                 }
             }
-            $html .= '<li ng-show="' . $show . '"><a href="' . base_url() . 'play?game_type={{selected_game}}&grammar_id=' . $v['id'] . '">' . $v['name'] . "</a></li>";
+            $html .= '<li ng-show="' . $show . '"><a ng-href="' . base_url() . 'play?game_type={{selected_game}}&grammar_id=' . $v['id'] . '&category={{selected_category}}">' . $v['name'] . "</a></li>";
             if (array_key_exists('children', $v)) {
                 $html .= '<li ng-show="' . $show . '">';
                 $html .= $this->create_list($v['children']);

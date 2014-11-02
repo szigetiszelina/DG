@@ -1,5 +1,5 @@
 <?php $this->load->view('header.php'); ?>
-    <div id="container" class="col-md-7">
+    <div id="container" class="col-lg-7 col-md-7 col-sm-7 <?= (($is_login==false)?' align-center':'') ?>">
         <?php if($is_login){ ?>
             Ennyit fejlődtél az elmúlt időszakban <br>
             Eredményeid:<br>
@@ -22,10 +22,10 @@
         <?php } ?>
     </div>
     <?php if($is_login){ ?>
-        <div class="col-md-2">
+        <div class="col-lg-2 col-md-4 col-sm-5">
             Toplisták
         </div>
     <?php } ?>
     <div style="display:<?= (($warning_login===true)?'block':'none') ?>;">Az '<?=$prev_page?>' oldal használatához bejelentkezés szükséges Gomb bejelentkezés Mégse</div>
-</div>
+</div><!--row -->
 <?php $this->load->view('footer.php'); ?>

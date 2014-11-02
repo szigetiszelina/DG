@@ -42,20 +42,20 @@ class Play extends MY_Controller {
     protected function play_memory($grammar_obj) {
         $this->load->library('Game_types/' . $this->game_type . '/' . $this->game_type, array($grammar_obj, 8));
         $game_type = $this->game_type;
-        $this->load->view('memory_game', array("words" => $this->$game_type->get_words(), "is_login" => true));
+        $this->load->view('memory_game', array("words" => $this->$game_type->get_words(), "is_login" => $this->session->userdata('login_status')));
     }
 
     protected function play_quiz($grammar_obj) {
         $this->load->library('Game_types/' . $this->game_type . '/' . $this->game_type, array($grammar_obj));
         $game_type = $this->game_type;
         $questions = $this->$game_type->get_questions();
-        $this->load->view('quiz', array("questions" => $questions, "is_login" => true));
+        $this->load->view('quiz', array("questions" => $questions, "is_login" => $this->session->userdata('login_status')));
     }
 
     protected function play_sort($grammar_obj) {
         $this->load->library('Game_types/' . $this->game_type . '/' . $this->game_type, array($grammar_obj));
         $game_type = $this->game_type;
-        $this->load->view('sort', array("sentences" => $this->$game_type->get_sentences(), "is_login" => true));
+        $this->load->view('sort', array("sentences" => $this->$game_type->get_sentences(), "is_login" => $this->session->userdata('login_status')));
     }
 
     public function get_words() {

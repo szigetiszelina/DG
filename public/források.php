@@ -40,3 +40,10 @@ http://www.amcharts.com/demos/
 
 3d cube
 http://paulrhayes.com/2009-07/animated-css3-cube-interface-using-3d-transforms/
+
+design
+http://www.freewebsitetemplates.com/preview/hairrepairwebsitetemplate/index.html
+
+nyelvtan
+http://hu.wikipedia.org/wiki/N%C3%A9vel%C5%91k_a_n%C3%A9met_nyelvben
+http://online-nemet-portal.hu/nemet-nyelvtan/nemet-igeragozas/

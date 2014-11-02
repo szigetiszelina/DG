@@ -27,5 +27,13 @@ class Result extends CI_Model {
         }
         return $play_counts;
     }
+    
+    public function get_this_month_result_by_game_and_grammar($user_id){
+        $sql = "SELECT sum(results.score) as score, count(results.id) as db, games.hu_name, grammars.name FROM results"
+                . " LEFT JOIN games ON(results.game_id = games.id)"
+                . " LEFT JOIN grammars ON(results.grammar_id = grammars.id)"
+               . " WHERE results.user_id = " . (int) $user_id . " AND YEAR(results.game_date) = YEAR(NOW()) and MONTH(results.game_date) = MONTH(NOW()) GROUP BY results.game_id, results.grammar_id";
+        return $this->db->query($sql)->result_array();
+    }
 
 }
