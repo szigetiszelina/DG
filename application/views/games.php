@@ -3,7 +3,7 @@
             <div class="row" >
                 <?php foreach($categories as $category){ ?>
                     <div class="col-lg-4 col-md-4">
-                        <div ng-click="setCategory(<?= $category["id"] ?>)" class="category_type">
+                        <div ng-click="setCategory(<?= $category["id"] ?>)" ng-class="{active: selected_category === <?= $category["id"] ?>}"class="category_type">
                             <?= $category["category"]." (".$category["word_count"].")" ?>
                         </div>
                     </div>
@@ -13,7 +13,7 @@
             <div class="row">    
                 <?php foreach($game_types as $type){ ?>
                 <div class="col-lg-3 col-md-3 col-sm-3">
-                    <div ng-click="showGrammars('<?= $type["name"] ?>')" class="game_type">
+                    <div ng-click="showGrammars('<?= $type["name"] ?>')" ng-class="{active: selected_game === '<?= $type["name"] ?>' }" class="game_type">
                         <?= $type["hu_name"] ?>
                     </div>
                 </div>
