@@ -3,7 +3,9 @@ var dg = angular.module('dg', ['ui.sortable']);
 dg.controller('sortController', function($scope, $http) {
 
     $scope.score = 0;
-    $scope.index = 0;
+    $scope.index = 0;    
+    $scope.modelShow = false;
+    
     $http.get('Play/get_sentences' + document.location.search).success(function(data) {
         $scope.sentences = data;
         $scope.buttonDisabled = false;
@@ -39,8 +41,13 @@ dg.controller('sortController', function($scope, $http) {
         setSentence();
     };
     
+    function hideModal(){
+        $scope.modalShow = false;
+    }
+    
     function finishGame(){
-        alert("Pontszámod: "+$scope.score+"/"+$scope.sentences.length);
+        $scope.modalShow = true;
+        $scope.modalMessage = "Pontszámod: "+$scope.score+"/"+$scope.sentences.length;
         var score = 0;
         if($scope.score >0){
             score = ($scope.score/$scope.index)*100;
@@ -73,4 +80,5 @@ dg.controller('sortController', function($scope, $http) {
             });
         }
     };
+    
 });

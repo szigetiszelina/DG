@@ -97,5 +97,21 @@ class Word extends CI_Model {
         $sql = "SELECT c.*, count(word_c.word_id) as word_count FROM categories c JOIN word_categories word_c ON (c.id = word_c.category_id) GROUP BY c.id";
         return $this->db->query($sql)->result_array();
     }
+    
+     public function get_bests_by_words_score($user_id = null, $limit = null){
+        $sql = "SELECT words.word,c.category,gwr.user_id, count(word_c.word_id) FROM words_guessed_well_rate AS gwr 
+            LEFT JOIN words ON(gwr.word_id = words.id)
+            INNER JOIN word_categories AS word_c ON(gwr.word_id = word_c.word_id)
+            INNER JOIN categories AS c ON (c.id = word_c.category_id) 
+            WHERE gwr.guessed_well_number/gwr.all_incidence_number >= 0.5";
+        if((int) $user_id >0){
+            $sql.=" AND gwr.user_id = ".(int)$user_id;
+        }    
+        $sql.=" GROUP BY gwr.user_id, c.category";
+        if((int)$limit>0){
+            $sql.= " LIMIT ".(int)$limit;
+        }
+        return $this->db->query($sql)->result_array();
+    }
 
 }

@@ -26,6 +26,4 @@
             Toplisták
         </div>
     <?php } ?>
-    <div style="display:<?= (($warning_login===true)?'block':'none') ?>;">Az '<?=$prev_page?>' oldal használatához bejelentkezés szükséges Gomb bejelentkezés Mégse</div>
-</div><!--row -->
 <?php $this->load->view('footer.php'); ?>

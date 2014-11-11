@@ -53,7 +53,7 @@
                           <a href="<?= $link_to ?>" class="button letter5 <?=($link_to==$current_url)?'active_button':'' ?>" ><p>Fejlődj</p></a>
                            <?php $link_to = base_url() ."grammars/index"; ?>
                           <a href="<?= $link_to ?>" class="button letter1 <?=($link_to==$current_url)?'active_button':'' ?>" ><p>Nyelvtanok</p></a>
-                           <?php $link_to = base_url() ."/index"; ?>
+                           <?php $link_to = base_url() ."toplist/index"; ?>
                           <a href="<?= $link_to ?>" class="button letter4 <?=($link_to==$current_url)?'active_button':'' ?>"><p>Toplisták</p></a>
                           <?php $link_to = base_url() ."achievements/index"; ?>
                           <a href="<?= $link_to ?>" class="button letter3 <?=($link_to==$current_url)?'active_button':'' ?>"><p>Eredmények</p></a>

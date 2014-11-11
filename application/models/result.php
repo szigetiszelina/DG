@@ -35,5 +35,30 @@ class Result extends CI_Model {
                . " WHERE results.user_id = " . (int) $user_id . " AND YEAR(results.game_date) = YEAR(NOW()) and MONTH(results.game_date) = MONTH(NOW()) GROUP BY results.game_id, results.grammar_id";
         return $this->db->query($sql)->result_array();
     }
+    
+   
+
+   /* van összesen melyik nyelvtanban a legjobb
+melyik játék melyik nyelvtanban milyen jó volt a hónapban
+bekérni a hónapot ehhez
+összehasonlítani egyik hónapot a másikkal
+itt is lehessen megadni értéket
+
+kategóriánként megszámolni hány szót tud
+
+
+
+toplista utolsó hónapban legtöbb pontot elérők -/
+előző hónapban mennyit játszott egy nyelvtannal most
+utolsó két hónapban ki javított egy nyelvtanból és mennyit legjobbak
+legtöbbet játszók/csak befejezett játékra vagyis a result táblából kell lekérni
+
+Select user_id, sum(score) as all_score, count(id) as all_point from results where YEAR(game_date)= y AND MONTH(game_date)=m Group By user_id Order By all_score/all_point DESC;
+
+Select user_id, sum(score) as all_score, count(id) as all_point where YEAR(game_date)= y AND MONTH(game_date)=m Group By user_id, grammar_id
+
+accordition
+mondat szórend
+alap*/
 
 }
