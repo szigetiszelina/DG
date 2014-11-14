@@ -24,7 +24,7 @@ class Achievements extends MY_Controller {
         $this->load->view('footer');
     }
 
-    public function get_grammars_level($month = null, $year = null) {
+    public function get_grammars_level() {
         $this->load->model('result');
         $results = $this->result->get_score_by_grammar($this->session->userdata('user')['id']);
         $this->load->model('grammar');
@@ -34,9 +34,21 @@ class Achievements extends MY_Controller {
         echo json_encode($results);
     }
     
-    public function get_month_result() {
+    public function get_this_month_result() {
         $this->load->model('result');
         $results = $this->result->get_this_month_result_by_game_and_grammar($this->session->userdata('user')['id']);
+        echo json_encode($results);
+    }
+    
+    public function get_monthly_result($year = null){
+        $this->load->model('result');
+        $results = $this->result->get_monthly_result($this->session->userdata('user')['id'], $year);
+        echo json_encode($results);
+    }
+    
+    public function get_daily_result($year = null, $month = null){
+        $this->load->model('result');
+        $results = $this->result->get_daily_result($this->session->userdata('user')['id'], $year, $month);
         echo json_encode($results);
     }
 

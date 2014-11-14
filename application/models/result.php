@@ -36,6 +36,36 @@ class Result extends CI_Model {
         return $this->db->query($sql)->result_array();
     }
     
+    public function get_monthly_result($user_id, $year = null){
+        $sql = "SELECT sum(results.score) as all_score, count(results.id) as db, MONTH(results.game_date) as month FROM results"
+                . " WHERE results.user_id = " . (int) $user_id;
+        if ((int) $year > 0) {
+            $sql.= " AND YEAR(results.game_date) = " . (int) $year;
+        } else {
+            $sql.= " AND YEAR(results.game_date) = YEAR(NOW())";
+        }
+        $sql .= " GROUP BY MONTH(results.game_date)";
+        return $this->db->query($sql)->result_array();
+    }
+    
+    public function get_daily_result($user_id, $year = null, $month = null){
+        $sql = "SELECT sum(results.score) as all_score, count(results.id) as db, DAY(results.game_date) as day FROM results"
+                . " WHERE results.user_id = " . (int) $user_id;
+        if ((int) $year > 0) {
+            $sql.= " AND YEAR(results.game_date) = " . (int) $year;
+        } else {
+            $sql.= " AND YEAR(results.game_date) = YEAR(NOW())";
+        }
+        if ((int) $month > 0) {
+            $sql.= " AND MONTH(results.game_date) = " . (int) $month;
+        } else {
+            $sql.= " AND MONTH(results.game_date) = MONTH(NOW())";
+        }
+        $sql .= " GROUP BY DAY(results.game_date)";
+
+        return $this->db->query($sql)->result_array();
+    }
+    
    
 
    /* van összesen melyik nyelvtanban a legjobb

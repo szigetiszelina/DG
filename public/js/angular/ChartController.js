@@ -1,26 +1,23 @@
 var dg = angular.module('dg', []);
 
-dg.controller('chartController', function($http) {
+dg.controller('chartController', ['$http','$scope', function($http, $scope) {
     var colors = ["#D88F66", "#3F7A2F", "#FF4747", "#FCF8B6", "#2F537A"];
     var months = ["Január", "Február", "Március", "Április", "Május", "Június", "Július", "Augusztus", "Szeptember", "Október", "November", "December"];
-
-    $http.get('get_grammars_level').success(function(data) {
-        var barChart = [];
-        for (var i = 0; i < data.length; i++) {
-            barChart.push({
-                grammar: data[i]['grammar'],
-                percentLevel: ((data[i]['all_score'] / data[i]['summarize']) * 100),
-                color: colors[i % parseInt(colors.length)]});
-        }
-
-        var chart = AmCharts.makeChart("chartdiv", {
+    $scope.selectable_years = [""];
+    var current_year = new Date().getFullYear();
+    current_year = 2020;
+    for(var i = current_year; i>= 2014; i--){
+        $scope.selectable_years.push(i);
+    }
+    console.log($scope.selectable_years);
+    $scope.createChart = function (itemName, title, barChart){ AmCharts.makeChart(itemName, {
             "theme": "chalk",
             "type": "serial",
             "startDuration": 2,
             "dataProvider": barChart,
             "valueAxes": [{
                     "position": "left",
-                    "title": "Elért eredmény (%)"
+                    "title": title
                 }],
             "graphs": [{
                     "balloonText": "[[category]]: <b>[[value]]</b>",
@@ -28,7 +25,7 @@ dg.controller('chartController', function($http) {
                     "fillAlphas": 0.8,
                     "lineAlpha": 0.1,
                     "type": "column",
-                    "valueField": "percentLevel"
+                    "valueField": "value"
                 }],
             "depth3D": 20,
             "angle": 30,
@@ -37,7 +34,7 @@ dg.controller('chartController', function($http) {
                 "cursorAlpha": 0,
                 "zoomable": false
             },
-            "categoryField": "grammar",
+            "categoryField": "label",
             "categoryAxis": {
                 "gridPosition": "start",
                 "labelRotation": 90
@@ -51,124 +48,23 @@ dg.controller('chartController', function($http) {
                     }]
             }
         });
-
-        /*var chart2 = AmCharts.makeChart("chartdiv2", {
-         "type": "serial",
-         "theme": "chalk",
-         "depth3D": 20,
-         "angle": 30,
-         "legend": {
-         "horizontalGap": 10,
-         "useGraphSettings": true,
-         "markerSize": 10
-         },
-         "dataProvider": [{
-         "year": 2003,
-         "europe": 2.5,
-         "namerica": 2.5,
-         "asia": 2.1,
-         "lamerica": 1.2,
-         "meast": 0.2,
-         "africa": 0.1
-         }, {
-         "year": 2004,
-         "europe": 2.6,
-         "namerica": 2.7,
-         "asia": 2.2,
-         "lamerica": 1.3,
-         "meast": 0.3,
-         "africa": 0.1
-         }, {
-         "year": 2005,
-         "europe": 2.8,
-         "namerica": 2.9,
-         "asia": 2.4,
-         "lamerica": 1.4,
-         "meast": 0.3,
-         "africa": 0.1
-         }],
-         "valueAxes": [{
-         "stackType": "regular",
-         "axisAlpha": 0,
-         "gridAlpha": 0
-         }],
-         "graphs": [{
-         "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
-         "fillAlphas": 0.8,
-         "labelText": "[[value]]",
-         "lineAlpha": 0.3,
-         "title": "Europe",
-         "type": "column",
-         "color": "#000000",
-         "valueField": "europe"
-         }, {
-         "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
-         "fillAlphas": 0.8,
-         "labelText": "[[value]]",
-         "lineAlpha": 0.3,
-         "title": "North America",
-         "type": "column",
-         "color": "#000000",
-         "valueField": "namerica"
-         }, {
-         "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
-         "fillAlphas": 0.8,
-         "labelText": "[[value]]",
-         "lineAlpha": 0.3,
-         "title": "Asia-Pacific",
-         "type": "column",
-         "newStack": true,
-         "color": "#000000",
-         "valueField": "asia"
-         }, {
-         "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
-         "fillAlphas": 0.8,
-         "labelText": "[[value]]",
-         "lineAlpha": 0.3,
-         "title": "Latin America",
-         "type": "column",
-         "color": "#000000",
-         "valueField": "lamerica"
-         }, {
-         "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
-         "fillAlphas": 0.8,
-         "labelText": "[[value]]",
-         "lineAlpha": 0.3,
-         "title": "Middle-East",
-         "type": "column",
-         "color": "#000000",
-         "valueField": "meast"
-         }, {
-         "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
-         "fillAlphas": 0.8,
-         "labelText": "[[value]]",
-         "lineAlpha": 0.3,
-         "title": "Africa",
-         "type": "column",
-         "color": "#000000",
-         "valueField": "africa"
-         }],
-         "categoryField": "year",
-         "categoryAxis": {
-         "gridPosition": "start",
-         "axisAlpha": 0,
-         "gridAlpha": 0,
-         "position": "left"
-         },
-         "exportConfig": {
-         "menuTop": "20px",
-         "menuRight": "20px",
-         "menuItems": [{
-         "icon": '/lib/3/images/export.png',
-         "format": 'png'
-         }]
-         }
-         });*/
+    }
+    $http.get('get_grammars_level').success(function(data) {
+        var barChart = [];
+        var title = "Elért eredmény (%)";
+        var itemName = "chartdiv";
+        for (var i = 0; i < data.length; i++) {
+            barChart.push({
+                label: data[i]['grammar'],
+                value: ((data[i]['all_score'] / data[i]['summarize']) * 100),
+                color: colors[i % parseInt(colors.length)]});
+        }
+        $scope.createChart(itemName, title, barChart);
     }).error(function() {
         alert("hiba az eredmények lekérésében");
     });
     
-    $http.get('get_month_result').success(function(data) {
+    $http.get('get_this_month_result').success(function(data) {
         
         //játék nyelvtan eredmény
         var barChart3 = [];
@@ -180,6 +76,7 @@ dg.controller('chartController', function($http) {
         }
         var monthNumber = new Date().getMonth();
         var month = months[monthNumber-1];
+        
         var chart3 = AmCharts.makeChart("chartdiv3", {
             "type": "pie",
             "theme": "chalk",
@@ -226,5 +123,86 @@ dg.controller('chartController', function($http) {
     }).error(function() {
         alert("hiba az eredmények lekérésében");
     });
+    
+    $http.get('get_monthly_result').success(function(data) {
+        console.log(data);
+        if($scope.year == null){
+            $scope.year = new Date().getFullYear();
+        }
+        var barChart = [];
+        var itemName = "chartdiv5";
+        var title = "Elért összpontszám " + $scope.year;
+        for (var i = 0; i < data.length; i++) {
+            barChart.push({
+                value: data[i]['all_score'],
+                label: months[data[i]['month']-1],
+                color: colors[i % parseInt(colors.length)]});
+        }
+        $scope.createChart(itemName, title, barChart);
+/*
+        var chart5 = AmCharts.makeChart("chartdiv5", {
+            "theme": "chalk",
+            "type": "serial",
+            "startDuration": 2,
+            "dataProvider": barChart,
+            "valueAxes": [{
+                    "position": "left",
+                    "title": "Elért összpontszám " + $scope.year
+                }],
+            "graphs": [{
+                    "balloonText": "[[category]]: <b>[[value]]</b>",
+                    "colorField": "color",
+                    "fillAlphas": 0.8,
+                    "lineAlpha": 0.1,
+                    "type": "column",
+                    "valueField": "all_score"
+                }],
+            "depth3D": 20,
+            "angle": 30,
+            "chartCursor": {
+                "categoryBalloonEnabled": false,
+                "cursorAlpha": 0,
+                "zoomable": false
+            },
+            "categoryField": "month",
+            "categoryAxis": {
+                "gridPosition": "start",
+                "labelRotation": 90
+            },
+            "exportConfig": {
+                "menuTop": "20px",
+                "menuRight": "20px",
+                "menuItems": [{
+                        "icon": '/lib/3/images/export.png',
+                        "format": 'png'
+                    }]
+            }
+        });*/
+    }).error(function() {
+        alert("hiba az eredmények lekérésében");
+    });   
+    
+    $http.get('get_daily_result').success(function(data) {
+        //console.log(data);
+        if($scope.year_daily == null){
+            $scope.year_daily = new Date().getFullYear();
+        }
+        if($scope.month_daily == null){
+            $scope.month_daily = new Date().getMonth()+1;
+        }
+        var barChart = [];
+        var itemName = "chartdiv6";
+        var title = "Elért összpontszám " + $scope.year_daily + " " + $scope.month_daily + ". hó";
+        for (var i = 0; i < data.length; i++) {
+            barChart.push({
+                value: data[i]['all_score'],
+                label: data[i]['day'],
+                color: colors[i % parseInt(colors.length)]});
+        }
+        $scope.createChart(itemName, title, barChart);
+    }).error(function() {
+        alert("hiba az eredmények lekérésében");
+    });   
+   
 
-});
+}]);
