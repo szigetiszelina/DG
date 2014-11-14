@@ -256,7 +256,7 @@ a:hover{
     font-weight: bold;
 }
 
-#chartdiv, #chartdiv2, #chartdiv3, #chartdiv4 {
+#chartdiv, #chartdiv2, #chartdiv3, #chartdiv4, #chartdiv5, #chartdiv6 {
     background: url('http://www.amcharts.com/lib/3/patterns/chalk/bg.jpg');
     color: #fff;
     width: 100%;
@@ -510,4 +510,41 @@ h1, h2, h3{
 
 .paragraph{
     margin-left: 20px;
+}
+
+#accordion {
+	a{
+		color: #fff;
+		width: 100%;
+		margin-bottom: 5px;
+		float: left;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+	padding: 0px;
+    h3{
+	 
+      margin-top: 10px;
+    }
+	.panel-collapse{
+		float: left;
+	}
+	.panel-heading{
+		color: #fff;
+		float: left;
+		width: 100%;
+		
+	}
+	/*.panel-default{
+		&:hover{
+			transform: translateX(-25px);
+		}
+	}*/
+
+}
+
+select{
+    padding: 6px 12px;
+    border-radius: 5px;
 }
