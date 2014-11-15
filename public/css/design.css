@@ -512,39 +512,19 @@ h1, h2, h3{
     margin-left: 20px;
 }
 
-#accordion {
-	a{
-		color: #fff;
-		width: 100%;
-		margin-bottom: 5px;
-		float: left;
-		&:hover{
-			text-decoration: none;
-		}
-	}
-	padding: 0px;
-    h3{
-	 
-      margin-top: 10px;
-    }
-	.panel-collapse{
-		float: left;
-	}
-	.panel-heading{
-		color: #fff;
-		float: left;
-		width: 100%;
-		
-	}
-	/*.panel-default{
-		&:hover{
-			transform: translateX(-25px);
-		}
-	}*/
-
-}
-
 select{
     padding: 6px 12px;
     border-radius: 5px;
+}
+
+.panel-title a{
+    color: #000;
+}
+
+.panel-title a:hover{
+    color: #775B30;
+}
+
+.panel-group{
+    color: #000;
 }
