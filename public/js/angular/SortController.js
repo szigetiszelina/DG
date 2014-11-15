@@ -6,7 +6,7 @@ dg.controller('sortController', function($scope, $http) {
     $scope.index = 0;    
     $scope.modelShow = false;
     
-    $http.get('Play/get_sentences' + document.location.search).success(function(data) {
+    $http.get('play/get_sentences' + document.location.search).success(function(data) {
         $scope.sentences = data;
         $scope.buttonDisabled = false;
         setSentence();
@@ -52,7 +52,7 @@ dg.controller('sortController', function($scope, $http) {
         if($scope.score >0){
             score = ($scope.score/$scope.index)*100;
         }
-        $http({url:'Play/save_results' + document.location.search + '&score=' + score, method: "GET"});
+        $http({url:'play/save_results' + document.location.search + '&score=' + score, method: "GET"});
     }
     
     function checkAnswer() {

@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'flim-flamregular';
-    src: url('http://localhost/DG/public/css/fonts/flim-flam-webfont.eot');
-    src: url('http://localhost/DG/public/css/fonts/flim-flam-webfont.eot?#iefix') format('embedded-opentype'),
-        url('http://localhost/DG/public/css/fonts/flim-flam-webfont.woff') format('woff'),
-        url('http://localhost/DG/public/css/fonts/flim-flam-webfont.ttf') format('truetype'),
-        url('http://localhost/DG/public/css/fonts/flim-flam-webfont.svg#flim-flamregular') format('svg');
+    src: url('fonts/flim-flam-webfont.eot');
+    src: url('fonts/flim-flam-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/flim-flam-webfont.woff') format('woff'),
+        url('fonts/flim-flam-webfont.ttf') format('truetype'),
+        url('fonts/flim-flam-webfont.svg#flim-flamregular') format('svg');
 }
 @font-face{ 
     font-family: 'z_arista_lightregular';
@@ -16,7 +16,7 @@
 }
 body{
     font-family: Times New Roman, Arial;
-    background: url(http://localhost/DG/public/css/images/bg-body.jpg);
+    background: url(images/bg-body.jpg);
 }
 
 .header{
@@ -265,7 +265,7 @@ a:hover{
 }
 
 .memory_cover{
-    background:#ffe4b5 url('http://localhost/DG/public/css/images/bg-body.jpg') no-repeat;
+    background:#ffe4b5 url('images/bg-body.jpg') no-repeat;
     background-size:cover;
     height:90px;
     width: 100%;
@@ -389,7 +389,7 @@ h1, h2, h3{
 
     background-color: #fff;
     box-shadow: 4px 4px 80px #000;
-    background: url('http://localhost/DG/public/css/images/bg-body.jpg');
+    background: url('images/bg-body.jpg');
 }
 .ng-modal-dialog-content {
     padding:10px;

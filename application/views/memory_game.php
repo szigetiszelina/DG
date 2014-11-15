@@ -1,4 +1,4 @@
-<?php $this->load->view('header.php'); ?>
+<?php $this->load->view('header.php');?>
     <div id="container" class="col-lg-7 col-md-7 col-sm-7">
         <div class="row" />
             <?php for($i=0;$i<count($words);$i++){?>
@@ -18,4 +18,4 @@
 </div>
 <!--<script src="<?=base_url()?>public/js/angular/MemoryController.js" type="text/javascript" ></script>
 <script src="<?=base_url()?>public/js/angular/ModalDialogDirective.js" type="text/javascript" ></script>-->
-<script src="http://localhost/dg/public/js/memory.js" type="text/javascript"></script>
+<script src="<?=base_url()?>public/js/memory.js" type="text/javascript"></script>

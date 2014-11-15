@@ -9,16 +9,18 @@ class Verb_quiz implements Quiz_playable {
     protected $alternatives = array();
     protected $questions;
     protected $CI;
+    private $user;
 
     public function __construct($params) {
         $this->CI = get_instance();
+        $this->user = $this->CI->session->userdata("user");
         $this->word = $params["word"];
         $this->limit = (int) $params["limit"];
         $this->set_questions();
     }
 
     public function set_questions() {
-        $user_id = $this->CI->session->userdata("user")["id"];
+        $user_id = $this->user["id"];
         $this->create_questions($this->word->get_verbs($user_id, $this->CI->session->userdata("study_type"), $this->CI->session->userdata("category_id"), $this->limit));
     }
 
@@ -37,7 +39,7 @@ class Verb_quiz implements Quiz_playable {
     public function create_questions($verbs) {
         //Hibaüzenet
         if (empty($verbs) || $verbs == null) {
-            $this->create_questions($this->word->get_verbs($this->CI->session->userdata("user")["id"], $this->CI->session->userdata("study_type"), null, $this->limit));
+            $this->create_questions($this->word->get_verbs($this->user["id"], $this->CI->session->userdata("study_type"), null, $this->limit));
             return;
         }
         foreach ($verbs as $verb) {

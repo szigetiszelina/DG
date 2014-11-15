@@ -54,7 +54,8 @@ class Csv extends MY_Controller {
                         $temp = explode(":", $word[5]);
                         $str = "";
                         foreach ($temp as $t) {
-                            $t = explode(" ", $t)[0];
+                            $exploded = explode(" ", $t);
+                            $t = $exploded[0];
                             $str.=":" . $t;
                         }
                         $token.=$str;
@@ -63,7 +64,8 @@ class Csv extends MY_Controller {
                     }
                 }
                 if (!empty($word[3])) {
-                    $word[3] = explode(" ", $word[3])[0];
+                    $exploded = explode(" ", $word[3]);
+                    $word[3] = $exploded[0];
                     $token.=":" . $word[3] . "[nt]+:" . $word[3] . "st";
                 }
                 if (!empty($word[4])) {

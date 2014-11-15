@@ -4,7 +4,7 @@ dg.controller('QuizController', ['$scope', "$http", '$location', function($scope
         $scope.score = 0;
         $scope.index = 0;
 
-        $http.get('Play/get_questions' + document.location.search).success(function(data) {
+        $http.get('play/get_questions' + document.location.search).success(function(data) {
             $scope.questions = data;
             console.log($scope.questions);
             $scope.question = $scope.questions[$scope.index];
@@ -64,7 +64,7 @@ dg.controller('QuizController', ['$scope', "$http", '$location', function($scope
                     if ($scope.score > 0) {
                         score = ($scope.score / $scope.index) * 100;
                     }
-                    $http({url: 'Play/save_results' + document.location.search + '&score=' + score,
+                    $http({url: 'play/save_results' + document.location.search + '&score=' + score,
                         method: "GET"}).success(function(data) {
                         if (data == 'ok') {
                             $scope.questions = data;

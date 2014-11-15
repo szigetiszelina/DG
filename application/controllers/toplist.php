@@ -13,7 +13,8 @@ class Toplist extends MY_Controller {
 
     public function index() {
         $this->load->model('Word');
-        var_dump($this->Word->get_bests_by_words_score($this->session->userdata('user')['id']));
+        $user = $this->session->userdata('user');
+        var_dump($this->Word->get_bests_by_words_score($user['id']));
         $this->load->view('toplist', array("is_login" => $this->session->userdata('login_status')));
     }
 

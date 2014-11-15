@@ -20,7 +20,7 @@
                     </ul>
                 </div>
             </div>
-            <?php $this->load->view('modalDialog.php'); ?>
+            <?php $this->load->view('modaldialog.php'); ?>
             
             <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js" type="text/javascript"></script>
             <script src="https://rawgithub.com/angular-ui/ui-sortable/master/src/sortable.js"></script>        

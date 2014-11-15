@@ -19,7 +19,6 @@ class Games extends MY_Controller {
     }
 
     public function evelove() {
-        $data['active_button'] = 'letter5';
         $data['is_login'] = $this->session->userdata('login_status');
         $this->session->set_userdata('study_type', 'evelove');
         $this->load->view('header', $data);
@@ -33,7 +32,6 @@ class Games extends MY_Controller {
     }
 
     public function exercise() {
-        $data['active_button'] = 'letter2';
         $data['is_login'] = $this->session->userdata('login_status');
         $this->session->set_userdata('study_type', 'exercise');
         $this->load->view('header', $data);

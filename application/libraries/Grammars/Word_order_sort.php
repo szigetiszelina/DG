@@ -23,7 +23,7 @@ class Word_order_sort implements Sort_playable{
             $words = explode(" ", $sentence["sentence"]);
             $keys = array_keys($words);
             shuffle($keys);
-            $sentence["mixed"] = [];
+            $sentence["mixed"] = array();
             for($i=0; $i<count($keys); $i++){
                 $sentence["mixed"][$i]["key"] = $keys[$i];
                 $sentence["mixed"][$i]["word"] = $words[$keys[$i]];
