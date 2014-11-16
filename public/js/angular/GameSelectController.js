@@ -17,6 +17,10 @@ dg.controller('GameSelectController', ['$scope', function($scope) {
         });
     };
     $scope.setCategory = function(category_id) {
-        $scope.selected_category = category_id;
+        if($scope.selected_category === category_id){
+            $scope.selected_category = "";
+        }else{
+            $scope.selected_category = category_id;
+        } console.log($scope.selected_category);
     };
 }]);
