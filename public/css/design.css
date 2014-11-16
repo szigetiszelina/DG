@@ -528,3 +528,7 @@ select{
 .panel-group{
     color: #000;
 }
+
+.row{
+    margin: 0px;
+}
