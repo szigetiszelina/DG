@@ -393,7 +393,9 @@ h1, h2, h3{
 }
 .ng-modal-dialog-content {
     padding:10px;
-    text-align: left;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
 }
 .ng-modal-close {
     position: absolute;
@@ -496,12 +498,12 @@ h1, h2, h3{
     width: 100%;
     min-height: 200px;
     padding: 5px 15px;
-    border: 5px solid #000;
     border-radius: 15px;
+    background: #ffe4b5 url("http://localhost/DG/public/css/images/bg-body.jpg");
 }
 
 .logList:before {
-    content: 'log';
+    content: 'Eredmények:';
     padding: 0 5px;
     position: relative;
     top: -1.1em;

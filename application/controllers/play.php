@@ -40,7 +40,7 @@ class Play extends MY_Controller {
     }
 
     protected function play_memory($grammar_obj) {
-        $this->load->library('Game_types/' . ucfirst($this->game_type) . '/' . ucfirst($this->game_type), array($grammar_obj, 8));
+        $this->load->library('Game_types/' . ucfirst($this->game_type) . '/' . ucfirst($this->game_type), array($grammar_obj));
         $game_type = $this->game_type;
         $this->load->view('memory_game', array("words" => $this->$game_type->get_words(), "is_login" => $this->session->userdata('login_status'), "study_type" => $this->session->userdata('study_type')));
     }
@@ -64,7 +64,7 @@ class Play extends MY_Controller {
         $this->load->library('Grammars/Grammar_factory', array($grammar_id, $game_type), 'grammar_factory');
         $grammar_obj = $this->grammar_factory->get_grammar();
 
-        $this->load->library('Game_types/Memory/' . ucfirst($game_type), array($grammar_obj, 8));
+        $this->load->library('Game_types/Memory/' . ucfirst($game_type), array($grammar_obj));
         $words = $this->$game_type->get_words();
         echo json_encode($words);
     }
@@ -120,5 +120,45 @@ class Play extends MY_Controller {
             echo json_encode("ok");
         }
     }
-
+    
+    public function memoryCalcWorstTime($limit){
+        $lap = $limit *2;
+        $worst_time = 0;
+        for($i = $lap; $i>0; $i-=2){
+            $worst_time+= ($i-1)*3.6 + 1*2.1;
+        }
+        return $worst_time;
+    }
+    
+    public function memoryCalcBestTime($limit){
+        $lap = $limit *2;
+        $best_time = 0;
+        for($i = $lap; $i>0; $i-=2){
+            $best_time+= 1*2.1;
+        }
+        return $best_time;
+    }
+    
+    public function save_memory_results() {
+        $user = $this->session->userdata('user');
+        if ($_GET['grammar_id'] && $_GET['game_type'] && !empty($_GET['time']) && $_GET['time'] != "" && (int) $user['id'] > 0 && (int) $_GET['limit']>0) {
+            $this->load->model('Game');
+            $game = new Game();
+            $game_id = (int) $game->get_id_by_type($_GET['game_type']);
+            $worst_time = $this->memoryCalcWorstTime($_GET['limit']);
+            $best_time = $this->memoryCalcBestTime($_GET['limit']);
+        
+            $time_percent = 100-((doubleval($_GET['time']))/($worst_time-$best_time))*100;
+            $this->load->model('Result');
+            $user = $this->session->userdata('user');
+            $params = array('uid' => $user['id'],
+                'grammar_id' => $_GET['grammar_id'],
+                'game_id' => $game_id,
+                'score' => $time_percent
+            );
+            $this->load->model('Result');
+            $this->Result->save_result($params);
+            echo json_encode($time_percent);
+        }
+    }
 }

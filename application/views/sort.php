@@ -1,6 +1,6 @@
 <?php $this->load->view('header.php'); ?>
     <div id="container" class="col-lg-7 col-md-7 col-sm-7">
-        <div ng-app="dg" ng-controller="sortController">
+        <div ng-app="dg" ng-controller="SortController">
             <div class="row">
                 <div class="col-lg-5">
                     <ul ui-sortable="sortableOptions" ng-model="sentence" class="list">

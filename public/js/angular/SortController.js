@@ -1,6 +1,6 @@
 var dg = angular.module('dg', ['ui.sortable']);
 
-dg.controller('sortController', function($scope, $http) {
+dg.controller('SortController', function($scope, $http) {
 
     $scope.score = 0;
     $scope.index = 0;    
@@ -41,17 +41,13 @@ dg.controller('sortController', function($scope, $http) {
         setSentence();
     };
     
-    function hideModal(){
-        $scope.modalShow = false;
-    }
-    
     function finishGame(){
-        $scope.modalShow = true;
-        $scope.modalMessage = "Pontszámod: "+$scope.score+"/"+$scope.sentences.length;
         var score = 0;
         if($scope.score >0){
             score = ($scope.score/$scope.index)*100;
         }
+        $scope.modalShow = true;
+        $scope.modalMessage = "Helyes/összes: "+$scope.score+"/"+$scope.sentences.length + ", eredmény:" + score + "%";
         $http({url:'play/save_results' + document.location.search + '&score=' + score, method: "GET"});
     }
     

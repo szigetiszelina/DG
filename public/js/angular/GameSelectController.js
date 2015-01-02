@@ -21,6 +21,6 @@ dg.controller('GameSelectController', ['$scope', function($scope) {
             $scope.selected_category = "";
         }else{
             $scope.selected_category = category_id;
-        } console.log($scope.selected_category);
+        }
     };
 }]);

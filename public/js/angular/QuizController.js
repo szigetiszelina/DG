@@ -12,7 +12,7 @@ dg.controller('QuizController', ['$scope', "$http", '$location', function($scope
             alert("hiba a kérdések lekérésében");
         });
 
-       /* $http({
+       /* $http({ //így megy a poszt
             url: 'Play/save_word_results',
             data: $.param({
                 words: [
@@ -29,22 +29,11 @@ dg.controller('QuizController', ['$scope', "$http", '$location', function($scope
             alert("hiba a szavak eredményének mentésében");
         });*/
 
-        $scope.showAlert = function() {
-            alert("Okét nyomtál");
-        };
-        $scope.hidePopup = function() {
-            $scope.modalShown = false;
-        };
-        $scope.modalShown = false;
-        $scope.toggleModal = function() {
-            $scope.modalShown = !$scope.modalShown;
-        };
+        $scope.modalShow = false;
+        
         $scope.checkAnswer = function() {
             $scope.index++;
             if ($scope.answer) {
-                for(var i=0;i<$scope.questions.length;i++){
-            console.log($scope.questions[i].word_id+ $scope.questions[i].solution);
-        }
                 if ($scope.answer === $scope.question.answer) {
                     $scope.question.solution = true;
                     $scope.score++;
@@ -55,26 +44,25 @@ dg.controller('QuizController', ['$scope', "$http", '$location', function($scope
                     $scope.answer = null;
                     $scope.question = $scope.questions[$scope.index];
                     yAngle -= 90;
-                    console.log($scope.index);
                     document.getElementById('cube').style[prop] = "rotateX("+xAngle+"deg) rotateY("+yAngle+"deg)";
                 } else {
-                    $scope.scoreMessage = "Gratulálunk a pontjaid: " + $scope.index + '/' + $scope.score;
-                    alert($scope.scoreMessage + "megoldasok: "+$scope.questions);
+                    console.log('index'+$scope.index);
+                    //alert($scope.scoreMessage + "megoldasok: "+$scope.questions);
                     var score = 0;
                     if ($scope.score > 0) {
                         score = ($scope.score / $scope.index) * 100;
                     }
+                    $scope.modalMessage = 'Helyes/összes: ' + $scope.score + '/' + $scope.index  + ', eredmény: '+ score +'%';
+                    $scope.modalShow = true;
                     $http({url: 'play/save_results' + document.location.search + '&score=' + score,
                         method: "GET"}).success(function(data) {
                         if (data == 'ok') {
                             $scope.questions = data;
                             $scope.question = $scope.questions[$scope.index];
-                            
                         }
                     }).error(function() {
                         alert("hiba a játék eredményének mentésében");
                     });
-                    $scope.toggleModal();
                 }
             } else {
                 alert("Nem adtál választ!");
