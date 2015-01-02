@@ -37,5 +37,9 @@ class Word_memory implements Memory_playable {
     public function get_words() {
         return $this->words;
     }
+    
+    public function get_limit() {
+        return $this->limit;
+    }
 
 }
