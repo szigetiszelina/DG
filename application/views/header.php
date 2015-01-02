@@ -26,13 +26,13 @@
                     <?php if ($is_login) { ?>
                         <div class="col-md-2 col-sm-3 col-xs-4">
                             <div class="button">
-                                <a href="auth/logout">Kilépés</a>
+                                <a href="<?= base_url() ?>auth/logout">Kilépés</a>
                             </div>
                         </div>
                     <?php } else { ?>
                     <div class="col-md-2 col-sm-3 col-xs-4">
                         <div class="button">
-                            <a href="auth/login">Belépés</a>
+                            <a href="<?= base_url() ?>auth/login">Belépés</a>
                         </div>
                     </div>
                     <?php } ?>
