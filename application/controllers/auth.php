@@ -41,6 +41,10 @@ class Auth extends MY_Controller {
             $user['profil_image'] = $response['info']['image'];
             $user['gender'] = $response['raw']['gender'];
             $user['location'] = $response['raw']['location']['name'];
+            $user['friends'] = array();
+            foreach ($response['info']['friendlists']['data'] as $friend){
+                $user['friends'][] = $friend['id'];
+            }
             return $user;
         }        
     }

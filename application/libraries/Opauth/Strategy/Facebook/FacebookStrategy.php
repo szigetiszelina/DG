@@ -146,7 +146,7 @@ class FacebookStrategy extends OpauthStrategy{
 	}
         
         private function friends($access_token){
-		$friends = $this->serverGet('https://graph.facebook.com/me/friendlists', array('access_token' => $access_token), null, $headers);
+		$friends = $this->serverGet('https://graph.facebook.com/me/friends', array('access_token' => $access_token, 'limit' => 5000), null, $headers);
 		if (!empty($friends)){
 			return json_decode($friends);
 		}
