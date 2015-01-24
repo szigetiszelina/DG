@@ -19,7 +19,7 @@
         <div class="header">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-2 col-sm-3 col-xs-4"><div class="logo">DG</div></div>
+                    <div class="col-md-2 col-sm-3 col-xs-4"><div class="logo"><a href="index">DG</a></div></div>
                     <div class="col-md-8 col-sm-6 col-xs-4">
                         <h1 class="title">Tanulj német nyelvtant szórakozva!</h1>
                     </div>
