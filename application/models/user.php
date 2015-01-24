@@ -64,18 +64,18 @@ class User extends CI_Model {
     }
 
     public function save_user_contacts($new_user_fb_id, $friend_fb_id) {
-        $sql = "SELECT count(*) as count FROM user_contacts WHERE (fb_id1 =" . (int) $new_user_fb_id . " AND fb_id2 = " . (int) $friend_fb_id . ") "
-                . "OR (fb_id1 =" . (int) $friend_fb_id . " AND fb_id2 = " . (int) $new_user_fb_id . ")";
+        $sql = "SELECT count(*) as count FROM user_contacts WHERE (fb_id1 =" . $new_user_fb_id . " AND fb_id2 = " . $friend_fb_id . ") "
+                . "OR (fb_id1 =" . $friend_fb_id . " AND fb_id2 = " . $new_user_fb_id . ")";
         $query = $this->db->query($sql);
         $result = $query->row_array();
         if ((int) $result['count'] < 1) {
-            $sql = "INSERT INTO user_contacts(fb_id1,fb_id2) VALUES(" . (int) $new_user_fb_id . "," . (int) $friend_fb_id . ")";
+            $sql = "INSERT INTO user_contacts(fb_id1,fb_id2) VALUES(" . $new_user_fb_id . "," . $friend_fb_id . ")";
             $this->db->query($sql);
         }
     }
 
     public function update_user_contacts($fb_id) {
-        $sql = "UPDATE user_contacts SET both_of_them_gamer = true WHERE fb_id2 = " . (int) $fb_id;
+        $sql = "UPDATE user_contacts SET both_of_them_gamer = true WHERE fb_id2 = " . $fb_id;
         $this->db->query($sql);
     }
 

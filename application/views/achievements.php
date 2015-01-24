@@ -12,7 +12,7 @@
             <div id="chartdiv4"></div>
             <h3>Eredményeid havi felbontásban egy adott évre</h3>
             <p>Ha nem adsz meg évet, akkor az aktuális évre vonatkozóan</p>
-            <select ng-model="year_daily">
+            <select ng-model="year_monthly" ng-change="refresh_monthly()">
                 <option  ng-repeat="year in selectable_years" value="{{year}}">
                     {{year}}
                 </option>
@@ -22,6 +22,16 @@
 
             <h3>Eredményeid napi felbontásban egy adott évre és hónapra</h3>
             <p>Ha nem adsz meg évet, akkor az aktuális évre és hónapra vonatkozóan</p>
+            <select ng-model="year_daily">
+                <option  ng-repeat="year in selectable_years" value="{{year}}">
+                    {{year}}
+                </option>
+            </select>
+            <select ng-model="month_daily" ng-change="refresh_daily()">
+                <option  ng-repeat="month in months" text="{{month.text}}" value="{{month.id}}">
+                    {{month.text}}
+                </option>
+            </select>
             <div id="chartdiv6"></div>
         </div>
     </div>

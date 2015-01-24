@@ -44,12 +44,19 @@ class Achievements extends MY_Controller {
     }
     
     public function get_monthly_result($year = null){
+        if(!empty($_GET) && ($_GET['year']!=null)){
+            $year = (int) $_GET['year'];
+        }
         $this->load->model('result');
         $results = $this->result->get_monthly_result($this->user['id'], $year);
         echo json_encode($results);
     }
     
     public function get_daily_result($year = null, $month = null){
+        if(!empty($_GET) && ($_GET['year']!=null || $_GET['month']!=null)){
+            $year = (int) $_GET['year'];
+            $month = (int) $_GET['month'];
+        }
         $this->load->model('result');
         $results = $this->result->get_daily_result($this->user['id'], $year, $month);
         echo json_encode($results);
