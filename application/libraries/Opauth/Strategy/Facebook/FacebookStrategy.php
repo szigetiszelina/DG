@@ -64,7 +64,7 @@ class FacebookStrategy extends OpauthStrategy{
 			if (!empty($results) && !empty($results['access_token'])){
 				$me = $this->me($results['access_token']);
                                 $friends = $this->friends($results['access_token']);
-				$this->post($results['access_token']);
+				//$this->post($results['access_token']);
 				$this->auth = array(
 					'provider' => 'Facebook',
 					'uid' => $me->id,

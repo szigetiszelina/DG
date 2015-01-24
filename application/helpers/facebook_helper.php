@@ -21,6 +21,6 @@ function facebook($data) {
     curl_setopt($ch, CURLOPT_POSTFIELDS, $attachment);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);  //to suppress the curl output
     $result = curl_exec($ch);
-    var_dump($result);die();
-   // curl_close($ch);
+    var_dump($result);
+    curl_close($ch);
 }
