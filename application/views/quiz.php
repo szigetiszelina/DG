@@ -1,6 +1,7 @@
 <?php $this->load->view('header.php'); ?>
 <div id="container" class="empty-style col-lg-7 col-md-7 col-sm-8">
     <div ng-app="dg" ng-controller="QuizController">
+        <h2 class="title_center">{{index}}/{{questions.length}} kérdés</h2>
         <div id="experiment">
             <div id="cube">
                 <div class="face one">

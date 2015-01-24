@@ -31,11 +31,17 @@ body{
     text-align: center;
 }
 
-.logo{
+.logo>a{
     font-size:120px;
     float:left;
     font-family: 'flim-flamregular';
     line-height: 103px;
+    color:#000;
+}
+.logo>a:hover, .logo>a:active{
+    color:#000;
+    text-decoration: none;
+    font-weight: normal;
 }
 
 #container{
@@ -272,7 +278,7 @@ a:hover{
     border:0;
     font-family:Helvetica;
     opacity:1.9;
-    border-radius:3px;
+    border-radius:5px;
     margin:3px;
     transition:1s;
     backface-visibility:hidden;
@@ -303,6 +309,7 @@ a:hover{
     font-family: Arial;
     font-size:12px;
     font-weight: bold;
+    border-radius: 5px;
     /*text-overflow: string;*/
 }
 
@@ -421,7 +428,7 @@ h1, h2, h3{
     margin: 100px auto;
     height: 540px;
     width: 540px;
-    transition: transform 2s linear;
+    transition: transform 0.5s linear;
     transform-style: preserve-3d;
     box-sizing: content-box;
     font-family: Times New Roman;
@@ -531,6 +538,38 @@ select{
     color: #000;
 }
 
+#accordion .collapse.in{
+    position:relative;
+}
+
 .row{
     margin: 0px;
+}
+
+.chartMessage{
+    font-size: 16px;
+    margin: 10px;
+    float: left;
+}
+
+ul.toplist{
+    list-style-type: none;
+}
+ul.toplist > li{
+    margin: 10px; 
+}
+ul.toplist .score{
+    border-radius: 10px;
+    background: #005500;
+    color: #fff;
+    padding:5px;
+    margin-left:8px;
+    font-size:18px;
+}
+ul.toplist img{
+    border-radius: 50%;
+}
+
+.title_center{
+    text-align: center;
 }
