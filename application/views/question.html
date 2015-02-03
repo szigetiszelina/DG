@@ -1,0 +1,5 @@
+{{question.question}} <br>
+<div ng-repeat="alternat in question.alternatives">
+    <input type="radio" ng-model="$parent.answer" value="{{alternat}}"><span  >{{alternat}}</span> <br/>
+</div>
+<button ng-click="setNewQuestion()">Tovább</button>

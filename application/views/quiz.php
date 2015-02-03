@@ -5,35 +5,19 @@
         <div id="experiment">
             <div id="cube">
                 <div class="face one">
-
+                    <?php $this->load->view('question.html'); ?>
                 </div>
                 <div class="face two">
-                    {{question.question}} <br>
-                    <div ng-repeat="alternat in question.alternatives">
-                        <input type="radio" ng-model="$parent.answer" value="{{alternat}}"><span  >{{alternat}}</span> <br/>
-                    </div>
-                    <button ng-click="checkAnswer()">Tovább</button>
+                    <?php $this->load->view('question.html'); ?>
                 </div>
                 <div class="face three">
-                    {{question.question}} <br>
-                    <div ng-repeat="alternat in question.alternatives">
-                        <input type="radio" ng-model="$parent.answer" value="{{alternat}}"><span  >{{alternat}}</span> <br/>
-                    </div>
-                    <button ng-click="checkAnswer()">Tovább</button>
+                    <?php $this->load->view('question.html'); ?>
                 </div>
                 <div class="face four">
-                    {{question.question}} <br>
-                    <div ng-repeat="alternat in question.alternatives">
-                        <input type="radio" ng-model="$parent.answer" value="{{alternat}}"><span  >{{alternat}}</span> <br/>
-                    </div>
-                    <button ng-click="checkAnswer()">Tovább</button>
+                    <?php $this->load->view('question.html'); ?>
                 </div>
                 <div class="face five">
-                    {{question.question}} <br>
-                    <div ng-repeat="alternat in question.alternatives">
-                        <input type="radio" ng-model="$parent.answer" value="{{alternat}}"><span  >{{alternat}}</span> <br/>
-                    </div>
-                    <button ng-click="checkAnswer()">Tovább</button>
+                    <?php $this->load->view('question.html'); ?>
                 </div>
                 <div class="face six">
 
