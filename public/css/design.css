@@ -22,6 +22,7 @@ body{
 .header{
     background-color: rgba(97, 185, 47, 0.52);
     font-family: 'flim-flamregular';
+    min-width: 380px;
 }
 
 .title{
@@ -114,7 +115,7 @@ body{
     color:#005500;
 }
 
-a:hover{
+a:hover, a:active{
     text-decoration: none; 
 }
 
@@ -131,14 +132,13 @@ a:hover{
     padding: 0px;
 }
 
-.button>p:hover{
+.button p:hover, .button p:active{
     text-decoration: none;
     color:#005500;
 }
 
 .button>p:active{
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-    color:#005500;       
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);      
 }
 
 .button:active {    
@@ -347,7 +347,7 @@ h1, h2, h3{
 
 @media (max-width: 767px) {
     .title { font-size: 25px; }
-    .logo {
+    .logo a{
         font-size: 93px;
         text-align: center;
     }
@@ -572,4 +572,9 @@ ul.toplist img{
 
 .title_center{
     text-align: center;
+}
+
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
 }

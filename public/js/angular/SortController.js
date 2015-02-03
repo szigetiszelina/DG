@@ -5,6 +5,7 @@ dg.controller('SortController', function($scope, $http) {
     $scope.score = 0;
     $scope.index = 0;    
     $scope.modelShow = false;
+    $scope.buttonDisabled = false;
     
     $http.get('play/get_sentences' + document.location.search).success(function(data) {
         $scope.sentences = data;

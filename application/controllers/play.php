@@ -121,20 +121,20 @@ class Play extends MY_Controller {
         }
     }
     
-    public function memoryCalcWorstTime($limit){
-        $lap = $limit *2;
+    private function memoryCalcWorstTime($limit){
+        $card_count = $limit *2;
         $worst_time = 0;
-        for($i = $lap; $i>0; $i-=2){
-            $worst_time+= ($i-1)*3.6 + 1*2.1;
+        for($i = $card_count; $i>0; $i-=2){
+            $worst_time += ($i-1)*3.6 + 1*2.1;
         }
         return $worst_time;
     }
     
-    public function memoryCalcBestTime($limit){
-        $lap = $limit *2;
+    private function memoryCalcBestTime($limit){
+        $card_count = $limit *2;
         $best_time = 0;
-        for($i = $lap; $i>0; $i-=2){
-            $best_time+= 1*2.1;
+        for($i = $card_count; $i>0; $i-=2){
+            $best_time += 1*2.1;
         }
         return $best_time;
     }
@@ -143,13 +143,22 @@ class Play extends MY_Controller {
         $user = $this->session->userdata('user');
         if ($_GET['grammar_id'] && $_GET['game_type'] && !empty($_GET['time']) && $_GET['time'] != "" && (int) $user['id'] > 0 && (int) $_GET['limit']>0) {
             $this->load->model('Game');
-            $game = new Game();
-            $game_id = (int) $game->get_id_by_type($_GET['game_type']);
+            $game_id = (int) $this->Game->get_id_by_type($_GET['game_type']);
             $worst_time = $this->memoryCalcWorstTime($_GET['limit']);
             $best_time = $this->memoryCalcBestTime($_GET['limit']);
-        
-            $time_percent = 100-((doubleval($_GET['time']))/($worst_time-$best_time))*100;
-            $this->load->model('Result');
+            $avg = ($worst_time+$best_time)/2;
+            $low_limit = ($worst_time + $avg) / 2;
+            $high_limit = ($best_time + $avg) / 2;
+            $corrected_time = (doubleval($_GET['time']))-$low_limit;
+            $corrected_all_time = $high_limit - $low_limit;
+            $time_percent = ($corrected_time / $corrected_all_time) * 100;
+            if ($time_percent > 100) {
+                $time_percent = 100;
+            }
+            if ($time_percent < 0) {
+                $time_percent = 0;
+            }
+
             $user = $this->session->userdata('user');
             $params = array('uid' => $user['id'],
                 'grammar_id' => $_GET['grammar_id'],

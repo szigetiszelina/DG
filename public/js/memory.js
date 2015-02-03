@@ -31,7 +31,6 @@ $(".memory_cover").click(function() {
                 setTimeout(function() {
                     $('#results').append('<p>' + items[0].text() + ' = ' + items[1].text() + '</p>');
                     $('[data-id=' + ids[0] + ']').remove();
-                    console.log(document.location.search);
                     if ($('.memorize').length === 0) {
                         var score_time = (new Date - start) / 1000;
                         $.ajax({
@@ -42,7 +41,7 @@ $(".memory_cover").click(function() {
                             cache: false,
                             success:
                                     function(data) {
-                                        alert('Gratulálunk nyertél! Eredményed:' + data + ', időd:' + score_time + ' másodperc');
+                                        alert('Eredményed:' + data + '%, időd:' + score_time + ' másodperc');
                                     }
                         });
                     }

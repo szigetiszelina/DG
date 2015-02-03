@@ -2,6 +2,7 @@
 <html lang="hu">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>NémetNyelvtangyakorló</title>
         <script src="<?=base_url()?>public/js/prefixfree.min.js"></script>
         <script src="<?=base_url()?>public/js/jquery-1.9.1.js"></script>

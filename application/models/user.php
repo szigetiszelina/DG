@@ -17,7 +17,7 @@ class User extends CI_Model {
                        '" . $datas['profil_image'] . "', '" . $datas['gender'] . "', 
                        '" . $datas['location'] . "', NOW(), NOW())";
         $this->db->query($sql);
-        $this->update_user_contacts($datas['fb_id']);
+        $this->update_user_contact($datas['fb_id']);
         foreach ($datas['friends'] as $friend) {
             $this->save_user_contacts($datas['fb_id'], $friend);
         }
@@ -74,7 +74,7 @@ class User extends CI_Model {
         }
     }
 
-    public function update_user_contacts($fb_id) {
+    public function update_user_contact($fb_id) {
         $sql = "UPDATE user_contacts SET both_of_them_gamer = true WHERE fb_id2 = " . $fb_id;
         $this->db->query($sql);
     }
