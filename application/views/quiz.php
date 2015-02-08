@@ -1,11 +1,10 @@
 <?php $this->load->view('header.php'); ?>
 <div id="container" class="empty-style col-lg-7 col-md-7 col-sm-8">
-    <div ng-app="dg" ng-controller="QuizController">
+    <div ng-controller="QuizController">
         <h2 class="title_center">{{index}}/{{questions.length}} kérdés</h2>
         <div id="experiment">
             <div id="cube">
                 <div class="face one">
-                    <?php $this->load->view('question.html'); ?>
                 </div>
                 <div class="face two">
                     <?php $this->load->view('question.html'); ?>
@@ -31,7 +30,6 @@
     </div>
 </div>
 <div class="col-lg-2 col-md-4 col-sm-5">
-    Toplisták
 </div>
 </div><!--row -->
 

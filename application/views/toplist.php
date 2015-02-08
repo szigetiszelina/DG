@@ -16,6 +16,7 @@
                 </li>
             <?php } ?>
             </ul>
+            <button class="share_button" type="submit" btn="" btn-block="" btn-social="">Megosztás</button>
         <?php } else {?>
         <p>Nincs eredmény.</p>
         <?php } ?>

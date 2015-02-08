@@ -1,0 +1,51 @@
+<div class="toplist_box" ng-controller="ToplistController">
+    <h2>Toplisták</h2>
+    <h3>Pontszámod barátaidhoz képest</h3>
+    <ul class="toplist" ng-show="friend_score_list">
+        <li ng-repeat="friend_score in friend_score_list">
+            <div>{{$index + 1}}
+                <img ng-src="{{friend_score.profil_image}}" />
+                <span>{{friend_score.name}}</span>
+                <span class="score">
+                    {{friend_score.score}}
+                </span>
+            </div>
+        </li>
+    </ul>
+    <p ng-hide="friend_score_list">Nincs eredmény.</p>
+    
+    <h3>Mai toplistások</h3>
+    <ul class="toplist" ng-show="daily_toplist">
+        <li ng-repeat="daily in daily_toplist">
+            <div>{{$index + 1}}
+                <img ng-src="{{daily.profil_image}}" />
+                <span>{{daily.name}}</span>
+                <span class="score">
+                    {{daily.score}}
+                </span>
+            </div>
+        </li>
+    </ul>
+    <p ng-hide="daily_toplist">Nincs eredmény.</p>
+    
+    <h3>Ehavi toplistások</h3>
+    <ul class="toplist" ng-show="monthly_toplist">
+        <li ng-repeat="monthly in monthly_toplist">
+            <div>{{$index + 1}}
+                <img ng-src="{{monthly.profil_image}}" />
+                <span>{{monthly.name}}</span>
+                <span class="score">
+                    {{monthly.score}}
+                </span>
+            </div>
+        </li>
+    </ul>
+    <p ng-hide="monthly_toplist">Nincs eredmény.</p>
+    <modal-dialog show='modalShow' width='60%' height='60%'>
+        {{modalMessage}}
+        <!--<button ng-click='hideModal()'>ok</button>-->
+    </modal-dialog>
+</div>
+<!--<button class="share_button" type="submit" btn="" btn-block="" btn-social="">Megosztás</button>-->
+<script src="/DG/public/js/angular/ToplistController.js" type="text/javascript" ></script>
+<script src="/DG/public/js/angular/ModalDialogDirective.js" type="text/javascript" ></script>

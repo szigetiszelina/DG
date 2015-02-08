@@ -47,7 +47,7 @@
 </div>
 <?php if ($is_login) { ?>
     <div class="col-lg-2 col-md-4 col-sm-5">
-        Toplisták
+        <?php $this->load->view('toplist_box.html'); ?>
     </div>
 <?php } ?>
 </div><!--row -->

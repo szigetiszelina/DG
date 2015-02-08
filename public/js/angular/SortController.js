@@ -1,7 +1,4 @@
-var dg = angular.module('dg', ['ui.sortable']);
-
 dg.controller('SortController', function($scope, $http) {
-
     $scope.score = 0;
     $scope.index = 0;    
     $scope.modelShow = false;

@@ -505,7 +505,7 @@ h1, h2, h3{
     width: 100%;
     min-height: 200px;
     padding: 5px 15px;
-    border-radius: 15px;
+    border-radius: 5px;
     background: #ffe4b5 url("http://localhost/DG/public/css/images/bg-body.jpg");
 }
 
@@ -577,4 +577,28 @@ ul.toplist img{
 .container-fluid{
     margin: 0px;
     padding: 0px;
+}
+
+.share_button {  
+    padding: 0.3em 0.6em 0.375em;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    font: bold 11px/normal 'lucida grande', tahoma, verdana, arial, sans-serif;
+    cursor: pointer;
+    background-color: #eee;
+    background-image: linear-gradient(#f5f6f6, #e4e4e3);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
+    border-color: #29447e #29447e #1a356e;
+    color: #fff;
+    border-width: 1px;
+    background-image: linear-gradient(#637bad, #5872a7);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+}
+
+.toplist_box .ng-modal-overlay{
+    margin-top: 15px;
+}
+.toplist_box .toplist{
+    padding:0px;
 }

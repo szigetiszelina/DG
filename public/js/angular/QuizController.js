@@ -1,5 +1,3 @@
-var dg = angular.module('dg', []);
-
 dg.controller('QuizController', ['$scope', "$http", '$location', function($scope, $http, $location) {
         $scope.score = 0;
         $scope.index = 0;

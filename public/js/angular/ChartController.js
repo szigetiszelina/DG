@@ -1,5 +1,3 @@
-var dg = angular.module('dg', []);
-
 dg.controller('chartController', ['$http','$scope', function($http, $scope) {
     var colors = ["#D88F66", "#3F7A2F", "#FF4747", "#FCF8B6", "#2F537A"];
     var months = ["Január", "Február", "Március", "Április", "Május", "Június", "Július", "Augusztus", "Szeptember", "Október", "November", "December"];

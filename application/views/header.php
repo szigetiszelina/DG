@@ -15,12 +15,14 @@
         <link rel="stylesheet" href="<?=base_url()?>public/css/design.css" type="text/css" />
         <script src="<?=base_url()?>public/bootstrap/js/bootstrap.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js" type="text/javascript"></script>
+        <script src="https://rawgithub.com/angular-ui/ui-sortable/master/src/sortable.js"></script> 
+        <script src="<?= base_url() ?>public/js/angular/module.js" type="text/javascript" ></script>        
     </head>
-    <body>
+    <body ng-app="dg">
         <div class="header">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-2 col-sm-3 col-xs-4"><div class="logo"><a href="index">DG</a></div></div>
+                    <div class="col-md-2 col-sm-3 col-xs-4"><div class="logo"><a href="<?= base_url() ?>index">DG</a></div></div>
                     <div class="col-md-8 col-sm-6 col-xs-4">
                         <h1 class="title">Tanulj német nyelvtant szórakozva!</h1>
                     </div>

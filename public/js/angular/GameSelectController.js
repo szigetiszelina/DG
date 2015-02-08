@@ -1,4 +1,3 @@
-var dg = angular.module('dg', []);
 dg.controller('GameSelectController', ['$scope', function($scope) {
     $scope.game_types = {};
     $scope.game_types.memory = false;

@@ -13,7 +13,6 @@
         </div>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-5">
-        Toplisták
     </div>
 </div>
 <!--<script src="<?=base_url()?>public/js/angular/MemoryController.js" type="text/javascript" ></script>

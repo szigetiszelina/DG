@@ -1,0 +1,1 @@
+var dg = angular.module('dg', ['ui.sortable']);

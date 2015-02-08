@@ -1,5 +1,3 @@
-var dg = angular.module('dg');
-
 dg.directive('modalDialog', function() {
     return {
         restrict: 'E',
