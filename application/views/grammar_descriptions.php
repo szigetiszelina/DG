@@ -25,7 +25,7 @@
             </div>
             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body">
-                    <?php $this->load->view('verbs'); ?>
+                    <?php $this->load->view('verbs.php'); ?>
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@
             </div>
             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                 <div class="panel-body">
-                    Ide jön egy kis ismertetés a szórendről
+                    <?php $this->load->view('word_order.html'); ?>
                 </div>
             </div>
         </div>

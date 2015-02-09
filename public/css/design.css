@@ -602,3 +602,13 @@ ul.toplist img{
 .toplist_box .toplist{
     padding:0px;
 }
+.toplist_box .toplist li{
+    width: 100%;
+}
+
+ul.alphabet{
+  list-style: lower-alpha; 
+}
+.alphabet pre{
+    white-space: pre-wrap;
+}
