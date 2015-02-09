@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-lg-7">
                     <ul class="list logList">
-                        <li ng-repeat="entry in sortingLog track by $index" class="logItem">
+                        <li ng-repeat="entry in sortingLog" class="logItem">
                             {{entry}}
                         </li>
                     </ul>

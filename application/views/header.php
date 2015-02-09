@@ -18,7 +18,7 @@
         <script src="https://rawgithub.com/angular-ui/ui-sortable/master/src/sortable.js"></script> 
         <script src="<?= base_url() ?>public/js/angular/module.js" type="text/javascript" ></script>        
     </head>
-    <body ng-app="dg">
+    <body ng-app="dg" ng-cloak>
         <div class="header">
             <div class="container-fluid">
                 <div class="row">
