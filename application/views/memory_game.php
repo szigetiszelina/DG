@@ -4,7 +4,7 @@
             <?php for($i=0;$i<count($words);$i++){?>
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="height: 105px;">
                     <div class="memory_wrapper" >
-                        <div id='word_<?= $i ?>' class="memorize turn" data-id="<?= $words[$i]['id'] ?>"><?= $words[$i]['word'] ?></div>
+                        <div id='word_<?= $i ?>' class="memorize turn" data-id="<?= $words[$i]['id'] ?>"><div class="vertical_center"><?= $words[$i]['word'] ?></div></div>
                         <button id='cover_<?= $i ?>' class="memory_cover" data-id="<?= $words[$i]['id'] ?>">
                         </button>
                     </div>

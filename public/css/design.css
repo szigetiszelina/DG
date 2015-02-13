@@ -309,8 +309,8 @@ a:hover{
     font-size:12px;
     font-weight: bold;
     border-radius: 5px;
-    padding-top: 20px;
     word-wrap: break-word;
+    line-height: 90px;
     /*text-overflow: string;*/
 }
 
@@ -323,6 +323,12 @@ a:hover{
     position: relative;
     margin-top:5px;
     margin-bottom: 5px;
+}
+
+.vertical_center{
+    vertical-align: middle;
+    line-height: normal;
+    display: inline-block;
 }
 
 h1, h2, h3{
