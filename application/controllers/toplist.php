@@ -12,10 +12,6 @@ class Toplist extends MY_Controller {
     }
 
     public function index() {
-        //$this->load->helper('facebook');
-        $user = $this->session->userdata('user');
-        //facebook(array('fb_id' => $user['fb_id'], 'access_token' => $this->session->userdata('token'), 'message' => 'test_post', 'link' => base_url()));
-
         $toplist_data = $this->get_toplist_data();
         $this->load->view('toplist', array("is_login" => $this->session->userdata('login_status'),
             "friend_score_list" => $toplist_data['friend_score_list'],

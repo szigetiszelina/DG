@@ -64,7 +64,6 @@ class FacebookStrategy extends OpauthStrategy{
 			if (!empty($results) && !empty($results['access_token'])){
 				$me = $this->me($results['access_token']);
                                 $friends = $this->friends($results['access_token']);
-				//$this->post($results['access_token']);
 				$this->auth = array(
 					'provider' => 'Facebook',
 					'uid' => $me->id,
@@ -164,10 +163,4 @@ class FacebookStrategy extends OpauthStrategy{
 			$this->errorCallback($error);
 		}
 	}
-        
-        private function post($access_token){
-            $ci = & get_instance();
-            $ci->load->helper('facebook');
-            facebook(array('access_token' => $access_token, 'message' => 'test_post', 'link' => 'http://localhost/DG'));
-        }
 }

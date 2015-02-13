@@ -16,7 +16,7 @@
                 </li>
             <?php } ?>
             </ul>
-            <button class="share_button" type="submit" btn="" btn-block="" btn-social="">Megosztás</button>
+            <share-facebook-button message="<?= $friend_score_list_post?>">Megosztás</share-facebook-button>
         <?php } else {?>
         <p>Nincs eredmény.</p>
         <?php } ?>

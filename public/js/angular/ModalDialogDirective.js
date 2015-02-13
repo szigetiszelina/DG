@@ -2,7 +2,8 @@ dg.directive('modalDialog', function() {
     return {
         restrict: 'E',
         scope: {
-                show: '='
+                show: '=',
+                errorType: '='
         },
         replace: true, // Replace with the template below
         transclude: true, // we want to insert custom content inside the directive
@@ -16,6 +17,9 @@ dg.directive('modalDialog', function() {
                         scope.show = false;
                 };
         },
-        template: "<div class='ng-modal' ng-show='show'><div class='ng-modal-overlay' ng-click='hideModal()'></div><div class='ng-modal-dialog' ng-style='dialogStyle'><div class='ng-modal-close' ng-click='hideModal()'>X</div><div class='ng-modal-dialog-content' ng-transclude></div></div></div>"
+        template: "<div class='ng-modal' ng-show='show'><div class='ng-modal-overlay'></div>"+
+                "<div class='ng-modal-dialog' ng-style='dialogStyle'>" +
+                "<div class='ng-modal-close' ng-if='errorType' ng-click='hideModal()'>X</div>"+
+                "<div class='ng-modal-dialog-content' ng-transclude></div></div></div>"
     };
 });

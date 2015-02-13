@@ -13,7 +13,7 @@
         </li>
     </ul>
     <p ng-hide="friend_score_list">Nincs eredmény.</p>
-    
+    <share-facebook-button message="friend_score_list_post"></share-facebook-button>
     <h3>Mai toplistások</h3>
     <ul class="toplist" ng-show="daily_toplist">
         <li ng-repeat="daily in daily_toplist">
@@ -41,11 +41,11 @@
         </li>
     </ul>
     <p ng-hide="monthly_toplist">Nincs eredmény.</p>
-    <modal-dialog show='modalShow' width='60%' height='60%'>
+    <modal-dialog show='modalShow' error-type="error" width='60%' height='60%'>
         {{modalMessage}}
-        <!--<button ng-click='hideModal()'>ok</button>-->
     </modal-dialog>
 </div>
 <!--<button class="share_button" type="submit" btn="" btn-block="" btn-social="">Megosztás</button>-->
 <script src="/DG/public/js/angular/ToplistController.js" type="text/javascript" ></script>
 <script src="/DG/public/js/angular/ModalDialogDirective.js" type="text/javascript" ></script>
+<script src="/DG/public/js/angular/ShareFacebookButtonDirective.js" type="text/javascript" ></script>

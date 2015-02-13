@@ -1,5 +1,6 @@
 dg.controller('ToplistController', ['$scope', '$http', function($scope, $http) {
     $scope.modelShow = false;
+    $scope.error = false;
     $http({url: '/DG/toplist/get_toplist_data_json',
         method: "GET"}).success(function(data) {
         if (data !== '' && data !== null) {
@@ -9,9 +10,11 @@ dg.controller('ToplistController', ['$scope', '$http', function($scope, $http) {
             }
             $scope.daily_toplist = data['daily_toplist'];
             $scope.monthly_toplist = data['monthly_toplist'];
+            $scope.friend_score_list_post = 'Teszt üzenet';
         }
     }).error(function() {
         $scope.modalShow = true;
-        $scope.modalMessage = "Hiba történt a toplisták lekérdezése közben";
+        $scope.error = true;
+        $scope.modalMessage = "Hiba történt a toplisták lekérdezése közben.";
     });
 }]);

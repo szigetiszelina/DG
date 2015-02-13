@@ -304,12 +304,13 @@ a:hover{
     text-align: center;
     box-sizing: border-box;
     margin: 3px;
-    line-height:90px;
     /* overflow: hidden;*/
     font-family: Arial;
     font-size:12px;
     font-weight: bold;
     border-radius: 5px;
+    padding-top: 20px;
+    word-wrap: break-word;
     /*text-overflow: string;*/
 }
 
@@ -385,18 +386,18 @@ h1, h2, h3{
     /* A centered div above the overlay with a box shadow. */
     z-index:10000;
     position: absolute;
-    width: 50%; /* Default */
+    width: 60%; /* Default */
+    height: 80%;
 
     /* Center the dialog */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-
+    top: 10%;
+    left: 20%;
+    /*transform: translate(-50%, -50%);
+    text-transform: none;*/
     background-color: #fff;
     box-shadow: 4px 4px 80px #000;
     background: url('images/bg-body.jpg');
+    padding: 10px;
 }
 .ng-modal-dialog-content {
     padding:10px;
@@ -414,6 +415,11 @@ h1, h2, h3{
     display: inline-block;
     font-weight: bold;
     font-family: 'arial', 'sans-serif';
+}
+
+.modal_title{
+    font-size:18px;
+    font-weight: bold;
 }
 
 /*3d cube start*/
@@ -614,4 +620,11 @@ ul.alphabet{
 }
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
+}
+
+.right_link{
+    float:right;
+}
+.left_link{
+    rloat:left;
 }

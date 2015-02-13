@@ -3,15 +3,13 @@
 function facebook($data) {
 
     $CI = & get_instance();
-
-    //$CI->load->model('fk_model');
-
-    $token = "100001427136921";
+    $token = $data['fb_id'];
 
     $attachment = array(
         'access_token' => $data['access_token'],
         'message' => $data['message'],
         'link' => $data['link'],
+        'picture' => $data['picture']
     );
    
     $ch = curl_init('https://graph.facebook.com/' . $token . '/feed');
@@ -21,6 +19,5 @@ function facebook($data) {
     curl_setopt($ch, CURLOPT_POSTFIELDS, $attachment);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);  //to suppress the curl output
     $result = curl_exec($ch);
-    var_dump($result);
     curl_close($ch);
 }

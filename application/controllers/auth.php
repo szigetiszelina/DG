@@ -10,20 +10,11 @@ class Auth extends MY_Controller {
         //Comprobate if the user request a strategy
         if($this->uri->segment(3)==''){
             $ci_config = $this->config->item('opauth_config');
-            /*$arr_strategies = array_keys($ci_config['Strategy']);
-            
-            echo("Please, select an Oauth provider:<br />");
-            echo("<ul>");
-            foreach($arr_strategies AS $strategy){
-                echo("<li><a href='".base_url()."auth/login/".strtolower($strategy)."'>Login with ".$strategy."</li>");
-            }
-            echo("</ul>");*/
             redirect("/auth/login/facebook");
         }   
         else{
             //Run login
             $this->load->library('Opauth/Opauth', $this->config->item('opauth_config'), true);
-           //$this->opauth->run();   
         }        
     }
     
@@ -45,12 +36,13 @@ class Auth extends MY_Controller {
             foreach ($response['info']['friendlists']['data'] as $friend){
                 $user['friends'][] = $friend['id'];
             }
-            return $user;
+            return array('user' => $user, 'token' => $response['credentials']['token']);
         }        
     }
     
     public function authenticate(){
-        $user_datas = $this->transform_opauth_datas($_POST);          
+        $opauth_data = $this->transform_opauth_datas($_POST);
+        $user_datas = $opauth_data['user'];
         if($user_datas !== null){
             $this->load->model('User');       
             $user = new User();
@@ -59,17 +51,18 @@ class Auth extends MY_Controller {
             } else{
                 $user->userdata_synchronize($user_datas);
             }
-            $this->save_user_to_session($user_datas['fb_id']);
+            $this->save_user_to_session($user_datas['fb_id'], $opauth_data['token']);
             redirect('index');
         } else {
             //Kérjük engedélyezd a hozzáférést az adataidhoz...
         }
     }
     
-    public function save_user_to_session($fb_id){
+    public function save_user_to_session($fb_id, $access_token){
         $user = new User();
         $this->session->set_userdata('user', $user->get_user($fb_id));
         $this->session->set_userdata('login_status', TRUE);
+        $this->session->set_userdata('token', $access_token);
         $user->update_last_login($fb_id);
     }
     
