@@ -4,7 +4,7 @@ dg.controller('QuizController', ['$scope', "$http", '$location', function($scope
 
         $http.get('play/get_questions' + document.location.search).success(function(data) {
             $scope.questions = data;
-            console.log($scope.questions);
+            //console.log($scope.questions);
             $scope.question = $scope.questions[$scope.index];
         }).error(function() {
             alert("hiba a kérdések lekérésében");
@@ -34,6 +34,7 @@ dg.controller('QuizController', ['$scope', "$http", '$location', function($scope
                 score = ($scope.score / $scope.index) * 100;
             }
             $scope.modalMessage = 'Helyes/összes: ' + $scope.score + '/' + $scope.index + ', eredmény: ' + score + '%';
+            $scope.postMessage = "Kvíz játékban " + score + "%-os eredménnyel végeztél. \n " + $scope.index + " kérdésből " + $scope.score + " kérdésre válaszoltál helyesen.";
             $scope.modalShow = true;
             $http({url: 'play/save_results' + document.location.search + '&score=' + score,
                 method: "GET"}).success(function(data) {

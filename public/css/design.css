@@ -350,6 +350,12 @@ h1, h2, h3{
 .table>tbody>tr>th.textleft{
     text-align: left;
 }
+@media(max-width: 1199px){
+    .left_link.button, .right_link.button{
+        float: left;
+        clear: both;
+    }
+}
 
 @media (max-width: 991px) {
     .title { font-size: 30px; }
@@ -363,17 +369,14 @@ h1, h2, h3{
     }
     .header .button{
         line-height:104px;
-        padding: 2px;
         width: 77px;
         height:43px;
+        padding:0px;
+        margin-top: 30px;
     }
     .header .button a{
         line-height: 56px;
         font-size: 15px;
-    }
-    .header .button{
-        padding:0px;
-        margin-top: 30px;
     }
     .game_type{
         line-height:3;
@@ -687,4 +690,13 @@ ul.alphabet{
 }
 .confirm_buttons :last-child{
     float:right;
+}
+
+.ng-modal-dialog-content .share_button{
+    margin-top: -10px;
+    float: left;
+}
+
+.ng-modal-dialog .ng-modal-dialog-content .confirm_buttons{
+    margin-top: 0px;
 }

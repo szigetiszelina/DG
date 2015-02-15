@@ -2,6 +2,7 @@ dg.controller('SortController', function($scope, $http) {
     $scope.score = 0;
     $scope.index = 0;    
     $scope.modelShow = false;
+    $scope.postMessage = "";
     $scope.buttonDisabled = false;
     
     $http.get('play/get_sentences' + document.location.search).success(function(data) {
@@ -46,6 +47,7 @@ dg.controller('SortController', function($scope, $http) {
         }
         $scope.modalShow = true;
         $scope.modalMessage = "Helyes/összes: "+$scope.score+"/"+$scope.sentences.length + ", eredmény:" + score + "%";
+        $scope.postMessage = "Sorbarendezés játékban " + score + "%-os eredménnyel végeztél.\n " + $scope.index + " mondatból " + $scope.score + " mondatot rendeztél helyesen.";
         $http({url:'play/save_results' + document.location.search + '&score=' + score, method: "GET"});
     }
     

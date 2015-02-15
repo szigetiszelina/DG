@@ -29,7 +29,7 @@
         </li>
     </ul>
     <p ng-hide="daily_toplist">Nincs eredmény.</p>
-    <share-facebook-button message="daily_toplist_post"></share-facebook-button>
+    <share-facebook-button ng-show="daily_toplist_post" message="daily_toplist_post"></share-facebook-button>
     <hr>
     
     <h3>Ehavi toplistások</h3>
@@ -45,7 +45,7 @@
         </li>
     </ul>
     <p ng-hide="monthly_toplist">Nincs eredmény.</p>
-    <share-facebook-button message="monthly_toplist_post"></share-facebook-button>
+    <share-facebook-button ng-show="monthly_toplist_post" message="monthly_toplist_post"></share-facebook-button>
     <modal-dialog show='modalShow' error-type="error" width='60%' height='60%'>
         {{modalMessage}}
     </modal-dialog>

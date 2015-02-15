@@ -37,6 +37,6 @@ dg.directive('shareFacebookButton', function() {
             };
         },
         template: '<div><button class="share_button" ng-click="post()" type="submit">Megosztás</button>' + 
-                  '<modal-dialog show="modalShow" error-type="error" width="60%" height="40%">{{modalMessage}}<div ng-hide="confirm" class="confirm_buttons"><button ng-click="confirm_post()">Igen</button><button ng-click="hideModal()">Mégse</button></div></modal-dialog></div>'
+                  '<modal-dialog show="modalShow" error-type="error" width="60%" height="50%">{{modalMessage}}<div ng-hide="confirm" class="confirm_buttons"><button ng-click="confirm_post()">Igen</button><button ng-click="hideModal()">Mégse</button></div></modal-dialog></div>'
     };
 });
