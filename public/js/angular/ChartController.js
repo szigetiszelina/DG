@@ -5,7 +5,7 @@ dg.controller('chartController', ['$http','$scope', function($http, $scope) {
     for(var i = 1; i<13; i++){
         $scope.months.push({id:i,text:months[i-1]});
     }
-        
+
     $scope.selectable_years = [""];
     var current_year = new Date().getFullYear();
     for(var i = current_year; i>= 2014; i--){
@@ -45,9 +45,23 @@ dg.controller('chartController', ['$http','$scope', function($http, $scope) {
                 "menuTop": "20px",
                 "menuRight": "20px",
                 "menuItems": [{
-                        "icon": '/lib/3/images/export.png',
-                        "format": 'png'
-                    }]
+                        "icon": "/DG/public/js/amcharts/images/exportWhite.png",
+                        //"format": "png",
+                        items: [{
+                            title: 'JPG',
+                            format: 'jpg'
+                        }, {
+                            title: 'PNG',
+                            format: 'png'
+                        }, {
+                            title: 'PDF',
+                            format: 'pdf'
+                        }]
+                    }],
+                "menuItemOutput": {
+                    "backgroundColor" : "#000000",
+                    "fileName" : "DG_eredmény_export"
+                }
             }
         });
     }
@@ -97,14 +111,30 @@ dg.controller('chartController', ['$http','$scope', function($http, $scope) {
             "innerRadius": "50%",
             "depth3D": 10,
             "angle": 15,
-            "exportConfig": {
-                menuItems: [{
-                        icon: '/lib/3/images/export.png',
-                        format: 'png'
-                    }]
+             "exportConfig": {
+                "menuTop": "20px",
+                "menuRight": "20px",
+                "menuItems": [{
+                        "icon": "/DG/public/js/amcharts/images/exportWhite.png",
+                        //"format": "png",
+                        items: [{
+                            title: 'JPG',
+                            format: 'jpg'
+                        }, {
+                            title: 'PNG',
+                            format: 'png'
+                        }, {
+                            title: 'PDF',
+                            format: 'pdf'
+                        }]
+                    }],
+                "menuItemOutput": {
+                    "backgroundColor" : "#000000",
+                    "fileName" : "DG_eredmény_export"
+                }
             }
         });
-
+        
         var chart4 = AmCharts.makeChart("chartdiv4", {
             "type": "pie",
             "theme": "chalk",
@@ -115,11 +145,27 @@ dg.controller('chartController', ['$http','$scope', function($http, $scope) {
             "depth3D": 15,
             "balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
             "angle": 30,
-            "exportConfig": {
-                menuItems: [{
-                        icon: '/lib/3/images/export.png',
-                        format: 'png'
-                    }]
+             "exportConfig": {
+                "menuTop": "20px",
+                "menuRight": "20px",
+                "menuItems": [{
+                        "icon": "/DG/public/js/amcharts/images/exportWhite.png",
+                        //"format": "png",
+                        items: [{
+                            title: 'JPG',
+                            format: 'jpg'
+                        }, {
+                            title: 'PNG',
+                            format: 'png'
+                        }, {
+                            title: 'PDF',
+                            format: 'pdf'
+                        }]
+                    }],
+                "menuItemOutput": {
+                    "backgroundColor" : "#000000",
+                    "fileName" : "DG_eredmény_export"
+                }
             }
         });
     }).error(function() {

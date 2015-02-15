@@ -5,11 +5,20 @@
             <script type="text/javascript" src="http://www.amcharts.com/lib/3/serial.js"></script>
             <script type="text/javascript" src="http://www.amcharts.com/lib/3/pie.js"></script>
             <script type="text/javascript" src="http://www.amcharts.com/lib/3/themes/chalk.js"></script>
+            <script type="text/javascript" src="http://www.amcharts.com/lib/3/themes/chalk.js"></script>
+            <script type="text/javascript" src="<?= base_url() ?>public/js/amcharts/exporting/amexport.js"></script>
+            <script type="text/javascript" src="<?= base_url() ?>public/js/amcharts/exporting/filesaver.js"></script>
+            <script type="text/javascript" src="<?= base_url() ?>public/js/amcharts/exporting/canvg.js" type="text/javascript"></script>
+            <script type="text/javascript" src="<?= base_url() ?>public/js/amcharts/exporting/rgbcolor.js" type="text/javascript"></script>
+            <script type="text/javascript" src="<?= base_url() ?>public/js/amcharts/exporting/jspdf.js" type="text/javascript"></script>
+            <script type="text/javascript" src="<?= base_url() ?>public/js/amcharts/exporting/jspdf.plugin.addimage.js" type="text/javascript"></script>
+
             <h3>Eredményeid nyelvtanonként csoportosítva</h3>
             <div id="chartdiv"></div>
             <!--<div id="chartdiv2"></div>-->
+            <h3>Az aktuális hónapban elért eredményeid játékonként és nyelvtanonként csoportosítva</h3>
             <div id="chartdiv3"></div>
-            <div id="chartdiv4"></div>
+            <!--<div id="chartdiv4"></div>-->
             <h3>Eredményeid havi felbontásban egy adott évre</h3>
             <p>Ha nem adsz meg évet, akkor az aktuális évre vonatkozóan</p>
             <select ng-model="year_monthly" ng-change="refresh_monthly()">
