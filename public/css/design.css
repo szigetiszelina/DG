@@ -53,6 +53,8 @@ body{
     /*font-family: Times New Roman,'z_arista_lightregular';*/
     font-family: 'z_arista_lightregular', Times New Roman;
     margin-top: 15px;
+    font-size: 18px;
+    text-align: justify;
 }
 
 .footer{
@@ -409,7 +411,7 @@ h1, h2, h3{
     padding:10px;
     text-align: center;
     vertical-align: middle;
-    font-size: 16px;
+    font-size: 20px;
 }
 .ng-modal-close {
     position: absolute;
@@ -531,6 +533,7 @@ h1, h2, h3{
 
 .paragraph{
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 select{
@@ -566,9 +569,13 @@ select{
 
 ul.toplist{
     list-style-type: none;
+    float: left;
+    margin: 0px;
 }
 ul.toplist > li{
-    margin: 10px; 
+    margin: 5px;
+    font-weight: bold;
+    float: left;
 }
 ul.toplist .score{
     border-radius: 10px;
@@ -577,6 +584,7 @@ ul.toplist .score{
     padding:5px;
     margin-left:8px;
     font-size:18px;
+    float: right;
 }
 ul.toplist img{
     border-radius: 50%;
@@ -607,6 +615,9 @@ ul.toplist img{
     background-image: linear-gradient(#637bad, #5872a7);
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
 }
+.toplist_box{
+    max-width: 410px;
+}
 
 .toplist_box .ng-modal-overlay{
     margin-top: 15px;
@@ -616,6 +627,33 @@ ul.toplist img{
 }
 .toplist_box .toplist li{
     width: 100%;
+}
+.toplist_box .share_button{
+    float:right;
+    margin-bottom: 15px;
+    clear: both;
+}
+
+.toplist_box hr{
+    clear: both;
+}
+
+#container .toplist_box{
+    width: 50%;
+}
+
+#container .toplist_box .share_button{
+    float: left;
+    clear: both;
+}
+
+#container .toplist_box hr{
+    display: none;
+}
+
+#container .toplist_box h3{
+    clear: both;
+    display:block;
 }
 
 ul.alphabet{
@@ -632,5 +670,20 @@ ul.alphabet{
     float:right;
 }
 .left_link{
-    rloat:left;
+    float:left;
+}
+
+.confirm_buttons{
+    width: 100%;
+    margin: 0px;
+    margin-top: 30px;
+    float:left;
+    text-align: justify;
+    font-size: 16px;
+}
+.confirm_buttons :first-child{
+    float:left;
+}
+.confirm_buttons :last-child{
+    float:right;
 }

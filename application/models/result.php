@@ -86,7 +86,7 @@ class Result extends CI_Model {
       alap */
 
     public function get_top_results($time_const = "year", $limit = null) {
-        $sql = "SELECT sum(results.score) as score, count(results.id) as db, users.* "
+        $sql = "SELECT sum(results.score) as score, count(results.id) as db, users.name, users.id, users.fb_id, users.profil_image "
                 . "FROM results LEFT JOIN users ON (users.id = results.user_id) "
                 . "WHERE YEAR(results.game_date) = YEAR(NOW()) ";
         if ($time_const == "month" || $time_const == "day") {
@@ -102,11 +102,10 @@ class Result extends CI_Model {
         return $this->db->query($sql)->result_array();
     }
 
-    //idő szűrés?
     public function get_toplist_by_friends($user_id) {
         $users = $this->get_friends($user_id);
         if (count($users) > 0) {
-            $sql = "SELECT sum(results.score) as score, count(results.id) as db, users.* FROM users "
+            $sql = "SELECT sum(results.score) as score, count(results.id) as db, users.name, users.id, users.fb_id, users.profil_image FROM users "
                     . "LEFT JOIN results ON (users.id = results.user_id "
                     . "AND YEAR(results.game_date) = YEAR(NOW()) "
                     . "AND MONTH(results.game_date) = MONTH(NOW())) "
@@ -131,6 +130,4 @@ class Result extends CI_Model {
         }
         return array();
     }
-
-    //kell controllerbe fv ami ezeket meghívja, felületen dobozok amik get-tel lekérik a tartalmat anguláron keresztül
 }

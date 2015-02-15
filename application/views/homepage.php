@@ -1,5 +1,11 @@
 <?php $this->load->view('header.php'); ?>
     <div id="container" class="col-lg-7 col-md-7 col-sm-7 <?= (($is_login==false)?' align-center':'') ?>">
+        <h3>Kedves nyelvtanuló!</h3>
+        <p class="paragraph">
+            Ez az oldal azért jött létre, hogy megkönnyítse a német nyelv elsajátítását. Ebben játékos gyakorlatokkal igyekszünk segíteni neked. 
+            A játékok során figyeljük fejlődésedet, így a szavak tanulása is hatékony és változatos lesz. A szavakat kategorizáltuk és gyakoriságuk szerint rendeztük, hogy fontossági sorrendbe tanulhasd meg. Fejlődésedet és eredményeidet te magad is nyomon követheted az eredmények menüpont alatt.
+        </p>
+        <p> Kellemes tanulást kívánunk!</p>
         <?php if($is_login){ ?>
             Ennyit fejlődtél az elmúlt időszakban <br>
             Eredményeid:<br>
@@ -12,13 +18,6 @@
 
             A hiedelemmel ellentétben a Lorem Ipsum nem véletlenszerû szöveg. Gyökerei egy Kr. E. 45-ös latin irodalmi klasszikushoz nyúlnak. Richarrd McClintock a virginiai Hampden-Sydney egyetem professzora kikereste az ismeretlenebb latin szavak közül az egyiket (consectetur) egy Lorem Ipsum részletbõl, és a klasszikus irodalmat átkutatva vitathatatlan forrást talált. A Lorem Ipsum az 1.10.32 és 1.10.33-as de Finibus Bonoruem et Malorum részleteibõl származik (A Jó és Rossz határai - Cicero), Kr. E. 45-bõl. A könyv az etika elméletét tanulmányozza, ami nagyon népszerû volt a reneszánsz korban. A Lorem Ipsum elsõ sora, Lorem ipsum dolor sit amet.. a 1.10.32-es bekezdésbõl származik.
 
-        <?php } else { ?>
-            <h3>Kedves nyelvtanuló!</h3>
-            <p class="paragraph">
-                Ez az oldal azért jött létre, hogy megkönnyítse a német nyelv elsajátítását. Ebben játékos gyakorlatokkal igyekszünk segíteni neked. 
-                A játékok során figyeljük fejlődésedet, így a szavak tanulása is hatékony és változatos lesz. A szavakat kategorizáltuk és gyakoriságuk szerint rendeztük, hogy fontossági sorrendbe tanulhasd meg. Fejlődésedet és eredményeidet te magad is nyomon követheted az eredmények menüpont alatt.
-            </p>
-            <p> Kellemes tanulást kívánunk!</p>
         <?php } ?>
     </div>
     <?php if($is_login){ ?>
