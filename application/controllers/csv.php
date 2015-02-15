@@ -6,8 +6,7 @@ class Csv extends MY_Controller {
         parent::__construct();
     }
 
-    private function read_file() {
-        $filename = "public/files/words.csv";
+    private function read_file($filename) {
         if (file_exists($filename)) {
             $csv = fopen($filename, "r");
             $lines = array();
@@ -26,7 +25,7 @@ class Csv extends MY_Controller {
     }
 
     private function tokenize() {
-        $words = $this->read_file();
+        $words = $this->read_file("public/files/words.csv");
         $content = "";
         foreach ($words as $word) {
             $token = "";
@@ -81,11 +80,11 @@ class Csv extends MY_Controller {
     }
 
     private function save_word_categories() {
-        $words = $this->read_file();
+        $words = $this->read_file("public/files/words.csv");
         $this->load->model('Word');
         $word_categories = array();
         foreach ($words as $word) {
-            if($word!=null || $word!=""){
+            if ($word != null || $word != "") {
                 $categories = explode("|", $word[8]);
                 $word_id = (int) $this->Word->get_word_id(trim($word[0]), trim($word[1]), trim($word[2]));
                 $word_categories[] = array("word_id" => $word_id, "categories" => $categories);
@@ -94,4 +93,19 @@ class Csv extends MY_Controller {
         $this->Word->save_word_categories($word_categories);
         echo "A kategóriák mentése befejeződött.";
     }
+
+    private function save_word_level() {
+        $twitter_words = $this->read_file("public/files/twitter_words_frequency.csv");
+        $my_words = $this->read_file("public/files/words.csv");
+        $this->load->model('Word');
+        foreach ($twitter_words as $tw) {
+            foreach ($my_words as $word) {
+                if ($tw[0] == strtolower($word[1])) {
+                    $this->Word->save_word_frequency($tw[0], $tw[2]);
+                }
+            }
+        }
+        echo "A szavak gyakoriságának mentése befejeződött.";
+    }
+
 }

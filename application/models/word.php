@@ -79,7 +79,6 @@ class Word extends CI_Model {
     }
 
     public function save_word_categories($word_categories) {
-        var_dump($word_categories);
         $sql = "INSERT INTO word_categories (word_id, category_id) VALUES";
         for ($i = 0; $i < count($word_categories); $i++) {
             for ($j = 0; $j < count($word_categories[$i]["categories"]); $j++) {
@@ -113,5 +112,11 @@ class Word extends CI_Model {
         }
         return $this->db->query($sql)->result_array();
     }
-
+    
+    public function save_word_frequency($word, $frequency){
+        if($word != null && $word != "" && (int) $frequency >0){
+            $sql = "UPDATE words SET level = ". (int) $frequency . " WHERE word = '".$word."'";
+            $this->db->query($sql);
+        }
+    }
 }
