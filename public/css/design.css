@@ -700,3 +700,26 @@ ul.alphabet{
 .ng-modal-dialog .ng-modal-dialog-content .confirm_buttons{
     margin-top: 0px;
 }
+
+.footer p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.footer a{
+    color: #000;
+    font-weight: bold;
+}
+
+.footer div>div{
+    text-align: justify;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.footer .copyright{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
