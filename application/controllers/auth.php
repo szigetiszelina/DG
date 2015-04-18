@@ -54,7 +54,7 @@ class Auth extends MY_Controller {
             $this->save_user_to_session($user_datas['fb_id'], $opauth_data['token']);
             redirect('index');
         } else {
-            //Kérjük engedélyezd a hozzáférést az adataidhoz...
+            echo "Kérjük engedélyezd a hozzáférést az adataidhoz...";
         }
     }
     

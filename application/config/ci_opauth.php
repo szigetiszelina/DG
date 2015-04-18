@@ -14,7 +14,7 @@ $config['opauth_config'] = array(
                                     'Facebook' => array(
                                         'app_id' => '745635502113326',
                                         'app_secret' => 'e42f1f5bd19c47f53a6de446012abb04',
-                                        'scope' => 'read_friendlists,user_birthday,email,publish_stream, manage_pages'
+                                        'scope' => 'read_friendlists,email,publish_stream,manage_pages'
                                         
                                     ),
                                     'Google' => array(

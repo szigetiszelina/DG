@@ -14,12 +14,13 @@ dg.controller('SortController', function($scope, $http) {
     });
 
     function setSentence() {
-        $scope.sentence = [];
+        $scope.sentence = {hun : "", word : []};
         if($scope.sentences[$scope.index]){
             angular.forEach($scope.sentences[$scope.index]["mixed"], function(item, key) {
                 var word = item["word"].replace(".", "").replace("!", "").replace("?", "");
-                $scope.sentence.push({text: word, index: item["key"]});
+                $scope.sentence.word.push({text: word, index: item["key"]});
             });
+            $scope.sentence.hun = $scope.sentences[$scope.index]["hun"];
         }else{
             $scope.buttonDisabled = true;
             finishGame();
@@ -53,7 +54,7 @@ dg.controller('SortController', function($scope, $http) {
     
     function checkAnswer() {
         var isOrderGood = true;
-        angular.forEach($scope.sentence, function(word, key) {
+        angular.forEach($scope.sentence.word, function(word, key) {
             if (word.index !== key) {
                 isOrderGood = false;
             }
@@ -65,13 +66,12 @@ dg.controller('SortController', function($scope, $http) {
 
     $scope.sortableOptions = {
         update: function(e, ui) {
-            var logEntry = $scope.sentence.map(function(i) {
+            var logEntry = $scope.sentence.word.map(function(i) {
                 return i.index;
             });
-            //$scope.sortingLog.push('Update: ' + logEntry);
         },
         stop: function(e, ui) {
-            $scope.sentence.map(function(i) {
+            $scope.sentence.word.map(function(i) {
                 return i.index;
             });
         }

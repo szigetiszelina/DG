@@ -3,8 +3,9 @@
         <div ng-controller="SortController">
             <div class="row">
                 <div class="col-lg-5">
-                    <ul ui-sortable="sortableOptions" ng-model="sentence" class="list">
-                        <li ng-repeat="item in sentence" class="item">
+                    <p>{{sentence.hun}}</p>
+                    <ul ui-sortable="sortableOptions" ng-model="sentence.word" class="list">
+                        <li ng-repeat="item in sentence.word" class="item">
                             {{item.text}}
                         </li>
                     </ul>
