@@ -1,11 +1,16 @@
 dg.controller('QuizController', ['$scope', "$http", '$location', function($scope, $http, $location) {
         $scope.score = 0;
         $scope.index = 0;
+        $scope.error = false;
 
         $http.get('play/get_questions' + document.location.search).success(function(data) {
-            $scope.questions = data;
-            //console.log($scope.questions);
-            $scope.question = $scope.questions[$scope.index];
+            if(data != null && data != "null"){
+                $scope.questions = data;
+                $scope.question = $scope.questions[$scope.index];
+                $scope.error = false;
+            }else{
+                $scope.error = true;
+            }
         }).error(function() {
             alert("hiba a kérdések lekérésében");
         });

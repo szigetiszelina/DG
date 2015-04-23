@@ -16,14 +16,16 @@ class Memory{
     
     public function set_words(){
         $words = $this->grammar->get_words();
-        for($i=0;$i<count($words);$i++){          
-           $ger=array('word'=>$words[$i]['word'],'id'=>$i, 'word_id' => $words[$i]['id']);
-           $hun=array('word'=>$words[$i]['meaning'],'id'=>$i, 'word_id' => $words[$i]['id']);
-           $memorywords[]=$ger;
-           $memorywords[]=$hun;
+        if($words != null && !empty($words)){
+            for($i=0;$i<count($words);$i++){          
+               $ger=array('word'=>$words[$i]['word'],'id'=>$i, 'word_id' => $words[$i]['id']);
+               $hun=array('word'=>$words[$i]['meaning'],'id'=>$i, 'word_id' => $words[$i]['id']);
+               $memorywords[]=$ger;
+               $memorywords[]=$hun;
+            }
+            shuffle($memorywords);
+            $this->words = $memorywords;
         }
-        shuffle($memorywords);
-        $this->words = $memorywords;
     }
     public function get_words(){
         return $this->words;

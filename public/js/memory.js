@@ -32,7 +32,7 @@ $(".memory_cover").click(function() {
                     $('#results').append('<p>' + items[0].text() + ' = ' + items[1].text() + '</p>');
                     $('[data-id=' + ids[0] + ']').remove();
                     if ($('.memorize').length === 0) {
-                        var score_time = (new Date - start) / 1000;
+                        var score_time = ((new Date - start) / 1000);
                         $.ajax({
                             type: "GET",
                             url: "play/save_memory_results"+document.location.search,
@@ -41,7 +41,7 @@ $(".memory_cover").click(function() {
                             cache: false,
                             success:
                                     function(data) {
-                                        alert('Eredményed:' + data + '%, időd:' + score_time + ' másodperc');
+                                        alert('Eredményed:' + data + '%, időd: ' + (score_time/60) + ' perc');
                                     }
                         });
                     }

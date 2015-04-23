@@ -22,6 +22,11 @@ class Verb_quiz implements Quiz_playable {
     public function set_questions() {
         $user_id = $this->user["id"];
         $this->create_questions($this->word->get_verbs($user_id, $this->CI->session->userdata("study_type"), $this->CI->session->userdata("category_id"), $this->limit));
+    
+        if (empty($this->questions) || $this->questions == null) {
+            $this->CI->session->set_userdata("category_id", null);
+            $this->create_questions($this->word->get_verbs($user_id, $this->CI->session->userdata("study_type"), $this->CI->session->set_userdata("category_id"), $this->limit));
+        }
     }
 
     public function set_alternatives($präsens) {
@@ -37,11 +42,6 @@ class Verb_quiz implements Quiz_playable {
     }
 
     public function create_questions($verbs) {
-        //Hibaüzenet
-        if (empty($verbs) || $verbs == null) {
-            $this->create_questions($this->word->get_verbs($this->user["id"], $this->CI->session->userdata("study_type"), null, $this->limit));
-            return;
-        }
         foreach ($verbs as $verb) {
             $case = $this->select_personal_pronoun();
             $question = "Hogyan ragozzuk a következő igét: '" . $verb["word"] . " - " . $verb['meaning'] . "' " . $this->personal_pronoun_helper($case) . " esetben?";

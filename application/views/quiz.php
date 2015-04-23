@@ -1,8 +1,8 @@
 <?php $this->load->view('header.php'); ?>
 <div id="container" class="empty-style col-lg-7 col-md-7 col-sm-8">
     <div ng-controller="QuizController">
-        <h2 class="title_center">{{index}}/{{questions.length}} kérdés</h2>
-        <div id="experiment">
+        <h2 class="title_center" ng-hide="error">{{index}}/{{questions.length}} kérdés</h2>
+        <div id="experiment" ng-hide="error">
             <div id="cube">
                 <div class="face one">
                 </div>
@@ -23,6 +23,10 @@
                 </div>
             </div>
         </div>
+        <p ng-show="error">
+            Ilyen kategóriában nincs gyakorolható szó. Először fejlődj a kategóriában.<br>
+            Még nem fejlődtél, a gyakorláshoz először fejlődnöd kell. Gyakorolni csak az 50%-ban helyesen használt szavakat tudod.
+        </p>
         <?php $this->load->view('modaldialog.php'); ?>
         <script src="<?= base_url() ?>public/js/experiment.js" type="text/javascript" ></script>
         <script src="<?= base_url() ?>public/js/angular/QuizController.js" type="text/javascript" ></script>

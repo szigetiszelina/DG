@@ -10,8 +10,6 @@
         <link rel="icon" type="image/png" href="<?=base_url()?>public/images/logo.png" />
         <link rel="stylesheet" href="<?=base_url()?>public/css/normalize.css" type="text/css" />
         <link rel="stylesheet" href="<?=base_url()?>public/bootstrap/css/bootstrap.css" type="text/css" />
-        <!--<link rel="stylesheet" href="<?=base_url()?>public/css/main.css" type="text/css" />-->
-        <!--<link rel="stylesheet" href="<?=base_url()?>public/css/style.css" type="text/css" />-->
         <link rel="stylesheet" href="<?=base_url()?>public/css/design.css" type="text/css" />
         <script src="<?=base_url()?>public/bootstrap/js/bootstrap.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js" type="text/javascript"></script>

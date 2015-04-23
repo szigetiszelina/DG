@@ -22,7 +22,12 @@ class Word_quiz implements Quiz_playable {
     }
 
     public function set_questions() {
-        $this->create_questions($this->word->get_words(["id"], $this->CI->session->userdata("study_type"), $this->CI->session->userdata("category_id"), $this->limit));
+        $this->create_questions($this->word->get_words($this->user["id"], $this->CI->session->userdata("study_type"), $this->CI->session->userdata("category_id"), $this->limit));
+    
+        if (empty($this->questions) || $this->questions == null) {
+            $this->CI->session->set_userdata("category_id", null);
+            $this->create_questions($this->word->get_words($this->user["id"], $this->CI->session->userdata("study_type"), $this->CI->session->userdata("category_id"), $this->limit));
+        }
     }
 
     public function set_alternatives($answer, $filter = null, $value = null) {
@@ -47,11 +52,6 @@ class Word_quiz implements Quiz_playable {
     }
 
     public function create_questions($words) {
-        //Hibaüzenet
-        if (empty($words) || $words == null) {
-            $this->create_questions($this->word->get_words($this->user["id"], $this->CI->session->userdata("study_type"), null, $this->limit));
-            return;
-        }
         foreach ($words as $word) {
             if ($this->language == "hu_to_ge") {
                 $question = "Mit jelent németül '" . $word["meaning"] . "'?";

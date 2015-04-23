@@ -29,7 +29,6 @@ class Word_memory implements Memory_playable {
     public function set_words() {
         $this->words = $this->word->get_words($this->user["id"], $this->CI->session->userdata("study_type"), $this->CI->session->userdata("category_id"), $this->limit);
         if (empty($this->words) || $this->words == null) {
-            //Hibaüzenet
             $this->words = $this->word->get_words($this->user["id"], $this->CI->session->userdata("study_type"), null, $this->limit);
         }
     }

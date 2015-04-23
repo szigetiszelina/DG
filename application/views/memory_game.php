@@ -1,7 +1,13 @@
 <?php $this->load->view('header.php');?>
     <div id="container" class="col-lg-7 col-md-7 col-sm-7">
         <div class="row" />
-            <?php for($i=0;$i<count($words);$i++){?>
+            <?php 
+                if($words == null || empty($words)){ ?>
+                    <p> Ilyen kategóriában nincs gyakorolható szó. Először fejlődj a kategóriában.<br>
+                        Még nem fejlődtél, a gyakorláshoz először fejlődnöd kell. Gyakorolni csak az 50%-ban helyesen használt szavakat tudod.
+                    </p>
+                <?php }
+                for($i=0;$i<count($words);$i++){?>
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="height: 105px;">
                     <div class="memory_wrapper" >
                         <div id='word_<?= $i ?>' class="memorize turn" data-id="<?= $words[$i]['id'] ?>"><div class="vertical_center"><?= $words[$i]['word'] ?></div></div>

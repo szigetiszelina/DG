@@ -66,25 +66,6 @@ class Result extends CI_Model {
         return $this->db->query($sql)->result_array();
     }
 
-    /* van összesen melyik nyelvtanban a legjobb
-      melyik játék melyik nyelvtanban milyen jó volt a hónapban
-      kategóriánként megszámolni hány szót tud
-
-
-
-      toplista utolsó hónapban legtöbb pontot elérők -/
-      előző hónapban mennyit játszott egy nyelvtannal most
-      utolsó két hónapban ki javított egy nyelvtanból és mennyit legjobbak
-      legtöbbet játszók/csak befejezett játékra vagyis a result táblából kell lekérni
-
-      Select user_id, sum(score) as all_score, count(id) as all_point from results where YEAR(game_date)= y AND MONTH(game_date)=m Group By user_id Order By all_score/all_point DESC;
-
-      Select user_id, sum(score) as all_score, count(id) as all_point where YEAR(game_date)= y AND MONTH(game_date)=m Group By user_id, grammar_id
-
-      accordition
-      mondat szórend
-      alap */
-
     public function get_top_results($time_const = "year", $limit = null) {
         $sql = "SELECT sum(results.score) as score, count(results.id) as db, users.name, users.id, users.fb_id, users.profil_image "
                 . "FROM results LEFT JOIN users ON (users.id = results.user_id) "
