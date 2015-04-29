@@ -12,8 +12,8 @@
         <link rel="stylesheet" href="<?=base_url()?>public/bootstrap/css/bootstrap.css" type="text/css" />
         <link rel="stylesheet" href="<?=base_url()?>public/css/design.css" type="text/css" />
         <script src="<?=base_url()?>public/bootstrap/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js" type="text/javascript"></script>
-        <script src="https://rawgithub.com/angular-ui/ui-sortable/master/src/sortable.js"></script> 
+        <script src="<?= base_url() ?>public/js/angular/angular.min.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>public/js/ui-sortable/sortable.js"></script> 
         <script src="<?= base_url() ?>public/js/angular/module.js" type="text/javascript" ></script>        
     </head>
     <body ng-app="dg" ng-cloak>

@@ -10,9 +10,9 @@
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <h2>Játék</h2>
-                            <p>A <a href="<?= base_url() ?>games/evelove">fejlődj</a> és a <a href="<?= base_url() ?>games/exercise">gyakorolj</a> menüpontban bővítheted, mélyítheted tudásod. A fejlődj menüpontban új szavakat sajátíthatsz el játék közben. Elsősorban a leggyakrabban használt szavakat tanulhatod meg.</p>
+                            <p>A <a href="<?= base_url() ?>games/evelove">fejlődj</a> és a <a href="<?= base_url() ?>games/exercise">gyakorolj</a> menüpontban bővítheted, mélyítheted tudásod. A fejlődj menüpontban új szavakat sajátíthatsz el játék közben (Végigjátszott memóriajáték esetén minden szóra helyes lenne az eredmény, ezért ez nem vehető figyelembe, mondatok szórendjénél nem igazán mérhető). Elsősorban a leggyakrabban használt szavakat tanulhatod meg.</p>
                             <p>A gyakorolj menüben a megtanult (legalább 50%-os arányban helyesen használt) szavakat ismételheted át.</p>
-                            <p>Mindkét menüpontban lehetőséged van kategóriát és nyelvtant választani, hogy fókuszálni tudj a gyengébb területekre.</p>
+                            <p>Mindkét menüpontban lehetőséged van kategóriát és nyelvtant választani, hogy fókuszálni tudj a gyengébb területekre. Sorbarendezés játék esetén nincs figyelembe véve kategória (később továbbfejlesztendő).</p>
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <h2>Eredmények/Toplisták</h2>

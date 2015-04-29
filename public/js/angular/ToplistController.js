@@ -10,32 +10,45 @@ dg.controller('ToplistController', ['$scope', '$http', '$location', function($sc
         method: "GET"}).success(function(data) {
         if (data['toplist_data'] !== '' && data['toplist_data'] !== null) {
             var user_id = data['current_user'];
-            $scope.friend_score_list = data['toplist_data']['friend_score_list'];
-            if ($scope.use_filter) {
-                $scope.friend_score_list = $scope.filter_list($scope.friend_score_list, user_id);
+            if(data['toplist_data']['friend_score_list']!=='' && data['toplist_data']['friend_score_list'] !=null){
+                $scope.friend_score_list = data['toplist_data']['friend_score_list'];
+                if ($scope.use_filter) {
+                    $scope.friend_score_list = $scope.filter_list($scope.friend_score_list, user_id);
+                } else{
+                    $scope.set_index($scope.friend_score_list);
+                }
+                for (var i = 0; i < $scope.friend_score_list.length; i++) {
+                    $scope.friend_score_list[i].score = ($scope.friend_score_list[i].score !== null) ? $scope.friend_score_list[i].score : 0;
+                }
+                $scope.friend_score_list_post = $scope.create_fb_post_message($scope.friend_score_list, "Pontszámod barátaidhoz képest \n\n");
             } else{
-                $scope.set_index($scope.friend_score_list);
+                $scope.friend_score_list = false;
+                $scope.friend_score_list_post = false;
             }
-            for (var i = 0; i < $scope.friend_score_list.length; i++) {
-                $scope.friend_score_list[i].score = ($scope.friend_score_list[i].score !== null) ? $scope.friend_score_list[i].score : 0;
-            }
-            $scope.friend_score_list_post = $scope.create_fb_post_message($scope.friend_score_list, "Pontszámod barátaidhoz képest \n\n");
-
-            $scope.daily_toplist = data['toplist_data']['daily_toplist'];
-            if ($scope.use_filter) {
-                $scope.daily_toplist = $scope.filter_list($scope.daily_toplist, user_id);
+            if(data['toplist_data']['daily_toplist'] !=='' && data['toplist_data']['daily_toplist'] != null){
+                $scope.daily_toplist = data['toplist_data']['daily_toplist'];
+                if ($scope.use_filter) {
+                    $scope.daily_toplist = $scope.filter_list($scope.daily_toplist, user_id);
+                }else{
+                    $scope.set_index($scope.daily_toplist);
+                }
+                $scope.daily_toplist_post = $scope.create_fb_post_message($scope.daily_toplist, "Mai toplistások \n\n");
             }else{
-                $scope.set_index($scope.daily_toplist);
+               $scope.daily_toplist = false;
+               $scope.daily_toplist_post = false; 
             }
-            $scope.daily_toplist_post = $scope.create_fb_post_message($scope.daily_toplist, "Mai toplistások \n\n");
-
-            $scope.monthly_toplist = data['toplist_data']['monthly_toplist'];
-            if ($scope.use_filter) {
-                $scope.monthly_toplist = $scope.filter_list($scope.monthly_toplist, user_id);
-            } else{
-                $scope.set_index($scope.monthly_toplist);
+            if(data['toplist_data']['monthly_toplist'] !=='' && data['toplist_data']['monthly_toplist'] != null){
+                $scope.monthly_toplist = data['toplist_data']['monthly_toplist'];
+                if ($scope.use_filter) {
+                    $scope.monthly_toplist = $scope.filter_list($scope.monthly_toplist, user_id);
+                } else{
+                    $scope.set_index($scope.monthly_toplist);
+                }
+                $scope.monthly_toplist_post = $scope.create_fb_post_message($scope.monthly_toplist, "A hónap toplistásai \n\n");
+            }else{
+                $scope.monthly_toplist = false;
+                $scope.monthly_toplist_post = false;
             }
-            $scope.monthly_toplist_post = $scope.create_fb_post_message($scope.monthly_toplist, "A hónap toplistásai \n\n");
         }
 
     }).error(function() {
@@ -76,9 +89,11 @@ dg.controller('ToplistController', ['$scope', '$http', '$location', function($sc
     };
 
     $scope.set_index = function(toplist){
-        for (var i = 0; i < toplist.length; i++) {
-            toplist[i].index = i;
+        if(toplist!=null){
+            for (var i = 0; i < toplist.length; i++) {
+                toplist[i].index = i;
+            }
+            return toplist;
         }
-        return toplist;
     };
 }]);

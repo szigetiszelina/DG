@@ -42,6 +42,7 @@ $(".memory_cover").click(function() {
                             success:
                                     function(data) {
                                         alert('Eredményed:' + data + '%, időd: ' + (score_time/60) + ' perc');
+                                        window.location.href = document.location.origin+"/DG";
                                     }
                         });
                     }
